@@ -121,3 +121,17 @@
 
 参考和整合了挺多优秀开源项目代码，平台只是一个整合，基于新的架构进一步的调整的开发维护支持，在此说明，如有缺漏，可提醒添加，这里集成以Apache-2.0协议和MIT协议为主。
 
+- 代码生成器和查询条件封装参考开源项目 mybatis-plus
+- 分布式定时任务平台power-job
+- 前端工程参考开源项目 rouyi
+- 数据开发工具dolphinscheduler
+- 自动化工具自动安装工具kubeaz
+- 日志监控工具plumelog
+- 前端拖拉生成工具generator
+- 文档参考改造vue-element-admin
+- 项目文档参考改造software-engineering-document
+- 数据网关工程flying-fish-gateway
+- 前端日志采集logjs
+- 数据接口服务magic-api
+- FlinkSQL实时计算服务flink-streaming-platform-web
+- ...
