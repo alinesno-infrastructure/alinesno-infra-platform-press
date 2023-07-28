@@ -126,7 +126,7 @@
 
 <img src="https://github.com/alinesno-cloud/alinesno-cloud-platform-press/blob/2.1.3-Alpha/images/weixin.jpg" style="width:200px" />
 
-工作很多年，希望能把一些不同于市面上的东西拿出来分享交流，让大家一起进步。 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
+工作很多年，希望能把一些不同于市面上的东西拿出来分享交流, 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
 
 ## 开源鸣谢
 
