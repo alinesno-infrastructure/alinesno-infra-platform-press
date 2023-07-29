@@ -100,23 +100,23 @@
 | 40   |          | 03. GPT推理服务                | alinesno-infra-ai-gpt       |                                |
 | 41   |          | 04. 流媒体识别服务             | alinesno-infra-ai-media     |                                |
 |      |          |                                |                            |                                |
-| 43   | 运维服务 | 01. 自动化任务服务（业务自动运维服务） | alinesno-infra-operation-scheduler |                                |
-| 44   |          | 02. 分布式日志服务             | alinesno-infra-operation-logger |                                |
-| 45   |          | 03. 分布式链路跟踪服务         | alinesno-infra-operation-telemetry |                                |
-| 46   |          | 04. 持续集成服务               | alinesno-infra-operation-cicd |                                |
-| 47   |          | 05. 容器管理服务               | alinesno-infra-operation-container |                                |
-| 48   |          | 06. 监控预警服务               | alinesno-infra-operation-watcher |                                |
+| 43   | 运维服务 | 01. 自动化任务服务（业务自动运维服务） | alinesno-infra-ops-scheduler |                                |
+| 44   |          | 02. 分布式日志服务             | alinesno-infra-ops-logger |                                |
+| 45   |          | 03. 分布式链路跟踪服务         | alinesno-infra-ops-telemetry |                                |
+| 46   |          | 04. 持续集成服务               | alinesno-infra-ops-cicd |                                |
+| 47   |          | 05. 容器管理服务               | alinesno-infra-ops-container |                                |
+| 48   |          | 06. 监控预警服务               | alinesno-infra-ops-watcher |                                |
 |      |          |                                |                            |                                |
 | 57   | 业务服务 | 01. 商品秒杀服务               | alinesno-infra-bus-limit   |                                |
 | 58   |          | 02. 实时推荐服务               | alinesno-infra-bus-recommend |                                |
 | 59   |          | 03. 实时画像服务               | alinesno-infra-bus-profiling |                                |
 | 60   |          | 04. 无代码开发服务             | alinesno-infra-bus-nocode  |                                |
 |      |          |                                |                            |                                |
-| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-platform-saas | 添加架构排版服务               |
-| 51   |          | 02. 安全感触服务               | alinesno-infra-platform-security |                                |
-| 52   |          | 03. 智能运营大脑服务           | alinesno-infra-platform-brain |                                |
-| 53   |          | 04. AI模型管理服务             | alinesno-infra-platform-model |                                |
-| 54   |          | 05. 移动终端服务               | alinesno-infra-platform-app |                                |
+| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-saas | 添加架构排版服务               |
+| 51   |          | 02. 安全感触服务               | alinesno-infra-plat-security |                                |
+| 52   |          | 03. 智能运营大脑服务           | alinesno-infra-plat-brain |                                |
+| 53   |          | 04. AI模型管理服务             | alinesno-infra-plat-model |                                |
+| 54   |          | 05. 移动终端服务               | alinesno-infra-plat-app |                                |
 |      |          |                                |                            |                                |
 | 62   | 案例     | 01. 分布式电商系统             | alinesno-infra-case-shop   |                                |
 
@@ -135,7 +135,7 @@
 
 加入我们的开源社区进行互相交流，关注微信号，拉入群学习，添加时备注【社区】
 
-<img src="https://github.com/alinesno-infrastructure/alinesno-infrastructure-platform-press/blob/1.0.0-SNAPSHOT/images/weixin.jpg" style="width:200px" />
+<img src="/aliyun-banner-bg.png" style="width:250px" />
 
 工作很多年，希望能把一些不同于市面上的东西拿出来分享交流，让大家一起进步。 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
 
@@ -155,5 +155,5 @@
 - 数据网关工程flying-fish-gateway
 - 前端日志采集logjs
 - 数据接口服务magic-api
-- FlinkSQL实时计算服务flink-streaming-platform-web
+- FlinkSQL实时计算服务flink-streaming-plat-web
 - ...

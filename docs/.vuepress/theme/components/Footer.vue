@@ -46,7 +46,7 @@
             更新日期：2023-02-27
           </p>
           <p class="footer-text-product">
-            <a href="javascript:void(0);"> alinenso-cloud-platform-press </a>
+            <a href="javascript:void(0);"> alinenso-cloud-plat-press </a>
           </p>
           <p
             class="footer-text-product"
@@ -83,7 +83,7 @@
           <!--<p class="footer-text-product"><i class="iconfont icon-dianhua1"></i> 18774035187</p>-->
           <p class="footer-text-product">
             <i class="iconfont icon-weizhi1"> </i>
-            南宁大学东路时代天骄4楼413室
+            广西南宁大学东路时代天骄4楼413室
           </p>
           <p class="footer-title" style="margin-top: 40px">付款方式</p>
           <p class="footer-text-product" style="padding-top: 10px">

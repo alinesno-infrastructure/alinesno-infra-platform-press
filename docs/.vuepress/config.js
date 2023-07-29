@@ -24,7 +24,7 @@ module.exports = {
           // all other options of Vssue are allowed
           owner: 'alinesno-cloud',
           admins:['switchII'],
-          repo: 'alinesno-cloud-platform-press',
+          repo: 'alinesno-cloud-plat-press',
           clientId: '27af56cba1b05d7313eb',
           clientSecret: 'ecb6b64de79461454b8033b6c5790e6f8e8a1c87',
       }],

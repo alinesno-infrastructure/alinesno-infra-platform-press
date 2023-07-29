@@ -10,7 +10,7 @@ jobs:
     runs-on: self-hosted
     env:
       # 配置环境变量，包括镜像的名称，版本号，还有命名空间
-      PRO_NAME: alinesno-platform-press
+      PRO_NAME: alinesno-plat-press
       PRO_VERSION: 3.0.0-Alpha.${{ github.run_number }}
       DOCKER_HUB_NAMESPACE: luoandong
       EXPOSE_PORT: 84
