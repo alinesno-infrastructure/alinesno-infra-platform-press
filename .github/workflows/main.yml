@@ -1,0 +1,48 @@
+name: Publish page
+
+on:
+  push:
+    branches:
+      - 3.0.0-SNAPSHOT
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    env:
+      # 配置环境变量，包括镜像的名称，版本号，还有命名空间
+      PRO_NAME: alinesno-platform-press
+      PRO_VERSION: 3.0.0-Alpha.${{ github.run_number }}
+      DOCKER_HUB_NAMESPACE: luoandong
+      EXPOSE_PORT: 84
+      #  添加cdn配置
+      accessKey: ${{ secrets.QINIU_ACCESS_KEY }}
+      secretKey: ${{ secrets.QINIU_SECRET_KEY }}
+      spaceBucket: acp-document-site
+      remoteFolder: /
+      domain: http://acp-document.linesno.com
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js ${{ matrix.node-version }} 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.13.1'
+
+      - name: Install Dependencies
+        run: npm i
+
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: npm run docs:build
+   
+      - name: Run Docker script file
+        run: |
+            docker build -t ${{ env.DOCKER_HUB_NAMESPACE }}/${{ env.PRO_NAME }}:${{ env.PRO_VERSION }} .
+            docker rm -f ${{ env.PRO_NAME }} || true  
+            docker run -p ${{ env.EXPOSE_PORT }}:80 --name ${{ env.PRO_NAME }} --restart="always" -d ${{ env.DOCKER_HUB_NAMESPACE }}/${{ env.PRO_NAME }}:${{ env.PRO_VERSION }}
+        shell: bash
+      # -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 部署到docker-hub _end >>>>>>>>>>>>>>>>>>>>>>>>>>

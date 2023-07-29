@@ -121,7 +121,7 @@
 | 62   | 案例     | 01. 分布式电商系统             | alinesno-infra-case-shop   |                                |
 
 ## 作者简介
-软件工程师罗小东，当前职业为技术架构师。有多个千万的政务和数字化项目架构和企业平台化、中台化转型经验。社区和产品负责人，AIP基于开源项目alinesno-cloud做进一步升级的产品。
+软件工程师罗小东，当前职业为技术架构师。有多个千万的政务和数字化项目架构和企业平台化、中台化转型经验。社区和产品负责人，AIP基于开源项目alinesno-infrastructure做进一步升级的产品。
 
 相关信息:
 
@@ -135,7 +135,7 @@
 
 加入我们的开源社区进行互相交流，关注微信号，拉入群学习，添加时备注【社区】
 
-<img src="https://github.com/alinesno-cloud/alinesno-cloud-platform-press/blob/2.1.3-Alpha/images/weixin.jpg" style="width:200px" />
+<img src="https://github.com/alinesno-infrastructure/alinesno-infrastructure-platform-press/blob/3.0.0-SNAPSHOT/images/weixin.jpg" style="width:200px" />
 
 工作很多年，希望能把一些不同于市面上的东西拿出来分享交流，让大家一起进步。 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
 
