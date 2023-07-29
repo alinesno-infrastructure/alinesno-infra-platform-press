@@ -2,7 +2,7 @@
   <div class="home">
     <div class="hero hero-platform ">
 
-       <img src="/banner-bg.jpg" class="hero-bg-img" />
+       <img src="/aliyun-banner-bg.png" class="hero-bg-img" />
 
       <div class="hero-text-box" >
         <span class="banner-title">

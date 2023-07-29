@@ -59,13 +59,8 @@ module.exports = {
               link: '/solution/'
           },
           {
-              text: '数字建设',
-              items: [
-                  { text: '数字规划', link: '/design/overview/' },
-                  { text: '组织架构', link: '/group/01_部门建设/' },
-                  { text: '研发架构', link: '/framework/' },
-                  { text: '数据架构', link: '/data/framework/' }
-              ]
+              text: '基设架构',
+              link: '/architecture/'
           },
           {
               text: '部署建设',
@@ -85,5 +80,190 @@ module.exports = {
               link: 'http://alinesno-saas.beta.linesno.com'
           }
       ],
+      sidebar: {
+        '/architecture': [
+            {
+                title: '产品架构',
+                collapsible: true,
+                children: genArchitectureSidebar(1)
+            },
+            {
+                title: '技术架构',
+                collapsible: true,
+                children: genArchitectureSidebar(1)
+            },
+        ],
+        '/product': [
+            {
+                title: '产品体系',
+                collapsible: true,
+                children: genProductSidebar(1)
+            },
+            {
+                title: '核心框架',
+                collapsible: true,
+                children: genProductSidebar(2)
+            },
+            {
+                title: '基础服务',
+                collapsible: true,
+                children: genProductSidebar(3)
+            },
+            {
+                title: '数据服务',
+                collapsible: true,
+                children: genProductSidebar(4)
+            },
+            {
+                title: '智能服务',
+                collapsible: true,
+                children: genProductSidebar(5)
+            },
+            {
+                title: '运维服务',
+                collapsible: true,
+                children: genProductSidebar(6)
+            },
+            {
+                title: '业务服务',
+                collapsible: true,
+                children: genProductSidebar(7)
+            },
+            {
+                title: '运营服务',
+                collapsible: true,
+                children: genProductSidebar(8)
+            },
+        ]
+      }
   },
+}
+
+/**
+ * 产品架构设计 
+ * @param {序号} menus 
+ */
+function genArchitectureSidebar(menus){
+    const mapArr = [
+        '/architecture/product/',
+    ]
+
+    return mapArr.map(i => {
+        return i
+    })
+}
+
+/**
+ * 产品描述
+ * @param {} menus 
+ * @returns 
+ */
+function genProductSidebar(menus){
+
+    const mapArr = [
+        '/product/',
+        '/product/plan.md'
+    ]
+
+    if (menus == 2) {
+        const mapArr = [
+            '/product/01_核心框架/01_核心开发框架.md',
+            '/product/01_核心框架/02_前端开发框架_桌面.md',
+            '/product/01_核心框架/03_前端开发框架_移动.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 3) {
+        const mapArr = [
+            '/product/02_基础服务/01_权限配置服务.md',
+            '/product/02_基础服务/02_代码生成器.md',
+            '/product/02_基础服务/03_分布式配置服务.md',
+            '/product/02_基础服务/04_事务消息服务.md',
+            '/product/02_基础服务/05_通知管理服务.md',
+            '/product/02_基础服务/06_存储管理服务.md',
+            '/product/02_基础服务/07_单点登陆服务.md',
+            '/product/02_基础服务/08_网关配置服务.md',
+            '/product/02_基础服务/09_安全验证码服务.md',
+            '/product/02_基础服务/10_IM消息服务.md',
+            '/product/02_基础服务/11_邮箱管理服务.md',
+            '/product/02_基础服务/12_文档搜索服务.md',
+            '/product/02_基础服务/13_分布式ID服务.md',
+            '/product/02_基础服务/14_敏感词过滤服务.md',
+            '/product/02_基础服务/15_支付服务.md',
+            '/product/02_基础服务/16_会员服务.md',
+            '/product/02_基础服务/17_内容服务.md',
+            '/product/02_基础服务/18_商城服务.md',
+            '/product/02_基础服务/19_流程中心服务.md',
+            '/product/02_基础服务/20_文档查看服务.md',
+            '/product/02_基础服务/21_基设平台管理服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 4) {
+        const mapArr = [
+            '/product/03_数据服务/01_主数据服务.md',
+            '/product/03_数据服务/02_数据上报服务.md',
+            '/product/03_数据服务/03_数据集成服务.md',
+            '/product/03_数据服务/04_数据开发服务.md',
+            '/product/03_数据服务/05_实时计算服务.md',
+            '/product/03_数据服务/06_数据安全服务.md',
+            '/product/03_数据服务/07_数据质量服务.md',
+            '/product/03_数据服务/08_数据总线服务.md',
+            '/product/03_数据服务/09_数据资产服务.md',
+            '/product/03_数据服务/10_数据算法服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 5) {
+        const mapArr = [
+            '/product/04_智能服务/01_OCR视觉识别服务.md',
+            '/product/04_智能服务/02_自然语言识别服务.md',
+            '/product/04_智能服务/03_GPT推理服务.md',
+            '/product/04_智能服务/04_流媒体识别服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 6) {
+        const mapArr = [
+            '/product/05_运维服务/01_自动化任务服务.md',
+            '/product/05_运维服务/02_分布式日志服务.md',
+            '/product/05_运维服务/03_分布式链路跟踪服务.md',
+            '/product/05_运维服务/04_持续集成服务.md',
+            '/product/05_运维服务/05_容器管理服务.md',
+            '/product/05_运维服务/06_监控预警服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 7) {
+        const mapArr = [
+            '/product/06_业务服务/01_商品秒杀服务.md',
+            '/product/06_业务服务/02_实时推荐服务.md',
+            '/product/06_业务服务/03_实时画像服务.md',
+            '/product/06_业务服务/04_无代码开发服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 8) {
+        const mapArr = [
+            '/product/07_运营服务/01_基设平台服务.md',
+            '/product/07_运营服务/02_安全感触服务.md',
+            '/product/07_运营服务/03_智能运营大脑服务.md',
+            '/product/07_运营服务/04_AI模型管理服务.md',
+            '/product/07_运营服务/05_移动终端服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } 
+
+
+    return mapArr.map(i => {
+        return i
+    })
 }
