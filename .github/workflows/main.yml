@@ -38,11 +38,11 @@ jobs:
         env:
           NODE_OPTIONS: "--max-old-space-size=8192"
         run: npm run docs:build
-   
+
       - name: Run Docker script file
         run: |
             docker build -t ${{ env.DOCKER_HUB_NAMESPACE }}/${{ env.PRO_NAME }}:${{ env.PRO_VERSION }} .
-            docker rm -f ${{ env.PRO_NAME }} || true  
+            docker rm -f ${{ env.PRO_NAME }} || true
             docker run -p ${{ env.EXPOSE_PORT }}:80 --name ${{ env.PRO_NAME }} --restart="always" -d ${{ env.DOCKER_HUB_NAMESPACE }}/${{ env.PRO_NAME }}:${{ env.PRO_VERSION }}
         shell: bash
       # -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 部署到docker-hub _end >>>>>>>>>>>>>>>>>>>>>>>>>>
