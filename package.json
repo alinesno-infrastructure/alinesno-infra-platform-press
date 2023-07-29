@@ -1,6 +1,6 @@
 {
     "name": "alinesno-infrastructure-platform-press",
-    "version": "3.0.0-SNAPSHOT",
+    "version": "1.0.0-SNAPSHOT",
     "description": "AIP基础设施产品总体设计稿",
     "main": "index.js",
     "author": "LuoXiaoDong",

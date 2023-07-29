@@ -3,7 +3,7 @@ name: Publish page
 on:
   push:
     branches:
-      - 3.0.0-SNAPSHOT
+      - 1.0.0-SNAPSHOT
 
 jobs:
   build-and-deploy:
