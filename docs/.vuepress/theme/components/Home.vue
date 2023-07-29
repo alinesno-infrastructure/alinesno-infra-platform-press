@@ -2,7 +2,7 @@
   <div class="home">
     <div class="hero hero-platform ">
 
-       <img src="/aliyun-banner-bg.png" class="hero-bg-img" />
+       <img src="/aliyun-banner-bg.gif" class="hero-bg-img" />
 
       <div class="hero-text-box" >
         <span class="banner-title">
@@ -44,7 +44,7 @@
           :item="actionLink"
         />
       </p>
-    </div> 
+    </div>
       -->
 
 
@@ -152,20 +152,20 @@ export default {
       saasUrl: 'http://v212.ui.saas.dev.lbxinhu.linesno.com:23456/',
       platformFeature:[
         {
-          title: '一体化基础服务能力集成' , 
-          desc: '集成统一的管理门户和应用生命周期管理' , 
+          title: '一体化基础服务能力集成' ,
+          desc: '集成统一的管理门户和应用生命周期管理' ,
         },
         {
-          title: '集成标准的技术框架和手册' , 
-          desc: '统一规范管理和DevOps技术研发流程' , 
+          title: '集成标准的技术框架和手册' ,
+          desc: '统一规范管理和DevOps技术研发流程' ,
         },
         {
-          title: '轻量级数据治理和运营标准' , 
-          desc: '针对于中小型项目轻量级的数据运营治理' , 
+          title: '轻量级数据治理和运营标准' ,
+          desc: '针对于中小型项目轻量级的数据运营治理' ,
         },
         {
-          title: '基于k8S容器云平台运维治理' , 
-          desc: '集成自动化运维和针对容器化进行运营管理' , 
+          title: '基于k8S容器云平台运维治理' ,
+          desc: '集成自动化运维和针对容器化进行运营管理' ,
         }
       ] ,
       helpAll: [
@@ -563,7 +563,7 @@ export default {
 
     .colli{
       width:calc(100% - 76px) !important ;
-      margin-bottom: 10px !important ; 
+      margin-bottom: 10px !important ;
       }
   }
  }

@@ -8,10 +8,7 @@
         <div class="main-wrap J_Region wb-zc-ybmod-brand-mod2-pc">
           <!--module -->
 
-          <div
-            class="wb-zc-ybmod-brand-mod3-pc J_Module"
-            tms="wb-zc-ybmod-brand-mod3-pc/0.0.3"
-          >
+          <div class="wb-zc-ybmod-brand-mod3-pc J_Module" tms="wb-zc-ybmod-brand-mod3-pc/0.0.3">
             <div
               class="module-wrap J_tb_lazyload"
               style="background-color: #373d41"

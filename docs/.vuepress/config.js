@@ -77,7 +77,7 @@ module.exports = {
           },
           {
               text: '产品体验',
-              link: 'http://alinesno-saas.beta.linesno.com'
+              link: '#'
           }
       ],
       sidebar: {
@@ -145,8 +145,8 @@ module.exports = {
 }
 
 /**
- * 产品架构设计 
- * @param {序号} menus 
+ * 产品架构设计
+ * @param {序号} menus
  */
 function genArchitectureSidebar(menus){
     const mapArr = [
@@ -200,8 +200,8 @@ function genArchitectureSidebar(menus){
 
 /**
  * 产品描述
- * @param {} menus 
- * @returns 
+ * @param {} menus
+ * @returns
  */
 function genProductSidebar(menus){
 
@@ -305,7 +305,7 @@ function genProductSidebar(menus){
         return mapArr.map(i => {
             return i
         })
-    } 
+    }
 
 
     return mapArr.map(i => {
