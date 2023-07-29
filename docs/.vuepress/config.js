@@ -90,7 +90,12 @@ module.exports = {
             {
                 title: '技术架构',
                 collapsible: true,
-                children: genArchitectureSidebar(1)
+                children: genArchitectureSidebar(2)
+            },
+            {
+                title: '服务规划',
+                collapsible: true,
+                children: genArchitectureSidebar(3)
             },
         ],
         '/product': [
@@ -145,8 +150,48 @@ module.exports = {
  */
 function genArchitectureSidebar(menus){
     const mapArr = [
-        '/architecture/product/',
+        '/architecture/01_产品架构/',
+        '/architecture/01_产品架构/01_核心框架.md',
+        '/architecture/01_产品架构/02_基础服务.md',
+        '/architecture/01_产品架构/03_数据服务.md',
+        '/architecture/01_产品架构/04_智能服务.md',
+        '/architecture/01_产品架构/05_运维服务.md',
+        '/architecture/01_产品架构/06_业务服务.md',
+        '/architecture/01_产品架构/07_运营服务.md',
     ]
+
+    if (menus == 2) {
+        const mapArr = [
+            '/architecture/02_技术架构/',
+            '/architecture/02_技术架构/01_平台架构.md',
+            '/architecture/02_技术架构/02_技术架构.md',
+            '/architecture/02_技术架构/03_服务架构.md',
+            '/architecture/02_技术架构/04_数据架构.md',
+            '/architecture/02_技术架构/05_网关架构.md',
+            '/architecture/02_技术架构/06_安全架构.md',
+            '/architecture/02_技术架构/07_部署架构.md',
+            '/architecture/02_技术架构/08_持续集成架构.md',
+            '/architecture/02_技术架构/09_运维管理架构.md',
+            '/architecture/02_技术架构/10_运营架构.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 3) {
+        const mapArr = [
+            '/architecture/03_服务规划/',
+            '/architecture/03_服务规划/01_核心框架.md',
+            '/architecture/03_服务规划/02_基础服务.md',
+            '/architecture/03_服务规划/03_数据服务.md',
+            '/architecture/03_服务规划/04_智能服务.md',
+            '/architecture/03_服务规划/05_运维服务.md',
+            '/architecture/03_服务规划/06_业务服务.md',
+            '/architecture/03_服务规划/07_运营服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    }
 
     return mapArr.map(i => {
         return i
