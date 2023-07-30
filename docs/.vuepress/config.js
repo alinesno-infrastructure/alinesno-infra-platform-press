@@ -81,6 +81,23 @@ module.exports = {
           }
       ],
       sidebar: {
+        '/operation': [
+            {
+                title: '部署架构',
+                collapsible: true,
+                children: genOperationSidebar(1)
+            },
+            {
+                title: '环境部署',
+                collapsible: true,
+                children: genOperationSidebar(2)
+            },
+            {
+                title: '运维任务',
+                collapsible: true,
+                children: genOperationSidebar(3)
+            },
+        ],
         '/solution': [
             {
                 title: '方案体系',
@@ -167,6 +184,57 @@ module.exports = {
 }
 
 /**
+* 部署建设
+ * @param {序号} menus
+ */
+function genOperationSidebar(menus){
+    const mapArr = [
+        '/operation/',
+        '/operation/01_部署架构/01_部署架构.md',
+        '/operation/01_部署架构/02_在线部署.md',
+        '/operation/01_部署架构/03_环境搭建.md',
+    ]
+
+    if (menus == 2) {
+        const mapArr = [
+            '/operation/02_环境部署/01_服务器.md',
+            '/operation/02_环境部署/02_Docker部署.md',
+            '/operation/02_环境部署/03_Kuberantes部署.md',
+            '/operation/02_环境部署/04_Jenkins部署.md',
+            '/operation/02_环境部署/05_MySQL部署.md',
+            '/operation/02_环境部署/06_MongoDB部署.md',
+            '/operation/02_环境部署/07_Kafka部署.md',
+            '/operation/02_环境部署/08_MinIO部署.md',
+            '/operation/02_环境部署/09_ElasticSearch部署.md',
+            '/operation/02_环境部署/10_NodeJS部署.md',
+            '/operation/02_环境部署/11_JDK部署.md',
+            '/operation/02_环境部署/12_Redis部署.md',
+            '/operation/02_环境部署/13_Doris部署.md',
+            '/operation/02_环境部署/14_Hive部署.md',
+            '/operation/02_环境部署/15_Flink部署.md',
+            '/operation/02_环境部署/16_Hadoop部署.md',
+            '/operation/02_环境部署/17_Prometheus部署.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 3) {
+        const mapArr = [
+            '/operation/03_运维任务/01_环境监控.md',
+            '/operation/03_运维任务/02_巡检任务.md',
+            '/operation/03_运维任务/03_集成预警.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    }
+
+    return mapArr.map(i => {
+        return i
+    })
+}
+
+/**
  * 解决方案体系
  * @param {序号} menus
  */
@@ -229,7 +297,6 @@ function genArchitectureSidebar(menus){
 
     if (menus == 2) {
         const mapArr = [
-            '/architecture/02_技术架构/',
             '/architecture/02_技术架构/01_平台架构.md',
             '/architecture/02_技术架构/02_技术架构.md',
             '/architecture/02_技术架构/03_服务架构.md',
