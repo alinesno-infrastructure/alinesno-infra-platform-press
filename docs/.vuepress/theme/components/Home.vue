@@ -6,9 +6,9 @@
 
       <div class="hero-text-box" >
         <span class="banner-title">
-          利用AIP构筑业务、构建应用并实现数字转型
+          利用AIP构筑业务、构建业务创新
           <br>
-          中小团队转型的新型基础设施
+          数字化转型的新基础设施
         </span>
         <p class="action">
           <NavLink class="action-button link-action" style="" :item="actionLink" />

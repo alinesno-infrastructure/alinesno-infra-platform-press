@@ -32,7 +32,7 @@
             class="footer-text-product"
             style="padding-top: 0px; margin-bottom: 0px"
           >
-            <a href="javascript:void(0);"> alinenso-cloud-platform(AIP) </a>
+            <a href="javascript:void(0);"> alinesno-infrastructure-platform(AIP) </a>
           </p>
           <p
             class="footer-text-product"
@@ -46,7 +46,7 @@
             更新日期：2023-02-27
           </p>
           <p class="footer-text-product">
-            <a href="javascript:void(0);"> alinenso-cloud-plat-press </a>
+            <a href="javascript:void(0);"> alinesno-infrastructure-plat-press </a>
           </p>
           <p
             class="footer-text-product"
