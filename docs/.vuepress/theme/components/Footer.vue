@@ -12,8 +12,6 @@
           </li>
         </ul>
       </div>
-    </div>
-
     <div class="footer-linkbox">
       <nav class="footer-nav">
         <ul>
@@ -24,6 +22,8 @@
         </ul>
       </nav>
     </div>
+    </div>
+
 
   </div>
 </template>

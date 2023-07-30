@@ -6,7 +6,7 @@
         <span class="link-icon">进入</span>
       </div>
       <div class="hero-header">
-        <div class="hero-title">利用AIP构筑业务集成基础设施构建应用并实现数字转型</div>
+        <div class="hero-title">利用AIP构筑创新业务 构建业务服务实现数字转型高质量发展</div>
         <div class="hero-sub-title">快速构建应用、中小企业数字化转型的新型基础设施</div>
       </div>
       <div class="hero-actions">
@@ -16,7 +16,7 @@
     </div>
     <div class="panel-right">
       <div class="banner-img">
-        <img src="https://lh3.googleusercontent.com/tW1TE_IfntMYWQWcDbDZf8ztEpRJy1iMmIb5yyFT9FXkQ3xErx1t9JMhZvVXrU2-bqh_NkIDPKs_Qw=e14-rw-lo-sc0xffffff" alt="" />
+        <img src="/assets/portal/hero_bg.png" alt="" />
         <div class="img-text">
           了解企业如何使用AIP从内部推进改变
         </div>
