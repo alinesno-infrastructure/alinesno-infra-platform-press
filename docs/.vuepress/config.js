@@ -22,9 +22,9 @@ module.exports = {
           // set `platform` rather than `api`
           platform: 'github',
           // all other options of Vssue are allowed
-          owner: 'alinesno-cloud',
+          owner: 'alineson-infrastructure',
           admins:['switchII'],
-          repo: 'alinesno-cloud-plat-press',
+          repo: 'alineson-infrastructure-platform-press',
           clientId: '27af56cba1b05d7313eb',
           clientSecret: 'ecb6b64de79461454b8033b6c5790e6f8e8a1c87',
       }],
@@ -81,6 +81,28 @@ module.exports = {
           }
       ],
       sidebar: {
+        '/solution': [
+            {
+                title: '方案体系',
+                collapsible: true,
+                children: genSolutionSidebar(1)
+            },
+            {
+                title: '业务中台',
+                collapsible: true,
+                children: genSolutionSidebar(2)
+            },
+            {
+                title: ' 数据治理',
+                collapsible: true,
+                children: genSolutionSidebar(3)
+            },
+            {
+                title: ' 运维方案',
+                collapsible: true,
+                children: genSolutionSidebar(4)
+            },
+        ],
         '/architecture': [
             {
                 title: '产品架构',
@@ -142,6 +164,51 @@ module.exports = {
         ]
       }
   },
+}
+
+/**
+ * 解决方案体系
+ * @param {序号} menus
+ */
+function genSolutionSidebar(menus){
+    const mapArr = [
+        '/solution/',
+]
+
+    if (menus == 2) {
+        const mapArr = [
+            '/solution/01_业务中台/01_企业业务中台解决方案.md',
+            '/solution/01_业务中台/02_传统企业转变业务中台解决方案.md',
+            '/solution/01_业务中台/03_企业数字化解决方案.md',
+            '/solution/01_业务中台/04_新旧结合业务微服务解决方案.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 3) {
+        const mapArr = [
+            '/solution/02_数据治理/01_数据中台建设解决方案.md',
+            '/solution/02_数据治理/02_数据报表分析解决方案.md',
+            '/solution/02_数据治理/03_运维应用画像解决方案.md',
+            '/solution/02_数据治理/04_用户画像解决方案.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 4) {
+        const mapArr = [
+            '/solution/03_运维方案/01_自动化运维解决方案.md',
+            '/solution/03_运维方案/02_分布式日志分析解决方案.md',
+            '/solution/03_运维方案/03_AI智能运维解决方案.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    }
+
+    return mapArr.map(i => {
+        return i
+    })
 }
 
 /**
