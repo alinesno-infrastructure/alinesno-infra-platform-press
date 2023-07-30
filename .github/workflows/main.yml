@@ -19,6 +19,11 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.20.1'
+
       # 生成静态文件
       - name: Build
         run: npm install && yarn docs:build
