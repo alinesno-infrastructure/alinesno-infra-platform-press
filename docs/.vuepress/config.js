@@ -41,7 +41,7 @@ module.exports = {
       repo: 'https://github.com/alinesno-infrastructure/alinesno-infrastructure-platform-press' ,
       docsDir: 'docs',
       repoLabel: 'Github',
-      docsBranch: '1.0.0-SNAPSHOT',
+      docsBranch: 'main',
       editLinks: true,
       editLinkText: '帮助我们改善此页面',
       smoothScroll: true ,

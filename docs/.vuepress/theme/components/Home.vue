@@ -1,6 +1,10 @@
 <template>
   <div class="home-container">
 
+      <BannerPanel />
+
+      
+      <ServicePanel />
       <FooterPanel />
 
   </div>
@@ -8,10 +12,14 @@
 
 <script>
 
+import BannerPanel from './Banner.vue'
+import ServicePanel from './Service.vue'
 import FooterPanel from './Footer.vue'
 
 export default {
   components: {
+    BannerPanel,
+    ServicePanel,
     FooterPanel,
   },
   data() {
