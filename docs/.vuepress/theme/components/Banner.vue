@@ -2,8 +2,8 @@
   <div class="banner-container">
     <div class="panel-left">
       <div class="notice-link-info">
-        <span class="link-text">获享 300 免费赠金，并免费试用 20 多种产品</span>
-        <span class="link-icon">进入</span>
+        <span class="link-text">新一代软件基础设施服务在研发中</span>
+        <span class="link-icon">进度</span>
       </div>
       <div class="hero-header">
         <div class="hero-title">利用AIP构筑创新业务 构建业务服务实现数字转型高质量发展</div>
