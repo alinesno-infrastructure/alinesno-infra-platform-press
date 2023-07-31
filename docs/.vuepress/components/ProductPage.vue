@@ -36,19 +36,19 @@ export default {
                     "services": [
                         {
                             "id": 1,
-                            "name": "01. 核心开发框架",
+                            "name": "核心开发框架",
                             "desc": "用于核心开发的框架。",
                             "code": "alinesno-infra-common"
                         },
                         {
                             "id": 2,
-                            "name": "02. 前端开发框架（桌面）",
+                            "name": "前端开发框架（桌面）",
                             "desc": "用于桌面前端开发的框架。",
                             "code": "alinesno-infra-ui"
                         },
                         {
                             "id": 3,
-                            "name": "03. 前端开发框架（移动）",
+                            "name": "前端开发框架（移动）",
                             "desc": "用于移动前端开发的框架。",
                             "code": "alinesno-infra-app"
                         }
@@ -61,61 +61,61 @@ export default {
                     "services": [
                         {
                             "id": 5,
-                            "name": "01. 权限配置服务",
+                            "name": "权限配置服务",
                             "desc": "用于配置权限的服务。",
                             "code": "alinesno-infra-base-authority"
                         },
                         {
                             "id": 6,
-                            "name": "02. 代码生成器",
+                            "name": "代码生成器",
                             "desc": "用于生成代码的工具。",
                             "code": "alinesno-infra-base-init"
                         },
                         {
                             "id": 7,
-                            "name": "03. 分布式配置服务",
+                            "name": "分布式配置服务",
                             "desc": "用于分布式配置的服务。",
                             "code": "alinesno-infra-base-config"
                         },
                         {
                             "id": 8,
-                            "name": "04. 事务消息服务",
+                            "name": "事务消息服务",
                             "desc": "用于处理事务消息的服务。",
                             "code": "alinesno-infra-base-message"
                         },
                         {
                             "id": 9,
-                            "name": "05. 通知管理服务",
+                            "name": "通知管理服务",
                             "desc": "用于管理通知的服务。",
                             "code": "alinesno-infra-base-notices"
                         },
                         {
                             "id": 10,
-                            "name": "06. 存储管理服务",
+                            "name": "存储管理服务",
                             "desc": "用于管理存储的服务。",
                             "code": "alinesno-infra-base-storage"
                         },
                         {
                             "id": 11,
-                            "name": "07. 单点登陆服务",
+                            "name": "单点登陆服务",
                             "desc": "用于实现单点登录的服务。",
                             "code": "alinesno-infra-base-sso"
                         },
                         {
                             "id": 12,
-                            "name": "08. 网关配置服务",
+                            "name": "网关配置服务",
                             "desc": "用于配置网关的服务。",
                             "code": "alinesno-infra-base-gateway"
                         },
                         {
                             "id": 13,
-                            "name": "09. 安全验证码服务",
+                            "name": "安全验证码服务",
                             "desc": "用于生成安全验证码的服务。",
                             "code": "alinesno-infra-base-validate"
                         },
                         {
                             "id": 14,
-                            "name": "10. IM消息服务",
+                            "name": "IM消息服务",
                             "desc": "用于处理即时消息的服务。",
                             "code": "alinesno-infra-base-im"
                         },
@@ -127,61 +127,61 @@ export default {
                         },
                         {
                             "id": 16,
-                            "name": "12. 文档搜索服务",
+                            "name": "文档搜索服务",
                             "desc": "用于搜索文档的服务。",
                             "code": "alinesno-infra-base-document"
                         },
                         {
                             "id": 17,
-                            "name": "13. 分布式ID服务",
+                            "name": "分布式ID服务",
                             "desc": "用于生成分布式ID的服务。",
                             "code": "alinesno-infra-base-id"
                         },
                         {
                             "id": 18,
-                            "name": "14. 敏感词过滤服务",
+                            "name": "敏感词过滤服务",
                             "desc": "用于过滤敏感词的服务。",
                             "code": "alinesno-infra-base-sensitive"
                         },
                         {
                             "id": 19,
-                            "name": "15. 支付服务",
+                            "name": "支付服务",
                             "desc": "用于处理支付的服务。",
                             "code": "alinesno-infra-base-pay"
                         },
                         {
                             "id": 20,
-                            "name": "16. 会员服务",
+                            "name": "会员服务",
                             "desc": "用于管理会员的服务。",
                             "code": "alinesno-infra-base-member"
                         },
                         {
                             "id": 21,
-                            "name": "17. 内容服务",
+                            "name": "内容服务",
                             "desc": "用于管理内容的服务。",
                             "code": "alinesno-infra-base-cms"
                         },
                         {
                             "id": 22,
-                            "name": "18. 商城服务",
+                            "name": "商城服务",
                             "desc": "用于管理商城的服务。",
                             "code": "alinesno-infra-base-shop"
                         },
                         {
                             "id": 23,
-                            "name": "19. 流程中心服务",
+                            "name": "流程中心服务",
                             "desc": "用于流程中心的服务。",
                             "code": "alinesno-infra-base-workflow"
                         },
                         {
                             "id": 24,
-                            "name": "20. 文档查看服务",
+                            "name": "文档查看服务",
                             "desc": "用于查看文档的服务。",
                             "code": "alinesno-infra-base-fileshow"
                         },
                         {
                             "id": 25,
-                            "name": "21. 基设平台管理服务",
+                            "name": "基设平台管理服务",
                             "desc": "用于管理基设平台的服务，定位于管理员。",
                             "code": "alinesno-infra-base-platform"
                         }
@@ -194,61 +194,61 @@ export default {
                     "services": [
                         {
                             "id": 27,
-                            "name": "01. 主数据服务",
+                            "name": "主数据服务",
                             "desc": "用于主数据管理的服务。",
                             "code": "alinesno-infra-data-mdm"
                         },
                         {
                             "id": 28,
-                            "name": "02. 数据上报服务",
+                            "name": "数据上报服务",
                             "desc": "用于数据上报的服务。",
                             "code": "alinesno-infra-data-report"
                         },
                         {
                             "id": 29,
-                            "name": "03. 数据集成服务",
+                            "name": "数据集成服务",
                             "desc": "用于数据集成的服务。",
                             "code": "alinesno-infra-data-kettle"
                         },
                         {
                             "id": 30,
-                            "name": "04. 数据开发服务",
+                            "name": "数据开发服务",
                             "desc": "用于数据开发的服务。",
                             "code": "alinesno-infra-data-dolphinscheduler"
                         },
                         {
                             "id": 31,
-                            "name": "05. 实时计算服务",
+                            "name": "实时计算服务",
                             "desc": "用于实时计算的服务。",
                             "code": "alinesno-infra-data-flink"
                         },
                         {
                             "id": 32,
-                            "name": "06. 数据安全服务",
+                            "name": "数据安全服务",
                             "desc": "用于数据安全的服务。",
                             "code": "alinesno-infra-data-security"
                         },
                         {
                             "id": 33,
-                            "name": "07. 数据质量服务",
+                            "name": "数据质量服务",
                             "desc": "用于数据质量的服务。",
                             "code": "alinesno-infra-data-quarity"
                         },
                         {
                             "id": 34,
-                            "name": "08. 数据总线服务",
+                            "name": "数据总线服务",
                             "desc": "用于数据总线的服务。",
                             "code": "alinesno-infra-data-bus"
                         },
                         {
                             "id": 35,
-                            "name": "09. 数据资产服务",
+                            "name": "数据资产服务",
                             "desc": "用于数据资产管理的服务。",
                             "code": "alinesno-infra-data-assets"
                         },
                         {
                             "id": 36,
-                            "name": "10. 数据算法服务",
+                            "name": "数据算法服务",
                             "desc": "用于数据算法的服务。",
                             "code": "alinesno-infra-data-algorithm"
                         }
@@ -261,37 +261,37 @@ export default {
                     "services": [
                         {
                             "id": 38,
-                            "name": "01. 智能推荐服务",
+                            "name": "智能推荐服务",
                             "desc": "用于智能推荐的服务。",
                             "code": "alinesno-infra-ai-recommendation"
                         },
                         {
                             "id": 39,
-                            "name": "02. 智能搜索服务",
+                            "name": "智能搜索服务",
                             "desc": "用于智能搜索的服务。",
                             "code": "alinesno-infra-ai-search"
                         },
                         {
                             "id": 40,
-                            "name": "03. 智能语音服务",
+                            "name": "智能语音服务",
                             "desc": "用于智能语音的服务。",
                             "code": "alinesno-infra-ai-speech"
                         },
                         {
                             "id": 41,
-                            "name": "04. 智能图像服务",
+                            "name": "智能图像服务",
                             "desc": "用于智能图像的服务。",
                             "code": "alinesno-infra-ai-image"
                         },
                         {
                             "id": 42,
-                            "name": "05. 智能视频服务",
+                            "name": "智能视频服务",
                             "desc": "用于智能视频的服务。",
                             "code": "alinesno-infra-ai-video"
                         },
                         {
                             "id": 43,
-                            "name": "06. 智能机器人服务",
+                            "name": "智能机器人服务",
                             "desc": "用于智能机器人的服务。",
                             "code": "alinesno-infra-ai-robot"
                         }
