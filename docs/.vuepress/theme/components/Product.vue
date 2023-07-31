@@ -1,17 +1,20 @@
 <template>
   <div class="product-container">
     <div class="header-box">
-      <div class="header-title">产品列表</div>
-      <div class="header-sub-title">ACP中台服务（Alinesno Cloud Platform）是业务应用生命周期管理和监控的新一代中台， 为业务发展提供 基础的数字化架构 ，
-        业务规范化和标准化，更好的沉淀企业业务资产和数据资产,形成行业的业务标准和 团队的一套解决方案，形成自己的核心竞争力</div>
+      <div class="header-title">产品特征</div>
+      <div class="header-sub-title">
+        软件新基础设施，全称Alinesno-Infrastructure-Platform（简称AIP)，通过建设软件新基础设施和平台，
+        推动数字化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率，
+        对现代软件开发和运行需求而建设的基础设施系统。 
+      </div>
     </div>
 
     <div class="product-list-panel">
       <div class="product-left-panel">
         <ul>
-          <li class="product-item" v-for="item in productList" :key="item">
+          <li class="product-item" v-for="item in productList" :key="item.title">
             <div class="product-icon">
-              <i :class="item.icon" />
+              <img :src="item.img" :alt="item.title" style="width: 61px;">
             </div>
             <div class="prouct-title">
               {{ item.title }}
@@ -35,32 +38,38 @@ export default {
       productList: [
           {
             "icon":"fas fa-laptop-code",
-            "title": "完善的数字中台体系",
+            "img":"/assets/portal/icons/outlook_48x1.svg",
+            "title": "支持创新和业务拓展",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
           {
             "icon":"fas fa-tags",
-            "title": "可视化多团队研发平台",
+            "img":"/assets/portal/icons/powerpoint_48x1.svg",
+            "title": "数字化转型推动",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
           {
             "icon":"fas fa-file-word",
-            "title": "通用的业务开发组件",
+            "img":"/assets/portal/icons/teams_48x1.svg",
+            "title": "提高竞争力和降低成本",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
           {
             "icon":"fas fa-file-csv",
-            "title": "轻量级数据治理体系",
+            "img":"/assets/portal/icons/onenote_48x1.svg",
+            "title": "数字经济发展支持",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
           {
             "icon":"fab fa-google-drive",
-            "title": "云原生容器化架构体系",
+            "img":"/assets/portal/icons/excel_48x1.svg",
+            "title": "全面的产品覆盖",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
           {
             "icon":"fas fa-feather",
-            "title": "完善的项目实践文档",
+            "img":"/assets/portal/icons/sharepoint_48x1.svg",
+            "title": "加强团队协作效率",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作，共同基于同。"
           },
         ]

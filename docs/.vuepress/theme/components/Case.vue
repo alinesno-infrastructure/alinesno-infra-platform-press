@@ -7,7 +7,7 @@
     <div class="case-list-panel">
       <div class="case-left-panel">
         <ul>
-          <li class="case-item" v-for="item in caseList" :key="item">
+          <li class="case-item" v-for="item in caseList" :key="item.title">
             <div class="case-icon">
               <img :src="item.img" alt="" />
             </div>

@@ -3,9 +3,8 @@
   <iframe
     class="video-iframe"
     width="80%"
+    title=""
     v-resize="{ log: true }"
-    frameborder="no"
-    scrolling="no"
     seamless=""
     allowfullscreen="allowfullscreen"
     :src="ihtml"
