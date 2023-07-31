@@ -1,10 +1,10 @@
 <template>
     <div class="arch-page-product-container">
 
-        <div class="arch-page-header">
-            <!-- <div class="arch-page-title">Google Cloud解决方案</div> -->
+        <!-- <div class="arch-page-header">
+            <div class="arch-page-title">Google Cloud解决方案</div>
             <div class="arch-page-sub-title">利用基于 AI 技术并以行业需求为着眼点的产品和服务组合，解决您最棘手的业务难题。与销售人员</div>
-        </div>
+        </div> -->
 
         <div class="arch-page-panel">
             <div class="arch-page-items-panel" v-for="item in 7" :key="item">
@@ -28,6 +28,7 @@
 .arch-page-product-container {
     width: 100%;
     float: left;
+    margin-top: 30px;
     margin-bottom: 50px;
 
     .arch-page-header {
