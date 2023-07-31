@@ -8,7 +8,7 @@
     <div class="arch-list-panel">
       <div class="arch-left-panel">
         <ul>
-          <li class="arch-item" v-for="item in archList" :key="item">
+          <li class="arch-item" v-for="item in archList" :key="item.title">
             <div class="prouct-title">
               {{ item.title }}
             </div>

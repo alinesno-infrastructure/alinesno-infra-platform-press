@@ -2,7 +2,7 @@
 
 ## 概述
 
-## 架构描述
+<ArchitecturePage />
 
 ## 其它
 

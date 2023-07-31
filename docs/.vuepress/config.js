@@ -15,6 +15,7 @@ module.exports = {
               'ga': 'G-V0D6KNXG35' // UA-00000000-0
           }
       ],
+      ['@vuepress/register-components'],
       ['vuepress-plugin-code-copy', true] ,
       ['@vuepress/nprogress'] ,
       ['@vuepress/back-to-top'] ,
@@ -67,13 +68,8 @@ module.exports = {
               link: '/operation/'
           },
           {
-              text: '开发者',
-              items: [
-                  { text: '新手入门', link: '/firstlearn/' },
-                  { text: '前端手册', link: '/front/' },
-                  { text: '后端手册', link: '/technique/' },
-                  { text: '数据手册', link: '/dataskill/' }
-              ]
+              text: '文档库',
+              link: '/document/'
           },
           {
               text: '产品体验',
@@ -81,6 +77,23 @@ module.exports = {
           }
       ],
       sidebar: {
+        '/document': [
+            {
+                title: '文档规划',
+                collapsible: true,
+                children: genDocumentSidebar(1)
+            },
+            {
+                title: '产品手册',
+                collapsible: true,
+                children: genDocumentSidebar(2)
+            },
+            {
+                title: '学习手册',
+                collapsible: true,
+                children: genDocumentSidebar(3)
+            },
+        ],
         '/operation': [
             {
                 title: '部署架构',
@@ -181,6 +194,19 @@ module.exports = {
         ]
       }
   },
+}
+
+/**
+* 文档手册
+ * @param {序号} menus
+ */
+function genDocumentSidebar(menus){
+    const mapArr = [
+        '/document/',
+    ]
+    return mapArr.map(i => {
+        return i
+    })
 }
 
 /**
