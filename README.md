@@ -143,20 +143,18 @@
 
 参考和整合了挺多优秀开源项目代码，平台只是一个整合，基于新的架构进一步的调整的开发维护支持，在此说明，如有缺漏，可提醒添加，这里集成以Apache-2.0协议和MIT协议为主。
 
-| 序号 | 开源项目                                                                              | 参考部分                 | 整合方式 | 备注 |
-|------|---------------------------------------------------------------------------------------|--------------------------|----------|------|
-| 1    | [mybatis-plus](https://github.com/baomidou/mybatis-plus)                              | 代码生成器和查询条件封装 |          |      |
-| 2    | [power-job](https://github.com/PowerJob/PowerJob)                                     | 分布式定时任务平台       |          |      |
-| 3    | [rouyi](https://github.com/yangzongzhuan/RuoYi)                                       | 前端工程                 |          |      |
-| 4    | [dolphinscheduler](https://github.com/apache/dolphinscheduler)                        | 数据开发工具             |          |      |
-| 5    | [kubeaz](https://github.com/KubeOperator/KubeOperator)                                | 自动化工具               |          |      |
-| 6    | [plumelog](https://github.com/plumeblog/plumelog)                                     | 日志监控工具             |          |      |
-| 7    | [generator](https://github.com/ruanyf/generator)                                      | 前端拖拉生成工具         |          |      |
-| 8    | [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)                  | 文档参考                 |          |      |
-| 9    | [software-engineering-document](https://github.com/linlinjava/litemall)               | 项目文档参考             |          |      |
-| 10   | [flying-fish-gateway](https://github.com/liuyangming/flying-fish-gateway)             | 数据网关工程             |          |      |
-| 11   | [logjs](https://github.com/adamschwartz/log)                                          | 前端日志采集             |          |      |
-| 12   | [magic-api](https://github.com/panmengqi/magic-api)                                   | 数据接口服务             |          |      |
-| 13   | [flink-streaming-plat-web](https://github.com/ververica/flink-streaming-platform-web) | FlinkSQL实时计算服务     |          |      |
-| 14   | [RuoYi-Vue-Plus](https://github.com/ruoyi-antv/RuoYi-Vue-Plus)                        | 前端部分改造             |          |      |
+- [mybatis-plus](https://github.com/baomidou/mybatis-plus) : 代码生成器和查询条件封装
+- [power-job](https://github.com/PowerJob/PowerJob): 分布式定时任务平台 
+- [rouyi](https://github.com/yangzongzhuan/RuoYi): 前端工程
+- [dolphinscheduler](https://github.com/apache/dolphinscheduler) : 数据开发工具 
+- [kubeaz](https://github.com/KubeOperator/KubeOperator): 自动化工具
+- [plumelog](https://github.com/plumeblog/plumelog): 日志监控工具 
+- [generator](https://github.com/ruanyf/generator): 前端拖拉生成工具
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin): 文档参考
+- [software-engineering-document](https://github.com/linlinjava/litemall): 项目文档参考
+- [flying-fish-gateway](https://github.com/liuyangming/flying-fish-gateway): 数据网关工程
+- [logjs](https://github.com/adamschwartz/log): 前端日志采集
+- [magic-api](https://github.com/panmengqi/magic-api): 数据接口服务
+- [flink-streaming-plat-web](https://github.com/ververica/flink-streaming-platform-web): FlinkSQL实时计算服务
+- [RuoYi-Vue-Plus](https://github.com/ruoyi-antv/RuoYi-Vue-Plus):前端部分改造
 
