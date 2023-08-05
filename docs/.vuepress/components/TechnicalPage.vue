@@ -171,7 +171,7 @@ export default {
                         {
                             "id": 6,
                             "name": "按钮权限",
-                            "desc": "实现基于角色和权限的按钮级别的访问控制。",
+                            "desc": "集成细粒化权限配置，实现基于角色和权限的按钮级别的访问控制。",
                             "code": "06_按钮权限.md"
                         },
                         {
@@ -1005,7 +1005,6 @@ export default {
     width: 100%;
     float: left;
     margin-top: 30px;
-    margin-bottom: 50px;
 
     .technical-page-header {
         padding: 10px 0px;
@@ -1034,6 +1033,7 @@ export default {
         .technical-page-box-desc {
             font-size: 16px;
             padding: 10px 0px;
+            line-height: 30px;
             margin-bottom: 10px;
         }
         .item-list-box {
@@ -1047,7 +1047,7 @@ export default {
                 li.technical-page-item {
                     list-style: none;
                     float: left;
-                    width: calc(33% - 80px);
+                    width: calc(33% - 70px);
                     padding: 24px;
                     box-shadow: 0 0 0 0 transparent;
                     border: 1px solid #dadce0;

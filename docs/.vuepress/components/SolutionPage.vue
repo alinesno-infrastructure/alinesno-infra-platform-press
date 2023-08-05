@@ -177,7 +177,6 @@ export default {
     width: 100%;
     float: left;
     margin-top: 30px;
-    margin-bottom: 50px;
 
     .sulution-page-header {
         padding: 10px 0px;
@@ -206,6 +205,7 @@ export default {
         .sulution-page-box-desc {
             font-size: 16px;
             padding: 10px 0px;
+            line-height: 30px;
             margin-bottom: 10px;
         }
         .item-list-box {
@@ -219,7 +219,7 @@ export default {
                 li.sulution-page-item {
                     list-style: none;
                     float: left;
-                    width: calc(33% - 80px);
+                    width: calc(33% - 70px);
                     padding: 24px;
                     box-shadow: 0 0 0 0 transparent;
                     border: 1px solid #dadce0;

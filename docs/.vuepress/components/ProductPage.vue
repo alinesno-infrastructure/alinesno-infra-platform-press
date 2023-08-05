@@ -413,7 +413,6 @@ export default {
     width: 100%;
     float: left;
     margin-top: 30px;
-    margin-bottom: 50px;
 
     .crs-page-header {
         padding: 10px 0px;
@@ -441,6 +440,7 @@ export default {
 
         .crs-page-box-desc {
             font-size: 16px;
+            line-height: 30px;
             padding: 10px 0px;
             margin-bottom: 10px;
         }
@@ -455,7 +455,7 @@ export default {
                 li.crs-page-item {
                     list-style: none;
                     float: left;
-                    width: calc(33% - 80px);
+                    width: calc(33% - 70px);
                     padding: 24px;
                     box-shadow: 0 0 0 0 transparent;
                     border: 1px solid #dadce0;
