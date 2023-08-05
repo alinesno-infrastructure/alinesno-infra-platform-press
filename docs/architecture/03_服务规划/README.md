@@ -93,7 +93,7 @@
 | 40   |          | 03. GPT推理服务                        | alinesno-infra-ai-gpt                | 30302 |                              |
 | 41   |          | 04. 流媒体识别服务                     | alinesno-infra-ai-media              | 30303 |                              |
 |      |          |                                        |                                      |       |                              |
-| 43   | 运维服务 | 01. 自动化任务服务（业务自动运维服务） | alinesno-infra-ops-scheduler         | 30400 |                              |
+| 43   | 运维服务 | 01. 自动化任务服务 | alinesno-infra-ops-scheduler         | 30400 |                              |
 | 44   |          | 02. 分布式日志服务                     | alinesno-infra-ops-logger            | 30401 |                              |
 | 45   |          | 03. 分布式链路跟踪服务                 | alinesno-infra-ops-telemetry         | 30402 |                              |
 | 46   |          | 04. 持续集成服务                       | alinesno-infra-ops-cicd              | 30403 |                              |

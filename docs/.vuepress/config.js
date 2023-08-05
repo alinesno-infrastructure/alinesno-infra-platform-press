@@ -112,43 +112,203 @@ module.exports = {
                     collapsible: true,
                     children: genTechnicalSidebar(4)
                 },
-                {
-                    title: '前端框架',
-                    collapsible: true,
-                    children: genTechnicalSidebar(5)
-                },
-                {
-                    title: '数据治理',
-                    collapsible: true,
-                    children: genTechnicalSidebar(2)
-                },
-                {
-                    title: '智能推理',
-                    collapsible: true,
-                    children: genTechnicalSidebar(3)
-                },
-                {
-                    title: '运营管理',
-                    collapsible: true,
-                    children: genTechnicalSidebar(4)
-                },
             ],
             '/document': [
                 {
-                    title: '文档规划',
-                    collapsible: true,
-                    children: genDocumentSidebar(1)
+                    "title": "权限配置服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(1)
                 },
                 {
-                    title: '产品手册',
-                    collapsible: true,
-                    children: genDocumentSidebar(2)
+                    "title": "代码生成器",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(2)
                 },
                 {
-                    title: '学习手册',
-                    collapsible: true,
-                    children: genDocumentSidebar(3)
+                    "title": "分布式配置服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(3)
                 },
+                {
+                    "title": "事务消息服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(4)
+                },
+                {
+                    "title": "通知管理服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(5)
+                },
+                {
+                    "title": "存储管理服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(6)
+                },
+                {
+                    "title": "单点登录服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(7)
+                },
+                {
+                    "title": "网关配置服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(8)
+                },
+                {
+                    "title": "安全验证码服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(9)
+                },
+                {
+                    "title": "IM消息服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(10)
+                },
+                {
+                    "title": "邮箱管理服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(11)
+                },
+                {
+                    "title": "文档搜索服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(12)
+                },
+                {
+                    "title": "分布式ID服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(13)
+                },
+                {
+                    "title": "敏感词过滤服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(14)
+                },
+                {
+                    "title": "支付服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(15)
+                },
+                {
+                    "title": "会员服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(16)
+                },
+                {
+                    "title": "内容服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(17)
+                },
+                {
+                    "title": "商城服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(18)
+                },
+                {
+                    "title": "流程中心服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(19)
+                },
+                {
+                    "title": "文档查看服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(20)
+                },
+                {
+                    "title": "基设平台管理服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(21)
+                },
+                {
+                    "title": "主数据服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(22)
+                },
+                {
+                    "title": "数据上报服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(23)
+                },
+                {
+                    "title": "数据集成服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(24)
+                },
+                {
+                    "title": "数据开发服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(25)
+                },
+                {
+                    "title": "实时计算服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(26)
+                },
+                {
+                    "title": "数据安全服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(27)
+                },
+                {
+                    "title": "数据质量服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(28)
+                },
+                {
+                    "title": "数据总线服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(29)
+                },
+                {
+                    "title": "数据资产服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(30)
+                },
+                {
+                    "title": "数据算法服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(31)
+                },
+                {
+                    "title": "OCR视觉识别服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(32)
+                },
+                {
+                    "title": "自然语言识别服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(33)
+                },
+                {
+                    "title": "GPT推理服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(34)
+                },
+                {
+                    "title": "流媒体识别服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(35)
+                },
+                {
+                    "title": "自动化任务服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(36)
+                },
+                {
+                    "title": "分布式日志服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(37)
+                },
+                {
+                    "title": "分布式链路跟踪服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(38)
+                },
+                {
+                    "title": "持续集成服务",
+                    "collapsible": true,
+                    "children": genDocumentSidebar(39)
+                }
             ],
             '/operation': [
                 {
@@ -527,7 +687,7 @@ function genTechnicalSidebar(menus) {
         return mapArr.map(i => {
             return i
         })
-    } 
+    }
 
     return mapArr.map(i => {
         return i

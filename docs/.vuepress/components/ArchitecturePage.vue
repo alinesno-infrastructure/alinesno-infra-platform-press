@@ -56,7 +56,7 @@
         }
 
         .arch-page-box-desc {
-            font-size: 14px;
+            font-size: 16px;
             padding: 10px 0px;
             margin-bottom: 10px;
         }
