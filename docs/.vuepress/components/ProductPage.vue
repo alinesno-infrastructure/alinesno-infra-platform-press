@@ -266,25 +266,25 @@ export default {
                                 "id": 43,
                                 "name": "OCR视觉识别服务",
                                 "desc": "用于OCR视觉识别的服务，实现文字和图像的识别和提取",
-                                "code": "alinesno-infra-ai-ocr"
+                                "code": "alinesno-infra-smart-ocr"
                             },
                             {
                                 "id": 44,
                                 "name": "自然语言识别服务",
                                 "desc": "用于自然语言识别的服务，实现文本的语义理解和分析",
-                                "code": "alinesno-infra-ai-nlp"
+                                "code": "alinesno-infra-smart-nlp"
                             },
                             {
                                 "id": 45,
                                 "name": "GPT推理服务",
                                 "desc": "用于GPT推理的服务，实现基于预训练模型的自然语言生成和推理",
-                                "code": "alinesno-infra-ai-gpt"
+                                "code": "alinesno-infra-smart-brain"
                             },
                             {
                                 "id": 46,
                                 "name": "流媒体识别服务",
                                 "desc": "用于流媒体识别的服务，实现对音视频流的实时识别和分析",
-                                "code": "alinesno-infra-ai-media"
+                                "code": "alinesno-infra-smart-media"
                             }
                         ]
                     },

@@ -95,10 +95,10 @@
 | 35   |          | 09. 数据资产服务               | alinesno-infra-data-assets  |                                |
 | 36   |          | 10. 数据算法服务               | alinesno-infra-data-algorithm |                                |
 |      |          |                                |                            |                                |
-| 38   | 智能服务 | 01. OCR视觉识别服务            | alinesno-infra-ai-ocr       |                                |
-| 39   |          | 02. 自然语言识别服务           | alinesno-infra-ai-nlp       |                                |
-| 40   |          | 03. GPT推理服务                | alinesno-infra-ai-gpt       |                                |
-| 41   |          | 04. 流媒体识别服务             | alinesno-infra-ai-media     |                                |
+| 38   | 智能服务 | 01. OCR视觉识别服务            | alinesno-infra-smart-ocr       |                                |
+| 39   |          | 02. 自然语言识别服务           | alinesno-infra-smart-nlp       |                                |
+| 40   |          | 03. GPT推理服务                | alinesno-infra-smart-brain       |                                |
+| 41   |          | 04. 流媒体识别服务             | alinesno-infra-smart-media     |                                |
 |      |          |                                |                            |                                |
 | 43   | 运维服务 | 01. 自动化任务服务 | alinesno-infra-ops-scheduler |                                |
 | 44   |          | 02. 分布式日志服务             | alinesno-infra-ops-logback |                                |
