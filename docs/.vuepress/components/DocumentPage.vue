@@ -274,7 +274,7 @@ export default {
                                 "id": 2,
                                 "name": "分布式日志服务",
                                 "desc": "用于分布式日志管理的服务，集中收集、存储和分析日志数据",
-                                "code": "alinesno-infra-ops-logger"
+                                "code": "alinesno-infra-ops-logback"
                             },
                             {
                                 "id": 3,
