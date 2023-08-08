@@ -77,7 +77,7 @@ module.exports = {
             },
             {
                 text: '产品体验',
-                link: '#'
+                link: 'http://console.infra.linesno.com/index'
             }
         ],
         sidebar: {
