@@ -1,4 +1,4 @@
-# ClickHouse集群部署指南
+# ClickHouse集群部署
 
 本文提供了在Linux系统上部署ClickHouse集群的步骤。ClickHouse是一个开源的列式数据库管理系统，用于快速分析大规模数据。
 
