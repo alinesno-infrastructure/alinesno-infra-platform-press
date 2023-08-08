@@ -392,6 +392,7 @@ function genOperationSidebar(menus) {
             '/operation/02_环境部署/15_Flink部署.md',
             '/operation/02_环境部署/16_Hadoop部署.md',
             '/operation/02_环境部署/17_Prometheus部署.md',
+            '/operation/02_环境部署/18_Clickhouse部署.md',
         ]
         return mapArr.map(i => {
             return i
