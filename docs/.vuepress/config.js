@@ -367,6 +367,7 @@ function genProductSidebar(menus){
 
     const mapArr = [
         '/product/',
+        '/product/ProductDesign.md',
         '/product/plan.md'
     ]
 

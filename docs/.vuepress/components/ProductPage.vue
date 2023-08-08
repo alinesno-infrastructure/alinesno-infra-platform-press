@@ -304,7 +304,7 @@ export default {
                     "services": [
                         {
                             "id": 1,
-                            "name": "自动化任务服务（业务自动运维服务）",
+                            "name": "自动化运维服务",
                             "desc": "用于自动化运维任务的服务。",
                             "code": "alinesno-infra-ops-scheduler"
                         },
