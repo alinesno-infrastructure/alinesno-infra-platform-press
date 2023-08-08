@@ -146,7 +146,7 @@ export default {
                         {
                             "id": 2,
                             "name": "分布式日志分析解决方案",
-                            "desc": "该解决方案旨在帮助企业对分布式系统的日志进行集中管理和分析，实现故障排查和性能优化。",
+                            "desc": "该解决分布式系统的日志进行集中管理和分析，实现故障排查和性能优化。",
                             "code": "运维方案"
                         },
                         {
@@ -177,7 +177,6 @@ export default {
     width: 100%;
     float: left;
     margin-top: 30px;
-    margin-bottom: 50px;
 
     .sulution-page-header {
         padding: 10px 0px;
@@ -204,8 +203,9 @@ export default {
         }
 
         .sulution-page-box-desc {
-            font-size: 14px;
+            font-size: 16px;
             padding: 10px 0px;
+            line-height: 30px;
             margin-bottom: 10px;
         }
         .item-list-box {
@@ -219,7 +219,7 @@ export default {
                 li.sulution-page-item {
                     list-style: none;
                     float: left;
-                    width: calc(33% - 80px);
+                    width: calc(33% - 70px);
                     padding: 24px;
                     box-shadow: 0 0 0 0 transparent;
                     border: 1px solid #dadce0;
