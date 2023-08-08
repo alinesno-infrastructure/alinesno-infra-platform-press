@@ -94,7 +94,7 @@
 | 22   |          | 18. 商城服务                   | alinesno-infra-base-shop    |                                |
 | 23   |          | 19. 流程中心服务               | alinesno-infra-base-workflow |                                |
 | 24   |          | 20. 文档查看服务               | alinesno-infra-base-fileshow |                                |
-| 25   |          | 21. 基设平台管理服务           | alinesno-infra-base-platform | 单独管理和监控，定位于管理员 |
+| 25   |          | 21. 基设平台管理服务           | alinesno-infra-base-platform |   |
 |      |          |                                |                            |                                |
 | 27   | 数据服务 | 01. 主数据服务                 | alinesno-infra-data-mdm     |                                |
 | 28   |          | 02. 数据上报服务               | alinesno-infra-data-report  |                                |
@@ -124,7 +124,7 @@
 | 59   |          | 03. 实时画像服务               | alinesno-infra-bus-profiling |                                |
 | 60   |          | 04. 无代码开发服务             | alinesno-infra-bus-nocode  |                                |
 |      |          |                                |                            |                                |
-| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-saas | 添加架构排版服务               |
+| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-saas |               |
 | 51   |          | 02. 安全感触服务               | alinesno-infra-plat-security |                                |
 | 52   |          | 03. 智能运营大脑服务           | alinesno-infra-plat-brain |                                |
 | 53   |          | 04. AI模型管理服务             | alinesno-infra-plat-model |                                |
