@@ -61,7 +61,7 @@
 | 8    |          | 04. 事务消息服务                       | alinesno-infra-base-message          | 30103 |                              |
 | 9    |          | 05. 通知管理服务                       | alinesno-infra-base-notices          | 30104 |                              |
 | 10   |          | 06. 存储管理服务                       | alinesno-infra-base-storage          | 30105 |                              |
-| 11   |          | 07. 单点登陆服务                       | alinesno-infra-base-sso              | 30106 |                              |
+| 11   |          | 07. 单点登陆服务                       | alinesno-infra-base-identity              | 30106 |                              |
 | 12   |          | 08. 网关配置服务                       | alinesno-infra-base-gateway          | 30107 |                              |
 | 13   |          | 09. 安全验证码服务                     | alinesno-infra-base-validate         | 30108 |                              |
 | 14   |          | 10. IM消息服务                         | alinesno-infra-base-im               | 30109 |                              |

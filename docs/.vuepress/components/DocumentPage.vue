@@ -71,7 +71,7 @@ export default {
                                 "id": 11,
                                 "name": "单点登录服务",
                                 "desc": "用于实现单点登录的服务，提供统一的身份认证和授权功能",
-                                "code": "alinesno-infra-base-sso"
+                                "code": "alinesno-infra-base-identity"
                             },
                             {
                                 "id": 12,

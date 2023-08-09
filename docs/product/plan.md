@@ -20,7 +20,7 @@
    - 完善事务消息服务 alinesno-infra-base-message。
    - 完善通知管理服务 alinesno-infra-base-notices。
    - 完善存储管理服务 alinesno-infra-base-storage。
-   - 完善单点登录服务 alinesno-infra-base-sso。
+   - 完善单点登录服务 alinesno-infra-base-identity。
    - 完善网关配置服务 alinesno-infra-base-gateway。
    - 完善安全验证码服务 alinesno-infra-base-validate。
    - 完善IM消息服务 alinesno-infra-base-im。
