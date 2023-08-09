@@ -834,7 +834,6 @@ function genProductSidebar(menus) {
             '/product/07_运营服务/01_基设平台服务.md',
             '/product/07_运营服务/02_安全感触服务.md',
             '/product/07_运营服务/03_智能运营大脑服务.md',
-            '/product/07_运营服务/04_AI模型管理服务.md',
             '/product/07_运营服务/05_移动终端服务.md',
         ]
         return mapArr.map(i => {
