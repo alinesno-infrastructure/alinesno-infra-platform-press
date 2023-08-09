@@ -58,7 +58,7 @@
    - 完善自动化任务服务 alinesno-infra-ops-scheduler。
    - 完善分布式日志服务 alinesno-infra-ops-logback。
    - 完善分布式链路跟踪服务 alinesno-infra-ops-telemetry。
-   - 完善持续集成服务 alinesno-infra-ops-cicd。
+   - 完善持续集成服务 alinesno-infra-ops-pipeline。
    - 完善容器管理服务 alinesno-infra-ops-container。
    - 完善监控预警服务 alinesno-infra-ops-watcher。
 

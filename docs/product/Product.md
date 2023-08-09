@@ -74,7 +74,7 @@ AIP是为了推动数字化转型和创新发展而建设的基础设施系统�
 | 43   | 运维服务 | 01. 自动化任务服务 | alinesno-infra-ops-scheduler |                                |
 | 44   |          | 02. 分布式日志服务             | alinesno-infra-ops-logback |                                |
 | 45   |          | 03. 分布式链路跟踪服务         | alinesno-infra-ops-telemetry |                                |
-| 46   |          | 04. 持续集成服务               | alinesno-infra-ops-cicd |                                |
+| 46   |          | 04. 持续集成服务               | alinesno-infra-ops-pipeline |                                |
 | 47   |          | 05. 容器管理服务               | alinesno-infra-ops-container |                                |
 | 48   |          | 06. 监控预警服务               | alinesno-infra-ops-watcher |                                |
 |      |          |                                |                            |                                |

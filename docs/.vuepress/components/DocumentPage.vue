@@ -286,7 +286,7 @@ export default {
                                 "id": 4,
                                 "name": "持续集成服务",
                                 "desc": "用于持续集成的服务，自动化构建、测试和部署软件",
-                                "code": "alinesno-infra-ops-cicd"
+                                "code": "alinesno-infra-ops-pipeline"
                             },
                             {
                                 "id": 5,
