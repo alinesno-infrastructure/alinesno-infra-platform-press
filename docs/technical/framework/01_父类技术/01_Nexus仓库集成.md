@@ -49,12 +49,12 @@
     <mirror>
       <id>rdc-releases</id>
       <mirrorOf>releases</mirrorOf>
-      <url>http://repo.infra.linesno.com/nexus/content/repositories/releases/</url>
+      <url>${{ secrets.NEXUS_REPOSITORY_RELEASE }}</url>
     </mirror>
     <mirror>
       <id>rdc-snapshots</id>
       <mirrorOf>snapshots</mirrorOf>
-      <url>http://repo.infra.linesno.com/nexus/content/repositories/snapshots/</url>
+      <url>${{ secrets.NEXUS_REPOSITORY_SNAPSHOT }}</url>
     </mirror>
   </mirrors>
 ...
@@ -69,10 +69,10 @@
       <id>rdc</id>
       <properties>
         <altReleaseDeploymentRepository>
-          rdc-releases::default::http://repo.infra.linesno.com/nexus/content/repositories/releases/
+          rdc-releases::default::${{ secrets.NEXUS_REPOSITORY_RELEASE }}
         </altReleaseDeploymentRepository>
         <altSnapshotDeploymentRepository>
-          rdc-snapshots::default::http://repo.infra.linesno.com/nexus/content/repositories/snapshots/
+          rdc-snapshots::default::${{ secrets.NEXUS_REPOSITORY_SNAPSHOT }}
         </altSnapshotDeploymentRepository>
       </properties>
       <repositories>
@@ -98,7 +98,7 @@
         </repository>
         <repository>
           <id>rdc-releases</id>
-          <url>http://repo.infra.linesno.com/nexus/content/repositories/releases/</url>
+          <url>${{ secrets.NEXUS_REPOSITORY_RELEASE }}</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -108,7 +108,7 @@
         </repository>
         <repository>
           <id>rdc-snapshots</id>
-          <url>http://repo.infra.linesno.com/nexus/content/repositories/snapshots/</url>
+          <url>${{ secrets.NEXUS_REPOSITORY_SNAPSHOT }}</url>
           <releases>
             <enabled>false</enabled>
           </releases>
