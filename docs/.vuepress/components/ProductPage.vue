@@ -345,7 +345,7 @@ export default {
                                 "id": 1,
                                 "name": "基设平台服务",
                                 "desc": "提供架构排版服务，支持快速搭建和调整系统架构",
-                                "code": "alinesno-infra-plat-saas"
+                                "code": "alinesno-infra-plat-console"
                             },
                             {
                                 "id": 2,

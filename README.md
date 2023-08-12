@@ -124,7 +124,7 @@
 | 59   |          | 03. 实时画像服务               | alinesno-infra-bus-profiling |                                |
 | 60   |          | 04. 无代码开发服务             | alinesno-infra-bus-nocode  |                                |
 |      |          |                                |                            |                                |
-| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-saas |               |
+| 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-console |               |
 | 51   |          | 02. 安全感触服务               | alinesno-infra-plat-security |                                |
 | 52   |          | 03. 智能运营大脑服务           | alinesno-infra-plat-brain |                                |
 | 53   |          | 04. AI模型管理服务             | alinesno-infra-plat-model |                                |

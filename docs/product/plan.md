@@ -69,7 +69,7 @@
    - 完善无代码开发服务 alinesno-infra-bus-nocode。
 
 7. 运营服务模块：
-   - 完善基设平台服务 alinesno-infra-plat-saas。
+   - 完善基设平台服务 alinesno-infra-plat-console。
    - 完善安全感触服务 alinesno-infra-plat-security。
    - 完善智能运营大脑服务 alinesno-infra-plat-brain。
    - 完善AI模型管理服务 alinesno-infra-plat-model。
