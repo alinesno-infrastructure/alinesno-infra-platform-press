@@ -50,39 +50,39 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 1. 打开终端并执行以下命令以下载Zookeeper：
 
    ```
-   wget https://downloads.apache.org/zookeeper/zookeeper-3.6.3/apache-zookeeper-3.6.3-bin.tar.gz
+   wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.2/apache-zookeeper-3.8.2-bin.tar.gz
    ```
 
 2. 下载完成后，执行以下命令解压Zookeeper：
 
    ```
-   tar -xzf apache-zookeeper-3.6.3-bin.tar.gz
+   tar -xzf apache-zookeeper-3.8.2-bin.tar.gz
    ```
 
-   解压后的文件将位于当前目录下的"apache-zookeeper-3.6.3"文件夹中。
+   解压后的文件将位于当前目录下的"apache-zookeeper-3.8.2-bin"文件夹中。
 
 ## 步骤4：下载和解压Kafka
 
 1. 打开终端并执行以下命令以下载Kafka：
 
    ```
-   wget https://downloads.apache.org/kafka/3.5.2/kafka_2.13-3.5.2.tgz
+   wget https://downloads.apache.org/kafka/3.5.1/kafka_2.12-3.5.1.tgz
    ```
 
 2. 下载完成后，执行以下命令解压Kafka：
 
    ```
-   tar -xzf kafka_2.13-3.5.2.tgz
+   tar -xzf kafka_2.12-3.5.1.tgz
    ```
 
-   解压后的文件将位于当前目录下的"kafka_2.13-3.5.2"文件夹中。
+   解压后的文件将位于当前目录下的"kafka_2.12-3.5.1"文件夹中。
 
 ## 步骤5：配置Zookeeper集群
 
 1. 进入Zookeeper安装目录：
 
    ```
-   cd apache-zookeeper-3.6.3
+   cd apache-zookeeper-3.8.2-bin
    ```
 
 2. 复制示例配置文件：
@@ -108,7 +108,7 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 1. 在新的终端窗口中，进入Zookeeper安装目录：
 
    ```
-   cd apache-zookeeper-3.6.3
+   cd apache-zookeeper-3.8.2-bin
    ```
 
 2. 启动Zookeeper服务：
@@ -126,7 +126,7 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 1. 进入Kafka安装目录：
 
    ```
-   cd kafka_2.13-3.5.2
+   cd kafka_2.12-3.5.1
    ```
 
 2. 编辑`config/server.properties`文件：
@@ -149,7 +149,7 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 1. 在新的终端窗口中，进入Kafka安装目录：
 
    ```
-   cd kafka_2.13-3.5.2
+   cd kafka_2.12-3.5.1
    ```
 
 2. 启动Kafka服务器：
@@ -164,21 +164,27 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 
 ## 步骤9：验证Kafka集群
 
-1. 创建一个名为"test"的主题：
+1. 在新的终端窗口中，进入Kafka安装目录：
+
+   ```
+   cd kafka_2.12-3.5.1
+   ```
+
+2. 创建一个名为"test"的主题：
 
    ```
    bin/kafka-topics.sh --create --topic test --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
    ```
 
-2. 发布一些消息到"test"主题：
+3. 发布一些消息到"test"主题：
 
    ```
    bin/kafka-console-producer.sh --topic test --bootstrap-server localhost:9092
    ```
 
-   输入一些消息并按Enter键。
+   输入一些消息并按Enter键，按ctrl+c结束
 
-3. 消费"test"主题的消息：
+4. 消费"test"主题的消息：
 
    ```
    bin/kafka-console-consumer.sh --topic test --from-beginning --bootstrap-server localhost:9092
@@ -194,7 +200,7 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
 1. 进入Kafka安装目录：
 
    ```
-   cd kafka_2.13-3.5.2
+   cd kafka_2.12-3.5.1
    ```
 
 2. 编辑`config/server.properties`文件：
@@ -257,15 +263,15 @@ Kafka需要Java JDK来运行。按照以下步骤安装Java JDK 11：
     Type=simple
     User=alinesno
     Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk"
-    ExecStart=/home/alinesno/kafka_2.13-3.5.2/bin/kafka-server-start.sh /home/alinesno/kafka_2.13-3.5.2/config/server.properties
-    ExecStop=/home/alinesno/kafka_2.13-3.5.2/bin/kafka-server-stop.sh
+    ExecStart=/home/alinesno/kafka_2.12-3.5.1/bin/kafka-server-start.sh /home/alinesno/kafka_2.12-3.5.1/config/server.properties
+    ExecStop=/home/alinesno/kafka_2.12-3.5.1/bin/kafka-server-stop.sh
     Restart=on-failure
 
     [Install]
     WantedBy=multi-user.target
    ```
 
-   请确保替换`/path/to/kafka_2.13-3.5.2`为实际的Kafka安装目录。
+   请确保替换`/path/to/kafka_2.12-3.5.1`为实际的Kafka安装目录。
 
 3. 保存并退出文件。
 
