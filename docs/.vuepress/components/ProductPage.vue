@@ -259,6 +259,12 @@ export default {
                                 "name": "流媒体识别服务",
                                 "desc": "用于流媒体识别的服务，实现对音视频流的实时识别和分析",
                                 "code": "alinesno-infra-smart-media"
+                            },
+                            {
+                                "id": 47,
+                                "name": "语音助手服务",
+                                "desc": "提供基础平台运营情况分析，获取运营结果通报，同时形成交互形式",
+                                "code": "alinesno-infra-smart-assistant"
                             }
                         ]
                     },
@@ -313,13 +319,13 @@ export default {
                             {
                                 "id": 1,
                                 "name": "商品秒杀服务",
-                                "desc": "用于商品秒杀的服务，实现高并发的秒杀功能",
+                                "desc": "用于商品秒杀的服务，实现高并发的秒杀功能，输出通用秒杀接口",
                                 "code": "alinesno-infra-bus-limit"
                             },
                             {
                                 "id": 2,
                                 "name": "实时推荐服务",
-                                "desc": "用于实时推荐的服务，提供实时个性化推荐功能",
+                                "desc": "用于实时推荐的服务，提供实时个性化推荐功能，输出通用接口能力",
                                 "code": "alinesno-infra-bus-recommend"
                             },
                             {
@@ -331,7 +337,7 @@ export default {
                             {
                                 "id": 4,
                                 "name": "无代码开发服务",
-                                "desc": "用于无代码开发的服务，提供可视化的开发环境和工具",
+                                "desc": "用于无代码开发的服务，提供可视化的开发环境和工具，用于做偏向简单的业务类型",
                                 "code": "alinesno-infra-bus-nocode"
                             }
                         ]
