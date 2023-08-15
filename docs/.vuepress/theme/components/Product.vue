@@ -3,9 +3,9 @@
     <div class="header-box">
       <div class="header-title">产品特征</div>
       <div class="header-sub-title">
-        软件新基础设施，全称Alinesno-Infrastructure-Platform（简称AIP)，通过建设软件新基础设施和平台，
+        软件新智能设施，全称Alinesno-Infrastructure-Platform（简称AIP)，通过建设软件新智能设施和平台，
         推动数字化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率，
-        对现代软件开发和运行需求而建设的基础设施系统。 
+        对现代软件开发和运行需求而建设的智能设施系统。 
       </div>
     </div>
 

@@ -41,8 +41,8 @@ export default {
   },
   data() {
     return {
-      title: '全新一代软件基础设施',
-      saasTitle: 'AIP基础设施',
+      title: '全新一代软件智能设施',
+      saasTitle: 'AIP智能设施',
     }
   },
   computed: {
