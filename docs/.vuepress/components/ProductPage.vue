@@ -265,6 +265,12 @@ export default {
                                 "name": "语音助手服务",
                                 "desc": "提供基础平台运营情况分析，获取运营结果通报，同时形成交互形式",
                                 "code": "alinesno-infra-smart-assistant"
+                            },
+                            {
+                                "id": 48,
+                                "name": "目标检测识别服务",
+                                "desc": "通过提供通用的API接口，帮助开发人员和应用管理者实现流媒体的物体识别检测功能",
+                                "code": "alinesno-infra-smart-detection	"
                             }
                         ]
                     },

@@ -320,6 +320,7 @@ function genDocumentSidebar(menus) {
             '/document/04_智能服务/03_GPT推理服务.md',
             '/document/04_智能服务/04_流媒体识别服务.md',
             '/document/04_智能服务/05_语音助手服务.md',
+            '/document/04_智能服务/06_目标检测识别服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -805,6 +806,7 @@ function genProductSidebar(menus) {
             '/product/04_智能服务/03_GPT推理服务.md',
             '/product/04_智能服务/04_流媒体识别服务.md',
             '/product/04_智能服务/05_语音助手服务.md',
+            '/product/04_智能服务/目标检测识别服务.md',
         ]
         return mapArr.map(i => {
             return i
