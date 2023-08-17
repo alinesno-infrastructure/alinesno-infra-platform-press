@@ -156,6 +156,7 @@
 | 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           |     |     |     |      |      |
 | 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           |     |     |     |      |      |
 | 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       |     |     |     |      |      |
+| 42   |          | 06. 目标检测识别服务      | alinesno-infra-smart-detection   |     |     |     |      |      |
 |      |          |                          |                                      |     |     |     |      |      |
 | 43   | 运维服务 | 01. 自动化任务服务       | alinesno-infra-ops-scheduler         |     |     |     |      |      |
 | 44   |          | 02. 分布式日志服务       | alinesno-infra-ops-logback           |     |     |     |      |      |
