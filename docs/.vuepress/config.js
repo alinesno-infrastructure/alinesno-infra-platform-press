@@ -455,6 +455,7 @@ function genTechnicalSidebar(menus) {
             '/technical/framework/01_父类技术/02_集成revision统一版本号.md',
             '/technical/framework/01_父类技术/03_集成镜像仓库.md',
             '/technical/framework/01_父类技术/04_集成非root账号运行.md',
+            '/technical/framework/01_父类技术/05_实体父类.md',
         ];
         return mapArr.map(i => {
             return i;
