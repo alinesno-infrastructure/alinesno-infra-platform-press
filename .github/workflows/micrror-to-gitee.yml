@@ -7,19 +7,17 @@ jobs:
   run:
     name: Run
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout source code
-      uses: actions/checkout@v1
-    - name: Mirror Github to Gitee
-      uses: ./.
+    steps: 
+    - name: Organization mirror
+      uses: Yikun/hub-mirror-action@master
       with:
         src: github/alinesno-infrastructure
         dst: gitee/alinesno-cloud
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: org
-        
-        # Only sync normal repo 
         force_update: true
         debug: true
+
+
          
