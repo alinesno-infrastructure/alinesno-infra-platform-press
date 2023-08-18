@@ -1,9 +1,15 @@
-name: Gitee repos mirror periodic job
-on: page_build  #触发条件   page_build表示Github Page部署完成后触发
+on:
+  push:
+  pull_request_target:
+    branches: [main]
+name: Tests / test-org-mirror
 jobs:
-  build:
+  run:
+    name: Run
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout source code
+      uses: actions/checkout@v1
     - name: Mirror Github to Gitee
       uses: ./.
       with:
@@ -12,9 +18,8 @@ jobs:
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: org
-        # Only sync normal repo
-        black_list: 'test'
-        white_list: 'normal,test,empty'
+        
+        # Only sync normal repo 
         force_update: true
         debug: true
          
