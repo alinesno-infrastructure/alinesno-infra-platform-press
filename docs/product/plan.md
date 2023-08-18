@@ -75,16 +75,16 @@
 | 24   |          | 20. 文档查看服务         | alinesno-infra-base-fileshow         |  ✅  |     |    |  🔵  |  ✅  |     |      |
 | 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         |  ✅  |  ✅  |     |     |  ✅  |     |      |
 |      |          |                          |                                      |     |     |     |     |     |     |      |
-| 27   | 数据服务 | 01. 主数据服务           | alinesno-infra-data-mdm              | ✅  |     |     |     |     |     |      |
-| 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           | ✅  |     |     |     |     |     |      |
-| 29   |          | 03. 数据集成服务         | alinesno-infra-data-kettle           |     |     |     |     |     |     |      |
+| 27   | 数据服务 | 01. 主数据服务           | alinesno-infra-data-mdm              | ✅  |     |     |     |  ✅  |    |      |
+| 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           | ✅  |     |     |     |  ✅  |     |      |
+| 29   |          | 03. 数据集成服务         | alinesno-infra-data-kettle           |  ✅  |  ✅  |     |  ✅  |  ✅  |     |      |
 | 30   |          | 04. 数据开发服务         | alinesno-infra-data-dolphinscheduler | ✅  | ✅  | ✅  | ✅  |     |     |      |
-| 31   |          | 05. 实时计算服务         | alinesno-infra-data-flink            |     |     |     |     |     |     |      |
-| 32   |          | 06. 数据安全服务         | alinesno-infra-data-security         | ✅  |     |     |     |     |     |      |
-| 33   |          | 07. 数据质量服务         | alinesno-infra-data-quarity          | ✅  |     |     |     |     |     |      |
-| 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              | ✅  |     |     |     |     |     |      |
-| 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           | ✅  |     |     |     |     |     |      |
-| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        |     |     |     |     |     |     |      |
+| 31   |          | 05. 实时计算服务         | alinesno-infra-data-flink            |  ✅  |  ✅  |     |     |  ✅  |     |      |
+| 32   |          | 06. 数据安全服务         | alinesno-infra-data-security         | ✅  |  ✅  |     |     |  ✅  |     |      |
+| 33   |          | 07. 数据质量服务         | alinesno-infra-data-quarity          | ✅  |     |     |     |  ✅  |     |      |
+| 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              | ✅  |     |     |     |  ✅  |     |      |
+| 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           | ✅  |     |     |     |  ✅  |     |      |
+| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        |  ✅  |     |     |     |  ✅  |     |      |
 |      |          |                          |                                      |     |     |     |     |     |     |      |
 | 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             |     |     |     |     |     |     |      |
 | 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             |     |     |     |     |     |     |      |
