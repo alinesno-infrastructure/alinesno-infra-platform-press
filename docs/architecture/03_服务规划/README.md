@@ -87,18 +87,20 @@
 | 34   |          | 08. 数据总线服务                       | alinesno-infra-data-bus              | 30207 |                              |
 | 35   |          | 09. 数据资产服务                       | alinesno-infra-data-assets           | 30208 |                              |
 | 36   |          | 10. 数据算法服务                       | alinesno-infra-data-algorithm        | 30209 |                              |
-|      |          |                                        |                                      |       |                              |
-| 38   | 智能服务 | 01. OCR视觉识别服务                    | alinesno-infra-smart-ocr                | 30300 |                              |
-| 39   |          | 02. 自然语言识别服务                   | alinesno-infra-smart-nlp                | 30301 |                              |
-| 40   |          | 03. GPT推理服务                        | alinesno-infra-smart-brain                | 30302 |                              |
-| 41   |          | 04. 流媒体识别服务                     | alinesno-infra-smart-media              | 30303 |                              |
-|      |          |                                        |                                      |       |                              |
-| 43   | 运维服务 | 01. 自动化任务服务 | alinesno-infra-ops-scheduler         | 30400 |                              |
-| 44   |          | 02. 分布式日志服务                     | alinesno-infra-ops-logback            | 30401 |                              |
-| 45   |          | 03. 分布式链路跟踪服务                 | alinesno-infra-ops-telemetry         | 30402 |                              |
-| 46   |          | 04. 持续集成服务                       | alinesno-infra-ops-pipeline              | 30403 |                              |
-| 47   |          | 05. 容器管理服务                       | alinesno-infra-ops-container         | 30404 |                              |
-| 48   |          | 06. 监控预警服务                       | alinesno-infra-ops-watcher           | 30405 |                              |
+|      |          |                                        |                                       |       |                              |
+| 38   | 智能服务 | 01. OCR视觉识别服务                     | alinesno-infra-smart-ocr               | 30300 |                              |
+| 39   |          | 02. 自然语言识别服务                    | alinesno-infra-smart-nlp               | 30301 |                              |
+| 40   |          | 03. GPT推理服务                        | alinesno-infra-smart-brain             | 30302 |                              |
+| 41   |          | 04. 流媒体识别服务                     | alinesno-infra-smart-media             | 30303 |                               |
+| 42   |          | 05. 智能助手服务                       | alinesno-infra-smart-assistant         | 30304 |                               |
+| 43   |          | 06. 目标检测识别服务                    | alinesno-infra-smart-detection         | 30305 |                               |
+|      |          |                                       |                                        |       |                               |
+| 44   | 运维服务 | 01. 自动化任务服务 | alinesno-infra-ops-scheduler         | 30400 |                              |
+| 45   |          | 02. 分布式日志服务                     | alinesno-infra-ops-logback            | 30401 |                              |
+| 46   |          | 03. 分布式链路跟踪服务                 | alinesno-infra-ops-telemetry         | 30402 |                              |
+| 47   |          | 04. 持续集成服务                       | alinesno-infra-ops-pipeline              | 30403 |                              |
+| 48   |          | 05. 容器管理服务                       | alinesno-infra-ops-container         | 30404 |                              |
+| 49   |          | 06. 监控预警服务                       | alinesno-infra-ops-watcher           | 30405 |                              |
 |      |          |                                        |                                      |       |                              |
 | 57   | 业务服务 | 01. 商品秒杀服务                       | alinesno-infra-bus-limit             | 30500 |                              |
 | 58   |          | 02. 实时推荐服务                       | alinesno-infra-bus-recommend         | 30501 |                              |
