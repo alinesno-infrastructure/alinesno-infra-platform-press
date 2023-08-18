@@ -4,14 +4,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Mirror the Github organization repos to Gitee.
-      uses: Yikun/gitee-mirror-action@v0.01
+    - name: Mirror Github to Gitee
+      uses: ./.
       with:
         src: github/alinesno-infrastructure
         dst: gitee/alinesno-cloud
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: org
-        timeout: 600
-        debug: true
+        # Only sync normal repo
+        black_list: 'test'
+        white_list: 'normal,test,empty'
         force_update: true
+        debug: true
+         
