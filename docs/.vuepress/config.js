@@ -839,6 +839,7 @@ function genProductSidebar(menus) {
             '/product/05_运维服务/04_持续集成服务.md',
             '/product/05_运维服务/05_容器管理服务.md',
             '/product/05_运维服务/06_监控预警服务.md',
+            '/product/05_运维服务/07_巡检上报服务.md',
         ]
         return mapArr.map(i => {
             return i
