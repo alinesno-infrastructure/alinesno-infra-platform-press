@@ -112,6 +112,11 @@ module.exports = {
                     collapsible: true,
                     children: genTechnicalSidebar(4)
                 },
+                {
+                    title: '运维技术',
+                    collapsible: true,
+                    children: genTechnicalSidebar(6)
+                },
             ],
             '/document': [
                 {
@@ -631,6 +636,18 @@ function genTechnicalSidebar(menus) {
             '/technical/framework/05_前端UI/48_登陆数据加密.md',
             '/technical/framework/05_前端UI/49_记住我安全加密.md',
             '/technical/framework/05_前端UI/50_钉钉_微信扫描登陆.md'
+        ];
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus === 6) { // 运维技术
+        const mapArr = [
+            '/technical/operation/01_分布式日志技术.md',
+            '/technical/operation/02_链路跟踪集成.md',
+            '/technical/operation/03_巡检上报集成.md',
+            '/technical/operation/04_集成前端日志.md',
+            '/technical/operation/05_集成访问日志.md',
+            '/technical/operation/06_自动化操作集成.md',
         ];
         return mapArr.map(i => {
             return i
