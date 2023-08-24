@@ -201,6 +201,11 @@ module.exports = {
                     children: genArchitectureSidebar(2)
                 },
                 {
+                    title: ' 数据治理',
+                    collapsible: true,
+                    children: genArchitectureSidebar(4)
+                },
+                {
                     title: '服务规划',
                     collapsible: true,
                     children: genArchitectureSidebar(3)
@@ -724,6 +729,20 @@ function genArchitectureSidebar(menus) {
             '/architecture/03_服务规划/05_运维服务.md',
             '/architecture/03_服务规划/06_业务服务.md',
             '/architecture/03_服务规划/07_运营服务.md',
+        ]
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus == 4) {
+        const mapArr = [
+            '/architecture/04_数据治理/01_治理架构.md',
+            '/architecture/04_数据治理/02_数据标准.md',
+            '/architecture/04_数据治理/03_数据采集.md',
+            '/architecture/04_数据治理/04_数据仓库.md',
+            '/architecture/04_数据治理/05_数据质量.md',
+            '/architecture/04_数据治理/06_数据安全.md',
+            '/architecture/04_数据治理/07_数据管理.md',
+            '/architecture/04_数据治理/08_数据资产.md',
         ]
         return mapArr.map(i => {
             return i
