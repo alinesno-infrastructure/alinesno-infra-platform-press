@@ -185,7 +185,7 @@ export default {
                                 "id": 29,
                                 "name": "数据集成服务",
                                 "desc": "用于数据集成的服务，实现不同系统间的数据交换和整合",
-                                "code": "alinesno-infra-data-kettle"
+                                "code": "alinesno-infra-data-pipeline"
                             },
                             {
                                 "id": 30,

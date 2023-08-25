@@ -98,7 +98,7 @@
 |      |          |                                |                            |                                |
 | 27   | 数据服务 | 01. 主数据服务                 | alinesno-infra-data-mdm     |                                |
 | 28   |          | 02. 数据上报服务               | alinesno-infra-data-report  |                                |
-| 29   |          | 03. 数据集成服务               | alinesno-infra-data-kettle  |                                |
+| 29   |          | 03. 数据集成服务               | alinesno-infra-data-pipeline  |                                |
 | 30   |          | 04. 数据开发服务               | alinesno-infra-data-dolphinscheduler |                                |
 | 31   |          | 05. 实时计算服务               | alinesno-infra-data-flink   |                                |
 | 32   |          | 06. 数据安全服务               | alinesno-infra-data-security |                                |
