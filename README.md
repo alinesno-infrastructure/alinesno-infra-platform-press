@@ -129,7 +129,6 @@
 | 50   | 运营服务 | 01. 基设平台服务               | alinesno-infra-plat-console |               |
 | 51   |          | 02. 安全感触服务               | alinesno-infra-plat-security |                                |
 | 52   |          | 03. 智能运营大脑服务           | alinesno-infra-plat-brain |                                |
-| 53   |          | 04. AI模型管理服务             | alinesno-infra-plat-model |                                |
 | 54   |          | 05. 移动终端服务               | alinesno-infra-plat-app |                                |
 |      |          |                                |                            |                                |
 | 62   | 案例     | 01. 分布式电商系统             | alinesno-infra-case-shop   |                                |

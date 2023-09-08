@@ -110,7 +110,6 @@
 | 50   | 运营服务 | 01. 基设平台服务                       | alinesno-infra-plat-console             | 30600 | 添加架构排版服务             |
 | 51   |          | 02. 安全感触服务                       | alinesno-infra-plat-security         | 30601 |                              |
 | 52   |          | 03. 智能运营大脑服务                   | alinesno-infra-plat-brain            | 30602 |                              |
-| 53   |          | 04. AI模型管理服务                     | alinesno-infra-plat-model            | 30603 |                              |
 | 54   |          | 05. 移动终端服务                       | alinesno-infra-plat-app              | 30604 |                              |
 |      |          |                                        |                                      |       |                              |
 

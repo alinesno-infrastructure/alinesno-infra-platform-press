@@ -109,7 +109,6 @@
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          | ✅  |     |     |     | ✅  |     | ✅    |
 | 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         | ✅  | ✅  |     |     | ✅  |     | ✅    |
 | 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            | ✅  |     |     |     | ✅  |     | ✅    |
-| 53   |          | 04. AI模型管理服务       | alinesno-infra-plat-model            |     |     |     |     |     |     |       |
 | 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |     |     |     |     |     |     |       |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
 
@@ -176,7 +175,6 @@
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          |     |     |     |      |      |
 | 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |     |     |     |      |      |
 | 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            |     |     |     |      |      |
-| 53   |          | 04. AI模型管理服务       | alinesno-infra-plat-model            |     |     |     |      |      |
 | 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |     |     |     |      |      |
 |      |          |                          |                                      |     |     |     |      |      |
 
@@ -243,7 +241,6 @@
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          |      |      |      |      |
 | 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |      |      |      |      |
 | 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            |      |      |      |      |
-| 53   |          | 04. AI模型管理服务       | alinesno-infra-plat-model            |      |      |      |      |
 | 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |      |      |      |      |
 |      |          |                          |                                      |      |      |      |
 
@@ -318,7 +315,6 @@
    - 完善基设平台服务 alinesno-infra-plat-console。
    - 完善安全感触服务 alinesno-infra-plat-security。
    - 完善智能运营大脑服务 alinesno-infra-plat-brain。
-   - 完善AI模型管理服务 alinesno-infra-plat-model。
    - 完善移动终端服务 alinesno-infra-plat-app。
 
 8. 案例模块：
