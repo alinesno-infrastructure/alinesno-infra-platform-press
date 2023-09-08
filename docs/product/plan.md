@@ -63,13 +63,13 @@
 | 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         | ✅  |     |     |     | ✅  |     | ✅    |
-| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               | ✅  |     |     |     | ✅  |     |✅   |
-| 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            | ✅  |     |     |     | ✅  |     |✅           |
+| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               | ✅  |     |     |     | ✅  |     | ✅    |
+| 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            | ✅  |     |     |     | ✅  |     | ✅    |
 | 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         | ✅  |     |     |     | ✅  |     | ✅    |
 | 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               | ✅  | 🔵  | 🔵  | 🔵  | ✅  |     |       |
-| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        | ✅  |     |     |     | ✅  |     |  ✅      |
-| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              | ✅  | ✅  |     |     | ✅  |     |  ✅     |
-| 20   |          | 16. 会员服务             | alinesno-infra-base-member           | ✅  |     |     |     | ✅  |     | ✅     |
+| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        | ✅  |     |     |     | ✅  |     | ✅    |
+| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              | ✅  | ✅  |     |     | ✅  |     | ✅    |
+| 20   |          | 16. 会员服务             | alinesno-infra-base-member           | ✅  |     |     |     | ✅  |     | ✅    |
 | 21   |          | 17. 内容服务             | alinesno-infra-base-cms              | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 22   |          | 18. 商城服务             | alinesno-infra-base-shop             | ✅  |     |     |     | ✅  |     | ✅    |
 | 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         | ✅  |     |     |     | ✅  |     |       |
@@ -87,12 +87,12 @@
 | 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           | ✅  |     |     |     | ✅  |     | ✅    |
 | 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        | ✅  |     |     |     | ✅  |     | ✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
-| 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             | ✅  |     |     |     | ✅  |     | ✅     |
-| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             | ✅  |     |     |     | ✅  |     |✅      |
+| 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             | ✅  |     |     |     | ✅  |     | ✅    |
+| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             | ✅  |     |     |     | ✅  |     | ✅    |
 | 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           | ✅  | ✅  |     | 🔵  | ✅  |     | ✅    |
-| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           | ✅  |     |     |     | ✅  |     |✅     |
+| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           | ✅  |     |     |     | ✅  |     | ✅    |
 | 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       | ✅  |     |     |     | ✅  |     | ✅    |
-| 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       | ✅  |     |     |     | ✅  |     | ✅     |
+| 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       | ✅  |     |     |     | ✅  |     | ✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
 | 44   | 运维服务 | 01. 自动化任务服务       | alinesno-infra-ops-scheduler         | ✅  | ✅  |     |     | ✅  |     | ✅    |
 | 45   |          | 02. 分布式日志服务       | alinesno-infra-ops-logback           | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅    |
