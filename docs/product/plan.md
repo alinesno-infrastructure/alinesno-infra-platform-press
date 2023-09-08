@@ -63,7 +63,7 @@
 | 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         | ✅  |     |     |     | ✅  |     | ✅    |
-| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               | ✅  |     |     |     | ✅  |     |✅           |
+| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               | ✅  |     |     |     | ✅  |     |✅   |
 | 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            | ✅  |     |     |     | ✅  |     |✅           |
 | 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         | ✅  |     |     |     | ✅  |     | ✅    |
 | 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               | ✅  | 🔵  | 🔵  | 🔵  | ✅  |     |       |
@@ -99,7 +99,7 @@
 | 46   |          | 03. 分布式链路跟踪服务   | alinesno-infra-ops-telemetry         | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅    |
 | 47   |          | 04. 持续集成服务         | alinesno-infra-ops-pipeline          | ✅  | ✅  |     |     | ✅  |     | ✅    |
 | 48   |          | 05. 容器管理服务         | alinesno-infra-ops-container         | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
-| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           | ✅  |     |     |     | ✅  |     |       |
+| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           | ✅  |     |     |     | ✅  |     | ✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
 | 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             | ✅  |     |     |     | ✅  |     |       |
 | 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         | ✅  |     |     |     | ✅  |     |       |
