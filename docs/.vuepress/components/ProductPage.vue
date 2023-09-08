@@ -209,7 +209,7 @@ export default {
                                 "id": 33,
                                 "name": "数据质量服务",
                                 "desc": "用于数据质量的服务，检测和修复数据中的质量问题",
-                                "code": "alinesno-infra-data-quarity"
+                                "code": "alinesno-infra-data-quality"
                             },
                             {
                                 "id": 34,
