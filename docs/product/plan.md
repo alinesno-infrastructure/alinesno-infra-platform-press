@@ -101,10 +101,10 @@
 | 48   |          | 05. 容器管理服务         | alinesno-infra-ops-container         | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           | ✅  |     |     |     | ✅  |     | ✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
-| 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             | ✅  |     |     |     | ✅  |     |       |
-| 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         | ✅  |     |     |     | ✅  |     |       |
-| 59   |          | 03. 实时画像服务         | alinesno-infra-bus-profiling         | ✅  |     |     |     | ✅  |     |       |
-| 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            | ✅  |     |     |     | ✅  |     |       |
+| 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             | ✅  |     |     |     | ✅  |     | ✅    |
+| 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         | ✅  |     |     |     | ✅  |     |✅   |
+| 59   |          | 03. 实时画像服务         | alinesno-infra-bus-profiling         | ✅  |     |     |     | ✅  |     |✅   |
+| 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            | ✅  |     |     |     | ✅  |     |✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          | ✅  |     |     |     | ✅  |     | ✅    |
 | 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         | ✅  | ✅  |     |     | ✅  |     | ✅    |
