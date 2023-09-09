@@ -72,7 +72,7 @@
 | 20   |          | 16. 会员服务             | alinesno-infra-base-member           | ✅  |     |     |     | ✅  |     | ✅    |
 | 21   |          | 17. 内容服务             | alinesno-infra-base-cms              | ✅  | ✅  |     | ✅  | ✅  |     | ✅    |
 | 22   |          | 18. 商城服务             | alinesno-infra-base-shop             | ✅  |     |     |     | ✅  |     | ✅    |
-| 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         | ✅  |     |     |     | ✅  |     |       |
+| 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         | ✅  |     |     |     | ✅  |     |  ✅    |
 | 24   |          | 20. 文档查看服务         | alinesno-infra-base-fileshow         | ✅  |     |     | 🔵  | ✅  |     |       |
 | 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         | ✅  | ✅  | ✅  |     | ✅  |     | ✅    |
 |      |          |                          |                                      |     |     |     |     |     |     |       |
