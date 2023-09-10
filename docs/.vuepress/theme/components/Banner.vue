@@ -6,8 +6,8 @@
         <span class="link-icon">进度</span>
       </div>
       <div class="hero-header">
-        <div class="hero-title">利用AIP智能设施 构建创新业务 实现数字转型的高质量发展</div>
-        <div class="hero-sub-title">升级为智能设施，推动业务的数字化转型，提升业务的智能化和更高质量</div>
+        <div class="hero-title">利用AIP智能设施 赋能业务超级自动化 促进高质量发展</div>
+        <div class="hero-sub-title">升级为智能设施，推动业务的智能化自动化转型，提升业务的智能化和更高质量</div>
       </div>
       <div class="hero-actions">
         <div class="action-link">免费开始使用</div>
@@ -41,8 +41,8 @@ export default {
 
       services: [
           {
-            "title": "数字化转型高质量发展",
-            "sub": "建设软件新智能设施和平台，推动企业数字化转型和创新发展"
+            "title": "自动化转型高质量发展",
+            "sub": "建设软件新智能设施和平台，推动企业超级自动化转型和创新发展"
           },
           {
             "title": "提高竞争力和降低成本",

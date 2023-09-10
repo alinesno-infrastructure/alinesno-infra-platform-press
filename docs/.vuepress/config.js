@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     title: 'AIP智能设施',
-    description: '能够灵活满足企业数字化建设中各种场景的需要，更高效、专注的沉淀业务和数据能力，进而形成企业的业务和数据基设。通过能力的灵活组合，快速的应对当前快节奏的市场需求，助力企业数字化转型的成功。',
+    description: '能够灵活满足企业超级自动化建设中各种场景的需要，更高效、专注的沉淀业务和数据能力，进而形成企业的业务和数据基设。通过能力的灵活组合，快速的应对当前快节奏的市场需求，助力企业超级自动化转型的成功。',
     base: '/',
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
@@ -672,7 +672,7 @@ function genSolutionSidebar(menus) {
         const mapArr = [
             '/solution/01_业务中台/01_企业业务中台解决方案.md',
             '/solution/01_业务中台/02_传统企业转变业务中台解决方案.md',
-            '/solution/01_业务中台/03_企业数字化解决方案.md',
+            '/solution/01_业务中台/03_企业超级自动化解决方案.md',
             '/solution/01_业务中台/04_新旧结合业务微服务解决方案.md',
         ]
         return mapArr.map(i => {

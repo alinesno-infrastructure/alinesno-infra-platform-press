@@ -2,7 +2,7 @@
   <div class="arch-container">
     <div class="header-box">
       <div class="header-title">产品架构</div>
-      <div class="header-sub-title">为业务发展提供 基础的数字化架构 ，业务规范化和标准化，更好的沉淀企业业务资产和数据资产</div>
+      <div class="header-sub-title">为业务发展提供 基础的超级自动化架构 ，业务规范化和标准化，更好的沉淀企业业务资产和数据资产</div>
     </div>
 
     <div class="arch-list-panel">

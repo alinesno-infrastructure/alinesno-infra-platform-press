@@ -4,7 +4,7 @@
       <div class="header-title">产品特征</div>
       <div class="header-sub-title">
         软件新智能设施，全称Alinesno-Infrastructure-Platform（简称AIP)，通过建设软件新智能设施和平台，
-        推动数字化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率，
+        推动业务自动化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率，
         对现代软件开发和运行需求而建设的智能设施系统。 
       </div>
     </div>
@@ -45,7 +45,7 @@ export default {
           {
             "icon":"fas fa-tags",
             "img":"/assets/portal/icons/powerpoint_48x1.svg",
-            "title": "数字化转型推动",
+            "title": "超级自动化转型推动",
             "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
           },
           {
