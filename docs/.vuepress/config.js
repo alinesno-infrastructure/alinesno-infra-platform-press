@@ -113,6 +113,11 @@ module.exports = {
                     children: genTechnicalSidebar(4)
                 },
                 {
+                    title: '安全质量',
+                    collapsible: true,
+                    children: genTechnicalSidebar(7)
+                },
+                {
                     title: '运维技术',
                     collapsible: true,
                     children: genTechnicalSidebar(6)
@@ -648,6 +653,14 @@ function genTechnicalSidebar(menus) {
             '/technical/operation/04_集成前端日志.md',
             '/technical/operation/05_集成访问日志.md',
             '/technical/operation/06_自动化操作集成.md',
+        ];
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus === 7) { // 安全质量
+        const mapArr = [
+            '/technical/quality/01_工程安全检测.md',
+            '/technical/quality/02_单元测试报告.md',
         ];
         return mapArr.map(i => {
             return i
