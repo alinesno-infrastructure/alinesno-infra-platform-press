@@ -14,7 +14,44 @@
 
 ## 产品架构设计
 
-> 待补充
+> 产品全景图未设计，临时使用阿里云全景图
+
+<img src="images/aip_product.png" />
+
+产品描述:
+
+AIP智能设施是一种综合性的能力，旨在将各种业务流程和任务集成、自动化和优化，以实现高效、精确和可靠的业务操作。超自动化通过结合人工智能、大数据、自动化工具和技术，将人类和机器的能力相结合，以实现全面的自动化。
+
+## 产品可视化原型
+
+这个是当前集成的UI设计和原型设计，同时也是后期的设计和实现内容及方向等。
+
+<table>
+  <tr>
+    <td>
+      <img src="images/fireshot_00.png" />
+    </td>
+    <td>
+      <img src="images/fireshot_01.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/fireshot_03.png" />
+    </td>
+    <td>
+      <img src="images/fireshot_04.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/fireshot_05.png" />
+    </td>
+    <td>
+      <img src="images/fireshot_02.png" />
+    </td>
+  </tr>
+</table>
 
 ## 传统智能设施与新智能设施
 
@@ -51,36 +88,6 @@
 4. 提升团队协作效率：软件新基建可以提升企业内部团队的协作效率和沟通效率。通过建设协同办公平台、项目管理系统等软件工具，可以促进团队成员之间的信息共享和协作，提高工作效率和团队合作能力。软件新基建还可以支持远程办公和灵活工作模式，提供更便捷的工作方式。
 
 综上所述，软件新基建对企业来说具有重要意义，可以提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率。它是企业实现超级自动化转型和创新发展的关键举措。
-
-## 产品可视化原型
-
-这个是当前集成的UI设计和原型设计
-
-<table>
-  <tr>
-    <td>
-      <img src="images/fireshot_01.png" />
-    </td>
-    <td>
-      <img src="images/fireshot_02.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/fireshot_03.png" />
-    </td>
-    <td>
-      <img src="images/fireshot_04.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/fireshot_05.png" />
-    </td>
-    <td>
-    </td>
-  </tr>
-</table>
 
 ## 新基设包含哪些
 
@@ -152,6 +159,14 @@
 | 62   | 案例     | 01. 分布式电商系统             | alinesno-infra-case-shop   |                                |
 
 工作很多年，希望能把一些不同于市面上的东西拿出来分享交流，让大家一起进步。 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
+
+
+
+## 开源交流群
+
+微信交流群，加入微信群进行互相交流，我们也期望可以多跟这方面的人员多交流 :-)
+
+<img src="./images/aip_qun.png" width="150" >
 
 ## 开源鸣谢
 
