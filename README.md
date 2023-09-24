@@ -12,9 +12,13 @@
 
 通过提供高效、可靠、安全的软件开发和运行环境，软件新智能设施能够提高软件质量、简化维护、支持创新和提升团队协作效率。它为软件行业的发展提供了重要的支撑和推动作用，促进了超级自动化时代的软件创新和应用发展。
 
-官网地址：http://portal.infra.linesno.com
-产品预览：http://console.infra.linesno.com/index
-研发进度：http://portal.infra.linesno.com/product/plan.html
+## 产品信息
+
+这里的预览指的是类似于原型的设计，展示整体设计和内容，当前放在github pages上面。
+
+官网地址：[http://portal.infra.linesno.com](http://portal.infra.linesno.com) <br/>
+研发进度：[http://portal.infra.linesno.com/product/plan.html](http://portal.infra.linesno.com/product/plan.html) <br/>
+产品预览：[http://console.infra.linesno.com/index](http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com)
 
 ## 产品架构设计
 
@@ -26,7 +30,7 @@
 
 AIP智能设施是一种综合性的能力，旨在将各种业务流程和任务集成、自动化和优化，以实现高效、精确和可靠的业务操作。超自动化通过结合人工智能、大数据、自动化工具和技术，将人类和机器的能力相结合，以实现全面的自动化。
 
-## 产品可视化原型
+## 产品设计预览
 
 这个是当前集成的UI设计和原型设计，同时也是后期的设计和实现内容及方向等。
 
@@ -164,8 +168,6 @@ AIP智能设施是一种综合性的能力，旨在将各种业务流程和任�
 
 工作很多年，希望能把一些不同于市面上的东西拿出来分享交流，让大家一起进步。 如果觉得项目对您有帮助，请点 Star 支持一下，欢迎加入社区群一起讨论。
 
-
-
 ## 开源交流群
 
 微信交流群，加入微信群进行互相交流，我们也期望可以多跟这方面的人员多交流 :-)
@@ -177,11 +179,11 @@ AIP智能设施是一种综合性的能力，旨在将各种业务流程和任�
 参考和整合了挺多优秀开源项目代码，平台只是一个整合，基于新的架构进一步的调整的开发维护支持，在此说明，如有缺漏，可提醒添加，这里集成以Apache-2.0协议和MIT协议为主。
 
 - [mybatis-plus](https://github.com/baomidou/mybatis-plus) : 代码生成器和查询条件封装
-- [power-job](https://github.com/PowerJob/PowerJob): 分布式定时任务平台 
+- [power-job](https://github.com/PowerJob/PowerJob): 分布式定时任务平台
 - [rouyi](https://github.com/yangzongzhuan/RuoYi): 前端工程
-- [dolphinscheduler](https://github.com/apache/dolphinscheduler) : 数据开发工具 
+- [dolphinscheduler](https://github.com/apache/dolphinscheduler) : 数据开发工具
 - [kubeaz](https://github.com/KubeOperator/KubeOperator): 自动化工具
-- [plumelog](https://github.com/plumeblog/plumelog): 日志监控工具 
+- [plumelog](https://github.com/plumeblog/plumelog): 日志监控工具
 - [generator](https://github.com/ruanyf/generator): 前端拖拉生成工具
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin): 文档参考
 - [software-engineering-document](https://github.com/linlinjava/litemall): 项目文档参考

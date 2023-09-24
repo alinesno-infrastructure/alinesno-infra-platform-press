@@ -77,7 +77,7 @@ module.exports = {
             },
             {
                 text: '产品体验',
-                link: 'http://console.infra.linesno.com/index'
+                link: 'http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com'
             }
         ],
         sidebar: {
