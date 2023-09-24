@@ -12,6 +12,10 @@
 
 通过提供高效、可靠、安全的软件开发和运行环境，软件新智能设施能够提高软件质量、简化维护、支持创新和提升团队协作效率。它为软件行业的发展提供了重要的支撑和推动作用，促进了超级自动化时代的软件创新和应用发展。
 
+官网地址：http://portal.infra.linesno.com
+产品预览：http://console.infra.linesno.com/index
+研发进度：http://portal.infra.linesno.com/product/plan.html
+
 ## 产品架构设计
 
 > 产品全景图未设计，临时使用阿里云全景图
