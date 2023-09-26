@@ -40,7 +40,7 @@ AIP智能设施是一种综合性的能力，旨在将各种业务流程和任�
 |------|---------------|------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------|
 | 1    | 2018年-2019年 | 研发k8S+SpringCloud技术中台建设          | [alinesno-cloud-service](https://gitee.com/landonniao/linesno-cloud-service)                          | 以开源状态研究 |
 | 2    | 2019年-2020年 | 集成数据治理和数字中台概念               | [alinesno-cloud-platform](https://gitee.com/alinesno-cloud/alinesno-cloud-platform-press)（研发版本） | 产品研究建设   |
-| 3    | 2021年-2023年 | 整体形成SaaS产品化，形成数字中台产品状态 | [alinesno-cloud-platform](https://gitee.com/alinesno-cloud/alinesno-cloud-platform-press)（运营版本） | 产品研究运营   |
+| 3    | 2021年-2022年 | 整体形成SaaS产品化，形成数字中台产品状态 | [alinesno-cloud-platform](https://gitee.com/alinesno-cloud/alinesno-cloud-platform-press)（运营版本） | 产品研究运营   |
 | 4    | 2023年-至今   | 升级架构形成超自动化和AI能力，重新架构   | [alinesno-infrastructure-platform](https://gitee.com/alinesno-infrastructure)                         | 产品研发运营   |
 |      |               |                                          |                                                                                                       |                |
 
