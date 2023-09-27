@@ -6,25 +6,26 @@
 
 ## 产品进度标识
 
-| 序号  | 阶段       | 内容         | 描述                                                                                                     |
-|:-----:|------------|--------------|----------------------------------------------------------------------------------------------------------|
-| AQ1   | 研发一阶段 | 初始化工程   | 这个阶段通常用于项目的起始阶段，包括创建项目文件夹、设置项目结构和配置文件等。                           |
-| AQ2   |            | 初始化Entity | 决定是否需要为项目创建实体（Entity）。实体是指在应用程序中用于表示具体对象或数据的模型，包括属性和行为。 |
-| AQ3   |            | 集成数据库   | 这个阶段涉及选择适合项目需求的数据库系统，并进行数据库连接和配置。                                       |
-| AQ4   |            | 生成CURD     | 自动生成CURD（Create, Update, Retrieve, Delete）操作的代码。包括创建、更新、检索和删除数据。             |
-| AQ5   |            | 集成Demo     | 确定是否需要将演示功能集成到项目中。这个阶段涉及创建演示界面或示例数据，以展示项目的基本功能和特性。     |
-| AQ6   |            | Demo完善     | 判断项目演示是否完善。这个阶段涉及对演示功能进行测试和优化，确保演示能够顺利展示项目的核心功能和价值。   |
-| AQ6-2 |            | 服务发布     | 集成github action发布到k8s服务中，并集成ingress提供开发和测试验证接口，用于下阶段的前端开发服务          |
-|       |            |              |                                                                                                          |
-| AQ7   | 研发二阶段 | 编写API接口  | 编写应用程序接口（API）来实现与其他系统或服务的交互。这个阶段涉及定义API的路由                           |
-| AQ8   |            | 编写单元测试 | 编写单元测试来验证项目的各个组件和功能的正确性。以确保代码的质量和可靠性。                               |
-| AQ9   |            | 集成API测试  | 集成API测试工具来对API进行自动化测试。这个阶段涉及选择合适的API测试工具，以验证API的功能和性能。         |
-| AQ10  |            | 集成API测试  | 集成API测试工具来对API进行自动化测试。这个阶段涉及选择合适的API测试工具，以验证API的功能和性能。         |
-|       |            |              |                                                                                                          |
-| AQ11  | 研发三阶段 | 集成UI       | 集成用户界面（UI）到项目中。这个阶段涉及设计用户交互和实现界面功能，以提供用户友好的应用程序体验。       |
-| AQ12  |            | 集成UI测试   | 集成UI测试工具来对UI界面进行自动化测试。UI测试工具，并编写测试脚本和执行测试，以验证UI的功能和兼容性。   |
-| AQ13  |            | 集成测试     | 整体的集成测试，以验证不同组件和功能之间的协作和兼容性。这个阶段涉及编写综合测试用例和执行测试。         |
-|       |            |              |                                                                                                          |
+| 序号   | 阶段       | 内容         | 描述                                                                                                     |
+|:------:|------------|--------------|----------------------------------------------------------------------------------------------------------|
+| AQ1    | 研发一阶段 | 初始化工程   | 这个阶段通常用于项目的起始阶段，包括创建项目文件夹、设置项目结构和配置文件等。                           |
+| AQ2    |            | 初始化Entity | 决定是否需要为项目创建实体（Entity）。实体是指在应用程序中用于表示具体对象或数据的模型，包括属性和行为。 |
+| AQ3    |            | 集成数据库   | 这个阶段涉及选择适合项目需求的数据库系统，并进行数据库连接和配置。                                       |
+| AQ4    |            | 生成CURD     | 自动生成CURD（Create, Update, Retrieve, Delete）操作的代码。包括创建、更新、检索和删除数据。             |
+| AQ5    |            | 集成Demo     | 确定是否需要将演示功能集成到项目中。这个阶段涉及创建演示界面或示例数据，以展示项目的基本功能和特性。     |
+| AQ6    |            | Demo完善     | 判断项目演示是否完善。这个阶段涉及对演示功能进行测试和优化，确保演示能够顺利展示项目的核心功能和价值。   |
+| AQ6-2  |            | 服务发布     | 集成github action发布到k8s服务中，并集成ingress提供开发和测试验证接口，用于下阶段的前端开发服务          |
+|        |            |              |                                                                                                          |
+| AQ7    | 研发二阶段 | 编写API接口  | 编写应用程序接口（API）来实现与其他系统或服务的交互。这个阶段涉及定义API的路由                           |
+| AQ8    |            | 编写单元测试 | 编写单元测试来验证项目的各个组件和功能的正确性。以确保代码的质量和可靠性。                               |
+| AQ9    |            | 集成API测试  | 集成API测试工具来对API进行自动化测试。这个阶段涉及选择合适的API测试工具，以验证API的功能和性能。         |
+| AQ10   |            | 集成API测试  | 集成API测试工具来对API进行自动化测试。这个阶段涉及选择合适的API测试工具，以验证API的功能和性能。         |
+|        |            |              |                                                                                                          |
+| AQ11   | 研发三阶段 | 集成UI       | 集成用户界面（UI）到项目中。这个阶段涉及设计用户交互和实现界面功能，以提供用户友好的应用程序体验。       |
+| AQ11-2 |            | 集成SSO认证  | 集成Sa-Token的统一认证管理和配置，形成统一认证授权管理                                                   |
+| AQ12   |            | 集成UI测试   | 集成UI测试工具来对UI界面进行自动化测试。UI测试工具，并编写测试脚本和执行测试，以验证UI的功能和兼容性。   |
+| AQ13   |            | 集成测试     | 整体的集成测试，以验证不同组件和功能之间的协作和兼容性。这个阶段涉及编写综合测试用例和执行测试。         |
+|        |            |              |                                                                                                          |
 
 ## 产品架构列表
 
@@ -180,69 +181,69 @@
 
 ### 三阶段进度
 
-| 序号 | 模块     | 服务                     | 模块名称                             | AQ11 | AQ12 | AQ13 | 备注 |
-|------|----------|--------------------------|--------------------------------------|------|------|------|------|
-| 1    | 核心框架 | 01. 核心开发框架         | alinesno-infra-common                |      |      |      |      |
-| 2    |          | 02. 前端开发框架（桌面） | alinesno-infra-ui                    |      |      |      |      |
-| 3    |          | 03. 前端开发框架（移动） | alinesno-infra-app                   |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 5    | 基础服务 | 01. 权限配置服务         | alinesno-infra-base-authority        |      |      |      |      |
-| 6    |          | 02. 代码生成器           | alinesno-infra-base-init             |      |      |      |      |
-| 7    |          | 03. 分布式配置服务       | alinesno-infra-base-config           |      |      |      |      |
-| 8    |          | 04. 事务消息服务         | alinesno-infra-base-message          |      |      |      |      |
-| 9    |          | 05. 通知管理服务         | alinesno-infra-base-notices          |      |      |      |      |
-| 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          |      |      |      |      |
-| 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         |      |      |      |      |
-| 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          |      |      |      |      |
-| 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         |      |      |      |      |
-| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               |      |      |      |      |
-| 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            |      |      |      |      |
-| 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         |      |      |      |      |
-| 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               |      |      |      |      |
-| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        |      |      |      |      |
-| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              |      |      |      |      |
-| 20   |          | 16. 会员服务             | alinesno-infra-base-member           |      |      |      |      |
-| 21   |          | 17. 内容服务             | alinesno-infra-base-cms              |      |      |      |      |
-| 22   |          | 18. 商城服务             | alinesno-infra-base-shop             |      |      |      |      |
-| 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         |      |      |      |      |
-| 24   |          | 20. 文档查看服务         | alinesno-infra-base-fileshow         |      |      |      |      |
-| 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 27   | 数据服务 | 01. 主数据服务           | alinesno-infra-data-mdm              |      |      |      |      |
-| 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           |      |      |      |      |
-| 29   |          | 03. 数据集成服务         | alinesno-infra-data-pipeline         |      |      |      |      |
-| 30   |          | 04. 数据开发服务         | alinesno-infra-data-dolphinscheduler |      |      |      |      |
-| 31   |          | 05. 实时计算服务         | alinesno-infra-data-flink            |      |      |      |      |
-| 32   |          | 06. 数据安全服务         | alinesno-infra-data-security         |      |      |      |      |
-| 33   |          | 07. 数据质量服务         | alinesno-infra-data-quality          |      |      |      |      |
-| 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              |      |      |      |      |
-| 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           |      |      |      |      |
-| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             |      |      |      |      |
-| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             |      |      |      |      |
-| 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           |      |      |      |      |
-| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           |      |      |      |      |
-| 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       |      |      |      |      |
-| 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 44   | 运维服务 | 01. 自动化任务服务       | alinesno-infra-ops-scheduler         |      |      |      |      |
-| 45   |          | 02. 分布式日志服务       | alinesno-infra-ops-logback           |      |      |      |      |
-| 46   |          | 03. 分布式链路跟踪服务   | alinesno-infra-ops-telemetry         |      |      |      |      |
-| 47   |          | 04. 持续集成服务         | alinesno-infra-ops-pipeline          |      |      |      |      |
-| 48   |          | 05. 容器管理服务         | alinesno-infra-ops-container         |      |      |      |      |
-| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             |      |      |      |      |
-| 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         |      |      |      |      |
-| 59   |          | 03. 实时画像服务         | alinesno-infra-bus-profiling         |      |      |      |      |
-| 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            |      |      |      |      |
-|      |          |                          |                                      |      |      |      |      |
-| 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          |      |      |      |      |
-| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |      |      |      |      |
-| 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            |      |      |      |      |
-| 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |      |      |      |      |
-|      |          |                          |                                      |      |      |      |
+| 序号 | 模块     | 服务                     | 模块名称                             | AQ11 | AQ11-1 | AQ12 | AQ13 | 备注 |
+|------|----------|--------------------------|--------------------------------------|------|--------|------|------|------|
+| 1    | 核心框架 | 01. 核心开发框架         | alinesno-infra-common                |      |        |      |      |      |
+| 2    |          | 02. 前端开发框架（桌面） | alinesno-infra-ui                    |      |        |      |      |      |
+| 3    |          | 03. 前端开发框架（移动） | alinesno-infra-app                   |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 5    | 基础服务 | 01. 权限配置服务         | alinesno-infra-base-authority        |      |        |      |      |      |
+| 6    |          | 02. 代码生成器           | alinesno-infra-base-init             |      |        |      |      |      |
+| 7    |          | 03. 分布式配置服务       | alinesno-infra-base-config           |      |        |      |      |      |
+| 8    |          | 04. 事务消息服务         | alinesno-infra-base-message          |      |        |      |      |      |
+| 9    |          | 05. 通知管理服务         | alinesno-infra-base-notices          |      |        |      |      |      |
+| 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          |      |        |      |      |      |
+| 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         |      |        |      |      |      |
+| 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          |      |        |      |      |      |
+| 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         |      |        |      |      |      |
+| 14   |          | 10. IM消息服务           | alinesno-infra-base-im               |      |        |      |      |      |
+| 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            |      |        |      |      |      |
+| 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         |      |        |      |      |      |
+| 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               |      |        |      |      |      |
+| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        |      |        |      |      |      |
+| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              |      |        |      |      |      |
+| 20   |          | 16. 会员服务             | alinesno-infra-base-member           |      |        |      |      |      |
+| 21   |          | 17. 内容服务             | alinesno-infra-base-cms              |      |        |      |      |      |
+| 22   |          | 18. 商城服务             | alinesno-infra-base-shop             |      |        |      |      |      |
+| 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         |      |        |      |      |      |
+| 24   |          | 20. 文档查看服务         | alinesno-infra-base-fileshow         |      |        |      |      |      |
+| 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 27   | 数据服务 | 01. 主数据服务           | alinesno-infra-data-mdm              |      |        |      |      |      |
+| 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           |      |        |      |      |      |
+| 29   |          | 03. 数据集成服务         | alinesno-infra-data-pipeline         |      |        |      |      |      |
+| 30   |          | 04. 数据开发服务         | alinesno-infra-data-dolphinscheduler |      |        |      |      |      |
+| 31   |          | 05. 实时计算服务         | alinesno-infra-data-flink            |      |        |      |      |      |
+| 32   |          | 06. 数据安全服务         | alinesno-infra-data-security         |      |        |      |      |      |
+| 33   |          | 07. 数据质量服务         | alinesno-infra-data-quality          |      |        |      |      |      |
+| 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              |      |        |      |      |      |
+| 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           |      |        |      |      |      |
+| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             |      |        |      |      |      |
+| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             |      |        |      |      |      |
+| 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           |      |        |      |      |      |
+| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           |      |        |      |      |      |
+| 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       |      |        |      |      |      |
+| 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 44   | 运维服务 | 01. 自动化任务服务       | alinesno-infra-ops-scheduler         |      |        |      |      |      |
+| 45   |          | 02. 分布式日志服务       | alinesno-infra-ops-logback           |      |        |      |      |      |
+| 46   |          | 03. 分布式链路跟踪服务   | alinesno-infra-ops-telemetry         |      |        |      |      |      |
+| 47   |          | 04. 持续集成服务         | alinesno-infra-ops-pipeline          |      |        |      |      |      |
+| 48   |          | 05. 容器管理服务         | alinesno-infra-ops-container         |      |        |      |      |      |
+| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             |      |        |      |      |      |
+| 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         |      |        |      |      |      |
+| 59   |          | 03. 实时画像服务         | alinesno-infra-bus-profiling         |      |        |      |      |      |
+| 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
+| 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          |      |        |      |      |      |
+| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |      |        |      |      |      |
+| 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            |      |        |      |      |      |
+| 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |      |        |      |      |      |
+|      |          |                          |                                      |      |        |      |      |      |
 
 ## 其它
 
