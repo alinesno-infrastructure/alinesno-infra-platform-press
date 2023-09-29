@@ -16,9 +16,10 @@
 
 这里的预览指的是类似于原型的设计，展示整体设计和内容，当前放在github pages上面。
 
-研发进度：[http://portal.infra.linesno.com/product/plan.html](http://portal.infra.linesno.com/product/plan.html) <br/>
-官网地址：[http://portal.infra.linesno.com](http://portal.infra.linesno.com) <br/>
-产品预览：[http://console.infra.linesno.com/index](http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com)
+- 研发进度：[http://portal.infra.linesno.com/product/plan.html](http://portal.infra.linesno.com/product/plan.html) <br/>
+- 官网地址：[http://portal.infra.linesno.com](http://portal.infra.linesno.com) <br/>
+- 产品预览：[http://console.infra.linesno.com/index](http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com)
+- 开放接口: [api开放接口规划](https://apifox.com/apidoc/shared-3c4380f3-8a76-4e22-ba82-5511fe514c1d/api-114221375)
 
 ## 产品架构设计
 
