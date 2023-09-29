@@ -195,12 +195,12 @@
 | 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          |      |        |      |      |      |
 | 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         | ✅   | ✅     |      |      |      |
 | 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | ✅   | ✅     |      |      |      |
-| 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         |      |        |      |      |      |
+| 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         | ✅    |✅    |      |      |      |
 | 14   |          | 10. IM消息服务           | alinesno-infra-base-im               |      |        |      |      |      |
 | 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            |      |        |      |      |      |
-| 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         |      |        |      |      |      |
+| 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         |✅     | ✅    |      |      |      |
 | 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               |      |        |      |      |      |
-| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        |      |        |      |      |      |
+| 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        | ✅    | ✅   |      |      |      |
 | 19   |          | 15. 支付服务             | alinesno-infra-base-pay              |      |        |      |      |      |
 | 20   |          | 16. 会员服务             | alinesno-infra-base-member           |      |        |      |      |      |
 | 21   |          | 17. 内容服务             | alinesno-infra-base-cms              |      |        |      |      |      |
