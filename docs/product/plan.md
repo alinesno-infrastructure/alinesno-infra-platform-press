@@ -242,7 +242,7 @@
 | 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            |      |        |        |        |      |      |
 |      |          |                          |                                      |      |        |        |        |      |      |
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          | ✅   | ✅     | ✅     |        |      |      |
-| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |      |        |        |        |      |      |
+| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         |✅   | ✅     | ✅     |        |      |      |
 | 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            |      |        |        |        |      |      |
 | 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |      |        |        |        |      |      |
 |      |          |                          |                                      |      |        |        |        |      |      |
