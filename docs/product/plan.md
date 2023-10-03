@@ -220,7 +220,7 @@
 | 33   |          | 07. 数据质量服务         | alinesno-infra-data-quality          |      |        |        |        |      |      |
 | 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              | ✅   | ✅     |        |        |      |      |
 | 35   |          | 09. 数据资产服务         | alinesno-infra-data-assets           | ✅   | ✅     |        |        |      |      |
-| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        | ✅   | ✅     |        |        |      |      |
+| 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        | ✅   | ✅     |  ✅   |        |      |      |
 |      |          |                          |                                      |      |        |        |        |      |      |
 | 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             |      |        |        |        |      |      |
 | 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             |      |        |        |        |      |      |
