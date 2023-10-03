@@ -224,7 +224,7 @@
 |      |          |                          |                                      |      |        |        |        |      |      |
 | 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             |      |        |        |        |      |      |
 | 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             |      |        |        |        |      |      |
-| 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           | ✅   | ✅     |        |        |      |      |
+| 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           | ✅   | ✅     |  ✅    |        |      |      |
 | 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           |      |        |        |        |      |      |
 | 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       |      |        |        |        |      |      |
 | 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       |      |        |        |        |      |      |
