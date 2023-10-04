@@ -76,11 +76,22 @@ module.exports = {
                 link: '/technical/'
             },
             {
+                text: '产品服务',
+                link: '/business/'
+            },
+            {
                 text: '产品体验',
                 link: 'http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com'
             }
         ],
         sidebar: {
+            '/business': [
+                {
+                    title: '产品服务',
+                    collapsible: true,
+                    children: genBusinessSidebar(0)
+                },
+            ],
             '/technical': [
                 {
                     title: '技术文档',
@@ -268,6 +279,22 @@ module.exports = {
 }
 
 /**
+* 产品服务
+ * @param {序号} menus
+ */
+function genBusinessSidebar(menus) {
+    const mapArr = [
+        '/business/',
+        '/business/02_服务内容.md',
+    ]
+    return mapArr.map(i => {
+        return i
+    })
+
+}
+
+
+/**
 * 产品手册
  * @param {序号} menus
  */
@@ -378,7 +405,6 @@ function genDocumentSidebar(menus) {
     return mapArr.map(i => {
         return i
     })
-
 }
 
 /**
