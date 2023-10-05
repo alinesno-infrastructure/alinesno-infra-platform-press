@@ -27,34 +27,25 @@
               <div class="solution-case-img">
                 <img alt="" style="width:100%" :src="htmlContents[industry.id].img" > 
               </div>
-              <div  class="solution-case-info">
-                <span class="KXFYXb vOqB4" style="
-    align-items: flex-start;
-    background: rgb(32,33,36);
-    border-radius: 8px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 24px;
-    float: left;
-    width: 40%;
-    padding: 43px 20px;
-    margin-right: 10px;
-"><div  class="GOsz5b MyvX5d">{{ htmlContents[industry.id].name }}</div></span> 
+              <div class="solution-case-info">
 
-  <span  class="pdL7Ue ixasPc TYiRKd" style="align-items: flex-start;background: rgb(248, 249, 250);border-radius: 8px;color: rgb(34, 34, 34);display: flex;flex-direction: column;justify-content: center;padding: 10px 20px;">
-    <picture  class="D0Blhe">
-      <img  alt="" src="https://lh3.googleusercontent.com/xGJQ-HwIDNIESh2O3xnU6BLgHPPTShWkZIPT5KLnZcMeVeyswbbw_1-u3vQnGHvgF8G_PGBT0LOB" srcset="https://lh3.googleusercontent.com/xGJQ-HwIDNIESh2O3xnU6BLgHPPTShWkZIPT5KLnZcMeVeyswbbw_1-u3vQnGHvgF8G_PGBT0LOB 1x, https://lh3.googleusercontent.com/xGJQ-HwIDNIESh2O3xnU6BLgHPPTShWkZIPT5KLnZcMeVeyswbbw_1-u3vQnGHvgF8G_PGBT0LOB 2x" data-iml="2117677.8" class="vscMu LurFn rpKGqc" style="width: 40%;"></picture> 
-      <span  class="D0aEmf" style="line-height: 1.7rem;font-size: 15px;">
-        <div  jsaction="rcuQ6b:npT2md" jscontroller="M0Q3Qb" class="">
-          {{ htmlContents[industry.id].desc }}
-        </div>
-      </span>
-    </span>
+                <span class="info-text">
+                  <div class="GOsz5b MyvX5d">{{ htmlContents[industry.id].name }}</div>
+                </span> 
 
-  </div>
-              <div class="iYQ5F" style="font-size: 14px;font-weight: 500;letter-spacing: normal;line-height: 20px;color: rgb(59, 89, 152);margin: 8px 0px;text-align: center;margin-top: 20px;">
+                <span class="info-img">
+                  <picture class="D0Blhe">
+                    <img  src="https://lh3.googleusercontent.com/xGJQ-HwIDNIESh2O3xnU6BLgHPPTShWkZIPT5KLnZcMeVeyswbbw_1-u3vQnGHvgF8G_PGBT0LOB" style="width: 40%;">
+                  </picture> 
+                  <span class="D0aEmf" style="line-height: 1.7rem;font-size: 15px;">
+                    <div>
+                      {{ htmlContents[industry.id].desc }}
+                    </div>
+                  </span>
+                </span>
+              </div>
+
+              <div class="info-solution-text-link" >
                 探索供应链与物流解决方案
               </div>
 
@@ -84,14 +75,14 @@ export default {
       ],
       htmlContents: [
         // 这里放置每个行业对应的HTML内容，键为行业的id
-        {id:'1' , name:'诸多大型政府机构选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/tOKcHvOWHRjheif1tICHjYBs-TNJv-7f38rmkN7XHjM50jMdvmGluBEl9wn-btFSnvhfON_gC2QX=rw' },
+        {id:'1' , name:'诸多大型政府机构选择和对依赖有加 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/tOKcHvOWHRjheif1tICHjYBs-TNJv-7f38rmkN7XHjM50jMdvmGluBEl9wn-btFSnvhfON_gC2QX=rw' },
         {id:'2' , name:'诸多生物技术和制药公司对 AIP基设服务 信赖有加' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/kIs4wRUAS_doZpi9cJE0Kn4vwR1yzcOHPzGX9ElAzCSLsNA52Es0Kb4oLUMFw-1intMQelINWuja6w=rw' },
         {id:'3' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/7BqAVxgngPLyjlUG3deE1o3KVB85hINoiLEeDmE2JW3MdJfF8T54XZQeOu7iA8ORV7Vz6rn3dWs2' },
         {id:'4' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/7BqAVxgngPLyjlUG3deE1o3KVB85hINoiLEeDmE2JW3MdJfF8T54XZQeOu7iA8ORV7Vz6rn3dWs2' },
-        {id:'5' , name:'诸多大型政府机构选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/kIs4wRUAS_doZpi9cJE0Kn4vwR1yzcOHPzGX9ElAzCSLsNA52Es0Kb4oLUMFw-1intMQelINWuja6w=rw' },
+        {id:'5' , name:'诸多大型政府机构选择和对依赖有加  AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/kIs4wRUAS_doZpi9cJE0Kn4vwR1yzcOHPzGX9ElAzCSLsNA52Es0Kb4oLUMFw-1intMQelINWuja6w=rw' },
         {id:'6' , name:'诸多生物技术和制药公司对 AIP基设服务 信赖有加' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/tOKcHvOWHRjheif1tICHjYBs-TNJv-7f38rmkN7XHjM50jMdvmGluBEl9wn-btFSnvhfON_gC2QX=rw' },
         {id:'7' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/7BqAVxgngPLyjlUG3deE1o3KVB85hINoiLEeDmE2JW3MdJfF8T54XZQeOu7iA8ORV7Vz6rn3dWs2' },
-        {id:'8' , name:'诸多大型政府机构选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/kIs4wRUAS_doZpi9cJE0Kn4vwR1yzcOHPzGX9ElAzCSLsNA52Es0Kb4oLUMFw-1intMQelINWuja6w=rw' },
+        {id:'8' , name:'诸多大型政府机构选择和对依赖有加  AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/kIs4wRUAS_doZpi9cJE0Kn4vwR1yzcOHPzGX9ElAzCSLsNA52Es0Kb4oLUMFw-1intMQelINWuja6w=rw' },
         {id:'9' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , img:'https://lh3.googleusercontent.com/tOKcHvOWHRjheif1tICHjYBs-TNJv-7f38rmkN7XHjM50jMdvmGluBEl9wn-btFSnvhfON_gC2QX=rw' },
       ],
     };
@@ -107,10 +98,36 @@ export default {
   margin-bottom: 50px;
 }
 
+.info-solution-text-link{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 20px;
+    color: rgb(59, 89, 152);
+    margin: 8px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-text {
+    align-items: flex-start;
+    background: rgb(32,33,36);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    float: left;
+    width: 40%;
+    padding: 43px 20px;
+    margin-right: 10px;
+}
+
 .tabpanel{
   border: 1px solid #dadce0;
     border-radius: 12px;
-    padding: 16px 18px;
+    padding: 10px ; 
     transition: border .28s,box-shadow .28s;
 }
 
@@ -162,6 +179,7 @@ export default {
 .industry-item {
   padding: 10px;
   cursor: pointer;
+  font-size: 15px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
@@ -185,6 +203,17 @@ export default {
 
 .solution-case-info {
     margin-top: 30px;
+}
+
+.info-img {
+  align-items: flex-start;
+  background: rgb(248, 249, 250);
+  border-radius: 8px;
+  color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
 }
 
 </style>
