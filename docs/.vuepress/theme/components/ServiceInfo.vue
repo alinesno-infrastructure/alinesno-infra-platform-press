@@ -50,7 +50,7 @@ export default {
     return {
       serviceArr: [
         {
-          name: "中台私服部署",
+          name: "基设私服部署",
           icon: "fas fa-shipping-fast",
           desc: "提供安装、现场紧急救助、软件故障排查，在内部和数据私有化配置",
         },

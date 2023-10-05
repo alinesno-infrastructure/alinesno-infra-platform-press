@@ -24,7 +24,7 @@
     </div>
     <div class="panel-list-features">
       <ul>
-        <li class="feature" v-for="item in services" :key="item">
+        <li class="feature" v-for="item in services" :key="item.id">
           <div class="header-title">{{ item.title }}</div>
           <div class="header-sub-label">{{ item.sub }}</div>
         </li>
@@ -41,18 +41,22 @@ export default {
 
       services: [
           {
+            "id":1 ,
             "title": "自动化转型高质量发展",
             "sub": "建设软件新智能设施和平台，推动企业超级自动化转型和创新发展"
           },
           {
+            "id":2 ,
             "title": "提高竞争力和降低成本",
             "sub": "建设高效、可靠、安全的环境，提高竞争力，降低运营和管理成本"
           },
           {
+            "id":3 ,
             "title": "支持创新和业务拓展",
             "sub": "提供创新和业务拓展的平台，促进新产品、新服务的开发和推广"
           },
           {
+            "id":4 ,
             "title": "加强团队协作效率",
             "sub": "提供工具和平台，促进团队之间的协作，提高工作效率和团队能力"
           }

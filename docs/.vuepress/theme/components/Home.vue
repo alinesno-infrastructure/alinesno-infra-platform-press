@@ -9,6 +9,9 @@
       <!-- 产品架构 -->
       <ArchitecturePanel />
 
+      <!-- 解决方案 -->
+      <SolutionPanel />
+
       <!-- 服务支持 -->
       <ServicePanel />
 
@@ -24,15 +27,17 @@
 <script>
 
 import BannerPanel from './Banner.vue'
+import SolutionPanel from './Solution.vue'
 import ProductPanel from './Product.vue'
-import ArchitecturePanel from './Architecture.vue'
+import ArchitecturePanel from './ArchitectureInfo.vue'
 import CasePanel from './Case.vue'
-import ServicePanel from './Service.vue'
+import ServicePanel from './ServiceInfo.vue'
 import FooterPanel from './Footer.vue'
 
 export default {
   components: {
-    BannerPanel,
+    BannerPanel, 
+    SolutionPanel ,
     ProductPanel,
     ArchitecturePanel,
     CasePanel,
