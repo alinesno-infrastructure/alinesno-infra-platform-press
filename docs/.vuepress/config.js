@@ -516,6 +516,7 @@ function genTechnicalSidebar(menus) {
             '/technical/framework/02_基础功能/09_前端集成.md',
             '/technical/framework/02_基础功能/09_本地调试.md',
             '/technical/framework/02_基础功能/09_多平台发布集成.md',
+            '/technical/framework/02_基础功能/10_表自动映射生成.md',
             '/technical/framework/02_基础功能/13_异常处理.md',
             '/technical/framework/02_基础功能/14_日志处理.md',
             '/technical/framework/02_基础功能/15_Redis缓存使用.md',
