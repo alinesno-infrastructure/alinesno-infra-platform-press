@@ -197,7 +197,7 @@ export default {
                                 "id": 31,
                                 "name": "实时计算服务",
                                 "desc": "用于实时计算的服务，支持流式数据的实时处理和计算",
-                                "code": "alinesno-infra-data-flink"
+                                "code": "alinesno-infra-data-stream"
                             },
                             {
                                 "id": 32,

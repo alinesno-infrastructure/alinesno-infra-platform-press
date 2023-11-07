@@ -59,7 +59,7 @@ AIP是为了推动超级自动化转型和创新发展而建设的智能设施�
 | 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           |                              |
 | 29   |          | 03. 数据集成服务         | alinesno-infra-data-pipeline         |                              |
 | 30   |          | 04. 数据开发服务         | alinesno-infra-data-dolphinscheduler |                              |
-| 31   |          | 05. 实时计算服务         | alinesno-infra-data-flink            |                              |
+| 31   |          | 05. 实时计算服务         | alinesno-infra-data-stream            |                              |
 | 32   |          | 06. 数据安全服务         | alinesno-infra-data-security         |                              |
 | 33   |          | 07. 数据质量服务         | alinesno-infra-data-quality          |                              |
 | 34   |          | 08. 数据总线服务         | alinesno-infra-data-bus              |                              |

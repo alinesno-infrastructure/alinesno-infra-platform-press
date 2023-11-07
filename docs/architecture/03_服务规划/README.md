@@ -81,7 +81,7 @@
 | 28   |          | 02. 数据上报服务                       | alinesno-infra-data-report           | 30201 |                              |
 | 29   |          | 03. 数据集成服务                       | alinesno-infra-data-pipeline           | 30202 |                              |
 | 30   |          | 04. 数据开发服务                       | alinesno-infra-data-dolphinscheduler | 30203 |                              |
-| 31   |          | 05. 实时计算服务                       | alinesno-infra-data-flink            | 30204 |                              |
+| 31   |          | 05. 实时计算服务                       | alinesno-infra-data-stream            | 30204 |                              |
 | 32   |          | 06. 数据安全服务                       | alinesno-infra-data-security         | 30205 |                              |
 | 33   |          | 07. 数据质量服务                       | alinesno-infra-data-quality          | 30206 |                              |
 | 34   |          | 08. 数据总线服务                       | alinesno-infra-data-bus              | 30207 |                              |
