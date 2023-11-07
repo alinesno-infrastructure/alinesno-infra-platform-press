@@ -44,7 +44,7 @@ export default {
                                 "id": 6,
                                 "name": "代码生成器",
                                 "desc": "用于生成代码的工具，快速生成项目代码和模块",
-                                "code": "alinesno-infra-base-init"
+                                "code": "alinesno-infra-base-starter"
                             },
                             {
                                 "id": 7,

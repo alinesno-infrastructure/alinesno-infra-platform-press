@@ -11,7 +11,7 @@
 | 3    |          | 03. 前端开发框架（移动）               | alinesno-infra-app                   |                              |
 |      |          |                                        |                                      |                              |
 | 5    | 基础服务 | 01. 权限配置服务                       | alinesno-infra-base-authority        |                              |
-| 6    |          | 02. 代码生成器                         | alinesno-infra-base-init             |                              |
+| 6    |          | 02. 代码生成器                         | alinesno-infra-base-starter             |                              |
 | 7    |          | 03. 分布式配置服务                     | alinesno-infra-base-config           |                              |
 | 8    |          | 04. 事务消息服务                       | alinesno-infra-base-message          |                              |
 | 9    |          | 05. 通知管理服务                       | alinesno-infra-base-notices          |                              |
