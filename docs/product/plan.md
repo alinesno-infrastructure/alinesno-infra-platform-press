@@ -129,7 +129,7 @@
 | 7    |          | 03. 分布式配置服务       | alinesno-infra-base-config           | 🔵  |       |     |     |      |      |
 | 8    |          | 04. 事务消息服务         | alinesno-infra-base-message          | 🔵  |   ✅   |     |     |      |      |
 | 9    |          | 05. 通知管理服务         | alinesno-infra-base-notices          | 🔵  |   ✅   |     |     |      |      |
-| 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          | 🔵  |       |     |     |      |      |
+| 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          | 🔵  |   ✅   |     |     |      |      |
 | 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         | 🔵  |   ✅   |     |     |      |      |
 | 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | 🔵  |       |     |     |      |      |
 | 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         | 🔵  |   ✅   |     |     |      |      |
@@ -138,13 +138,13 @@
 | 16   |          | 12. 文档搜索服务         | alinesno-infra-base-document         | 🔵  |       |     |     |      |      |
 | 17   |          | 13. 分布式ID服务         | alinesno-infra-base-id               | 🔵  |   ✅   |     |     |      |      |
 | 18   |          | 14. 敏感词过滤服务       | alinesno-infra-base-sensitive        | 🔵  |       |     |     |      |      |
-| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              | 🔵  |       |     |     |      |      |
+| 19   |          | 15. 支付服务             | alinesno-infra-base-pay              | 🔵  |   ✅   |     |     |      |      |
 | 20   |          | 16. 会员服务             | alinesno-infra-base-member           | 🔵  |       |     |     |      |      |
 | 21   |          | 17. 内容服务             | alinesno-infra-base-cms              | 🔵  |   ✅   |     |     |      |      |
 | 22   |          | 18. 商城服务             | alinesno-infra-base-shop             | 🔵  |       |     |     |      |      |
 | 23   |          | 19. 流程中心服务         | alinesno-infra-base-workflow         | 🔵  |       |     |     |      |      |
 | 24   |          | 20. 文档查看服务         | alinesno-infra-base-fileshow         | 🔵  |       |     |     |      |      |
-| 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         | 🔵  |       |     |     |      |      |
+| 25   |          | 21. 基设平台管理服务     | alinesno-infra-base-platform         | 🔵  |    ✅  |     |     |      |      |
 |      |          |                          |                                      |     |       |     |     |      |      |
 | 27   | 数据服务 | 01. 主数据服务           | alinesno-infra-data-mdm              | 🔵  |       |     |     |      |      |
 | 28   |          | 02. 数据上报服务         | alinesno-infra-data-report           | 🔵  |       |     |     |      |      |
