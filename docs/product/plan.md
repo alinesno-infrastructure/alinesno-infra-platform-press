@@ -127,7 +127,7 @@
 |      |          |                          |                                      |     |       |       |     |     |      |      |
 | 5    | 基础服务 | 01. 权限配置服务         | alinesno-infra-base-authority        | 🔵  | ✅    |       |     |     |      |      |
 | 6    |          | 02. 代码生成器           | alinesno-infra-base-starter          | 🔵  | ✅    |       |     |     |      |      |
-| 7    |          | 03. 分布式配置服务       | alinesno-infra-base-config           | 🔵  |       |       |     |     |      |      |
+| 7    |          | 03. 分布式配置服务       | alinesno-infra-base-config           | 🔵  |  ✅    |       |     |     |      |      |
 | 8    |          | 04. 事务消息服务         | alinesno-infra-base-message          | 🔵  | ✅    |       |     |     |      |      |
 | 9    |          | 05. 通知管理服务         | alinesno-infra-base-notices          | 🔵  | ✅    |       |     |     |      |      |
 | 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          | 🔵  | ✅    |       |     |     |      |      |
@@ -159,18 +159,18 @@
 | 36   |          | 10. 数据算法服务         | alinesno-infra-data-algorithm        | 🔵  |       |       |     |     |      |      |
 |      |          |                          |                                      |     |       |       |     |     |      |      |
 | 38   | 智能服务 | 01. OCR视觉识别服务      | alinesno-infra-smart-ocr             | 🔵  |       |       |     |     |      |      |
-| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             | 🔵  |       |       |     |     |      |      |
+| 39   |          | 02. 自然语言识别服务     | alinesno-infra-smart-nlp             | 🔵  |   ✅   |       |     |     |      |      |
 | 40   |          | 03. GPT推理服务          | alinesno-infra-smart-brain           | 🔵  |       |       |     |     |      |      |
-| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           | 🔵  |       |       |     |     |      |      |
+| 41   |          | 04. 流媒体识别服务       | alinesno-infra-smart-media           | 🔵  |  ✅    |       |     |     |      |      |
 | 42   |          | 05. 智能助手服务         | alinesno-infra-smart-assistant       | 🔵  |       |       |     |     |      |      |
 | 43   |          | 06. 目标检测识别服务     | alinesno-infra-smart-detection       | 🔵  |       |       |     |     |      |      |
 |      |          |                          |                                      |     |       |       |     |     |      |      |
 | 44   | 运维服务 | 01. 自动化任务服务       | alinesno-infra-ops-scheduler         | 🔵  |       |       |     |     |      |      |
 | 45   |          | 02. 分布式日志服务       | alinesno-infra-ops-logback           | 🔵  |  ✅    |       |     |     |      |      |
-| 46   |          | 03. 分布式链路跟踪服务   | alinesno-infra-ops-telemetry         | 🔵  |       |       |     |     |      |      |
+| 46   |          | 03. 分布式链路跟踪服务   | alinesno-infra-ops-telemetry         | 🔵  |   ✅   |       |     |     |      |      |
 | 47   |          | 04. 持续集成服务         | alinesno-infra-ops-pipeline          | 🔵  |       |       |     |     |      |      |
 | 48   |          | 05. 容器管理服务         | alinesno-infra-ops-container         | 🔵  |   ✅   |       |     |     |      |      |
-| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           | 🔵  |       |       |     |     |      |      |
+| 49   |          | 06. 监控预警服务         | alinesno-infra-ops-watcher           | 🔵  |   ✅   |       |     |     |      |      |
 |      |          |                          |                                      |     |       |       |     |     |      |      |
 | 57   | 业务服务 | 01. 商品秒杀服务         | alinesno-infra-bus-limit             | 🔵  |  ✅    |       |     |     |      |      |
 | 58   |          | 02. 实时推荐服务         | alinesno-infra-bus-recommend         | 🔵  |       |       |     |     |      |      |
@@ -178,7 +178,7 @@
 | 60   |          | 04. 无代码开发服务       | alinesno-infra-bus-nocode            | 🔵  |       |       |     |     |      |      |
 |      |          |                          |                                      |     |       |       |     |     |      |      |
 | 50   | 运营服务 | 01. 基设平台服务         | alinesno-infra-plat-console          | 🔵  |       |       |     |     |      |      |
-| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         | 🔵  |       |       |     |     |      |      |
+| 51   |          | 02. 安全感触服务         | alinesno-infra-plat-security         | 🔵  |   ✅  |       |     |     |      |      |
 | 52   |          | 03. 智能运营大脑服务     | alinesno-infra-plat-brain            | 🔵  |       |       |     |     |      |      |
 | 54   |          | 05. 移动终端服务         | alinesno-infra-plat-app              |     |       |       |     |     |      |      |
 |      |          |                          |                                      |     |       |       |     |     |      |      |
