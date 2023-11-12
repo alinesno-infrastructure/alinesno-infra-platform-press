@@ -130,7 +130,7 @@
 | 9    |          | 05. 通知管理服务         | alinesno-infra-base-notices          | 🔵  | ✅    | 🔵    |     |     |      |      |
 | 10   |          | 06. 存储管理服务         | alinesno-infra-base-storage          | 🔵  | ✅    | 🔵    |     |     |      |      |
 | 11   |          | 07. 单点登陆服务         | alinesno-infra-base-identity         | 🔵  | ✅    | 🔵    |     |     |      |      |
-| 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | 🔵  |       |       |     |     |      |      |
+| 12   |          | 08. 网关配置服务         | alinesno-infra-base-gateway          | 🔵  | 🚫  |🔵    |     |     |      |      |
 | 13   |          | 09. 安全验证码服务       | alinesno-infra-base-validate         | 🔵  | ✅    | 🔵    |     |     |      |      |
 | 14   |          | 10. IM消息服务           | alinesno-infra-base-im               | 🔵  |       |       |     |     |      |      |
 | 15   |          | 11. 邮箱管理服务         | alinesno-infra-base-email            | 🔵  | ✅    |       |     |     |      |      |
