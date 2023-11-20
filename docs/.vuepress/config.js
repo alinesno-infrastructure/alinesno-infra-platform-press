@@ -75,10 +75,10 @@ module.exports = {
                 text: '技术文档',
                 link: '/technical/'
             },
-            {
-                text: '产品服务',
-                link: '/business/'
-            },
+            // {
+            //     text: '产品服务',
+            //     link: '/business/'
+            // },
             {
                 text: '产品体验',
                 link: 'http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com'
