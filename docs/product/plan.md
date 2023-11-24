@@ -138,13 +138,13 @@
 | 15   |          | 11. 邮箱管理服务       | alinesno-infra-base-email            | 🔵  |   ✅   |       |     |     |      |      |
 | 16   |          | 12. 文档搜索服务       | alinesno-infra-base-document         | 🔵  |       |  🔵   |     |     |      |      |
 | 17   |          | 13. 分布式ID服务       | alinesno-infra-base-id               | 🔵  |   ✅   |       |     |     |      |      |
-| 18   |          | 14. 敏感词过滤服务     | alinesno-infra-base-sensitive        | 🔵  |       |       |     |     |      |      |
+| 18   |          | 14. 敏感词过滤服务     | alinesno-infra-base-sensitive        | 🔵  |  ✅   |       |     |     |      |      |
 | 19   |          | 15. 支付服务           | alinesno-infra-base-pay              | 🔵  |   ✅   |  🔵   |     |     |      |      |
 | 20   |          | 16. 会员服务           | alinesno-infra-base-member           | 🔵  |       |  🔵   |     |     |      |      |
 | 21   |          | 17. 内容服务           | alinesno-infra-base-cms              | 🔵  |   ✅   |  🔵   |     |     |      |      |
 | 22   |          | 18. 商城服务           | alinesno-infra-base-shop             | 🔵  |       |       |     |     |      |      |
 | 23   |          | 19. 流程中心服务       | alinesno-infra-base-workflow         | 🔵  |       |       |     |     |      |      |
-| 24   |          | 20. 文档查看服务       | alinesno-infra-base-fileshow         | 🔵  |       |       |     |     |      |      |
+| 24   |          | 20. 文档查看服务       | alinesno-infra-base-fileshow         | 🔵  |   ✅   |       |     |     |      |      |
 | 25   |          | 21. 基设平台管理服务   | alinesno-infra-base-platform         | 🔵  |   ✅   |       |     |     |      |      |
 |      |          |                        |                                      |     |       |       |     |     |      |      |
 | 27   | 数据服务 | 01. 主数据服务         | alinesno-infra-data-mdm              | 🔵  |       |  🔵   |     |     |      |      |
@@ -153,13 +153,13 @@
 | 30   |          | 04. 数据开发服务       | alinesno-infra-data-dolphinscheduler | 🔵  |       |  🔵   |     |     |      |      |
 | 31   |          | 05. 实时计算服务       | alinesno-infra-data-stream           | 🔵  |       |  🔵   |     |     |      |      |
 | 32   |          | 06. 数据安全服务       | alinesno-infra-data-security         | 🔵  |   ✅   |       |     |     |      |      |
-| 33   |          | 07. 数据质量服务       | alinesno-infra-data-quality          | 🔵  |       |       |     |     |      |      |
+| 33   |          | 07. 数据质量服务       | alinesno-infra-data-quality          | 🔵  |   ✅   |       |     |     |      |      |
 | 34   |          | 08. 数据总线服务       | alinesno-infra-data-bus              | 🔵  |       |       |     |     |      |      |
 | 35   |          | 09. 数据资产服务       | alinesno-infra-data-assets           | 🔵  |       |  🔵   |     |     |      |      |
-| 36   |          | 10. 数据算法服务       | alinesno-infra-data-algorithm        | 🔵  |       |       |     |     |      |      |
+| 36   |          | 10. 数据算法服务       | alinesno-infra-data-algorithm        | 🔵  |   ✅   |       |     |     |      |      |
 | 37   |          | 11. 数据接口服务       | alinesno-infra-data-fastapi          | 🔵  |       |  🔵   |     |     |      |      |
 |      |          |                        |                                      |     |       |       |     |     |      |      |
-| 38   | 智能服务 | 01. OCR视觉识别服务    | alinesno-infra-smart-ocr             | 🔵  |       |       |     |     |      |      |
+| 38   | 智能服务 | 01. OCR视觉识别服务    | alinesno-infra-smart-ocr             | 🔵  |   ✅   |       |     |     |      |      |
 | 39   |          | 02. 自然语言识别服务   | alinesno-infra-smart-nlp             | 🔵  |   ✅   |       |     |     |      |      |
 | 40   |          | 03. GPT推理服务        | alinesno-infra-smart-brain           | 🔵  |       |       |     |     |      |      |
 | 41   |          | 04. 流媒体识别服务     | alinesno-infra-smart-media           | 🔵  |   ✅   |       |     |     |      |      |
