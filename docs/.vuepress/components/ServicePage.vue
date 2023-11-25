@@ -10,8 +10,8 @@ export default {
   name: "ServicePage",
   data() {
     return {
-      title: '全新一代软件智能设施',
-      saasTitle: 'AIP智能设施',
+      title: '全新一代软件智能体平台',
+      saasTitle: 'AIP智能体平台',
     }
   },
   computed: {
