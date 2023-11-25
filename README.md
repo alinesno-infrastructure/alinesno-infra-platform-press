@@ -43,9 +43,9 @@ AIP是针对于项目和团队业务建设的基础设施平台，为了更好�
 
 ## 产品架构设计
 
-> 产品全景图未设计，临时使用阿里云全景图
+> 产品全景图未设计，临时使用网上的类似架构景图
 
-<img src="images/aip_product.png" />
+<img src="images/aip_product_agent.png" />
 
 产品描述:
 
