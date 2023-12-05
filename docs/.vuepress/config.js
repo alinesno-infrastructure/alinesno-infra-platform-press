@@ -81,7 +81,7 @@ module.exports = {
             // },
             {
                 text: '产品体验',
-                link: 'http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com'
+                link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com'
             }
         ],
         sidebar: {
