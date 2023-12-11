@@ -81,7 +81,7 @@ module.exports = {
             // },
             {
                 text: '产品体验',
-                link: 'https://alinesno-infra-base-im-ui.beta.base.infra.linesno.com'
+                link: 'http://alinesno-infra-base-im-ui.beta.base.infra.linesno.com'
             }
         ],
         sidebar: {
