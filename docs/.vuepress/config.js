@@ -10,11 +10,6 @@ module.exports = {
     ],
     plugins: [
         ['@vuepress/active-header-links'],
-        [
-            '@vuepress/google-analytics', {
-                'ga': 'G-V0D6KNXG35' // UA-00000000-0
-            }
-        ],
         ['@vuepress/register-components'],
         ['vuepress-plugin-code-copy', true],
         ['@vuepress/nprogress'],
