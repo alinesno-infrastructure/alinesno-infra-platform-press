@@ -73,7 +73,7 @@ module.exports = {
             {
                 text: '平台体验',
                 items: [
-                    { text: '基础平台', link: 'http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com' },
+                    { text: '基础平台', link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com' },
                     { text: '智能体(新)', link: 'http://alinesno-infra-base-im-ui.beta.base.infra.linesno.com' }
                 ]
             }
