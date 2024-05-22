@@ -32,7 +32,7 @@ export default {
                     {
                         "id": 5,
                         "model": "基础服务",
-                        "desc": "基础服务模块包括权限配置服务、代码生成器、分布式配置服务、事务消息服务、通知管理服务、存储管理服务、单点登录服务、网关配置服务、安全验证码服务、IM消息服务、邮箱管理服务、文档搜索服务、分布式ID服务、敏感词过滤服务、支付服务、会员服务、内容服务、商城服务、流程中心服务和文档查看服务。",
+                        "desc": "基础服务模块包括权限配置服务、代码生成器、分布式配置服务、事务消息服务、通知管理服务、存储管理服务、单点登录服务、网关配置服务、安全验证码服务、IM消息服务、邮箱管理服务、文档搜索服务、分布式ID服务、敏感词过滤服务、支付服务、内容服务和文档查看服务。",
                         "services": [
                             {
                                 "id": 5,
@@ -126,28 +126,10 @@ export default {
                                 "code": "alinesno-infra-base-pay"
                             },
                             {
-                                "id": 20,
-                                "name": "会员服务",
-                                "desc": "用于管理会员的服务，提供会员注册、登录和会员信息管理",
-                                "code": "alinesno-infra-base-member"
-                            },
-                            {
                                 "id": 21,
                                 "name": "内容服务",
                                 "desc": "用于管理内容的服务，包括内容发布、内容审核和内容管理",
                                 "code": "alinesno-infra-base-cms"
-                            },
-                            {
-                                "id": 22,
-                                "name": "商城服务",
-                                "desc": "用于管理商城的服务，提供商品管理、订单管理和购物车功能",
-                                "code": "alinesno-infra-base-shop"
-                            },
-                            {
-                                "id": 23,
-                                "name": "流程中心服务",
-                                "desc": "用于流程中心的服务，提供工作流程的定义、执行和监控",
-                                "code": "alinesno-infra-base-workflow"
                             },
                             {
                                 "id": 24,
@@ -167,7 +149,7 @@ export default {
                     {
                         "id": 27,
                         "model": "数据服务",
-                        "desc": "数据服务模块包括主数据服务、数据上报服务、数据集成服务、数据开发服务、实时计算服务、数据安全服务、数据质量服务、数据总线服务、数据资产服务和数据算法服务。",
+                        "desc": "数据服务模块包括主数据服务、数据上报服务、数据集成服务、数据开发服务、实时计算服务、数据安全服务、数据总线服务、数据资产服务和数据算法服务。",
                         "services": [
                             {
                                 "id": 27,
@@ -206,12 +188,6 @@ export default {
                                 "code": "alinesno-infra-data-security"
                             },
                             {
-                                "id": 33,
-                                "name": "数据质量服务",
-                                "desc": "用于数据质量的服务，检测和修复数据中的质量问题",
-                                "code": "alinesno-infra-data-quality"
-                            },
-                            {
                                 "id": 34,
                                 "name": "数据总线服务",
                                 "desc": "用于数据总线的服务，实现数据的发布、订阅和传输",
@@ -222,12 +198,6 @@ export default {
                                 "name": "数据资产服务",
                                 "desc": "用于数据资产管理的服务，记录和管理组织的数据资产",
                                 "code": "alinesno-infra-data-assets"
-                            },
-                            {
-                                "id": 36,
-                                "name": "数据算法服务",
-                                "desc": "用于数据算法的服务，提供数据挖掘和机器学习算法",
-                                "code": "alinesno-infra-data-algorithm"
                             }
                         ]
                     },
@@ -320,14 +290,8 @@ export default {
                     {
                         "id": 57,
                         "model": "业务服务",
-                        "desc": "业务服务模块包括商品秒杀服务、实时推荐服务、实时画像服务和无代码开发服务。",
+                        "desc": "业务服务模块包括实时推荐服务、实时画像服务和无代码开发服务。",
                         "services": [
-                            {
-                                "id": 1,
-                                "name": "商品秒杀服务",
-                                "desc": "用于商品秒杀的服务，实现高并发的秒杀功能，输出通用秒杀接口",
-                                "code": "alinesno-infra-bus-limit"
-                            },
                             {
                                 "id": 2,
                                 "name": "实时推荐服务",
@@ -339,12 +303,6 @@ export default {
                                 "name": "实时画像服务",
                                 "desc": "用于实时画像的服务，实时分析用户行为和特征，生成用户画像",
                                 "code": "alinesno-infra-bus-profiling"
-                            },
-                            {
-                                "id": 4,
-                                "name": "无代码开发服务",
-                                "desc": "用于无代码开发的服务，提供可视化的开发环境和工具，用于做偏向简单的业务类型",
-                                "code": "alinesno-infra-bus-nocode"
                             }
                         ]
                     },
@@ -364,12 +322,6 @@ export default {
                                 "name": "安全感知服务",
                                 "desc": "用于安全感知的服务，实时监测和分析系统安全状态",
                                 "code": "alinesno-infra-plat-security"
-                            },
-                            {
-                                "id": 3,
-                                "name": "智能运营大脑服务",
-                                "desc": "用于智能运营大脑的服务，集成智能算法和数据分析，提供运营决策支持",
-                                "code": "alinesno-infra-plat-brain"
                             },
                             {
                                 "id": 5,

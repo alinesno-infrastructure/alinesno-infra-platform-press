@@ -70,10 +70,7 @@
 | 17   |          | 13. 分布式ID服务                       | alinesno-infra-base-id               | 30112 |                              |
 | 18   |          | 14. 敏感词过滤服务                     | alinesno-infra-base-sensitive        | 30113 |                              |
 | 19   |          | 15. 支付服务                           | alinesno-infra-base-pay              | 30114 |                              |
-| 20   |          | 16. 会员服务                           | alinesno-infra-base-member           | 30115 |                              |
 | 21   |          | 17. 内容服务                           | alinesno-infra-base-cms              | 30116 |                              |
-| 22   |          | 18. 商城服务                           | alinesno-infra-base-shop             | 30117 |                              |
-| 23   |          | 19. 流程中心服务                       | alinesno-infra-base-workflow         | 30118 |                              |
 | 24   |          | 20. 文档查看服务                       | alinesno-infra-base-fileshow         | 30119 |                              |
 | 25   |          | 21. 基设平台管理服务                   | alinesno-infra-base-platform         | 30120 | 单独管理和监控，定位于管理员 |
 |      |          |                                        |                                      |       |                              |
@@ -83,10 +80,8 @@
 | 30   |          | 04. 数据开发服务                       | alinesno-infra-data-dolphinscheduler | 30203 |                              |
 | 31   |          | 05. 实时计算服务                       | alinesno-infra-data-stream            | 30204 |                              |
 | 32   |          | 06. 数据安全服务                       | alinesno-infra-data-security         | 30205 |                              |
-| 33   |          | 07. 数据质量服务                       | alinesno-infra-data-quality          | 30206 |                              |
 | 34   |          | 08. 数据总线服务                       | alinesno-infra-data-bus              | 30207 |                              |
 | 35   |          | 09. 数据资产服务                       | alinesno-infra-data-assets           | 30208 |                              |
-| 36   |          | 10. 数据算法服务                       | alinesno-infra-data-algorithm        | 30209 |                              |
 |      |          |                                        |                                       |       |                              |
 | 38   | 智能服务 | 01. OCR视觉识别服务                     | alinesno-infra-smart-ocr               | 30300 |                              |
 | 39   |          | 02. 自然语言识别服务                    | alinesno-infra-smart-nlp               | 30301 |                              |
@@ -102,14 +97,11 @@
 | 48   |          | 05. 容器管理服务                       | alinesno-infra-ops-container         | 30404 |                              |
 | 49   |          | 06. 监控预警服务                       | alinesno-infra-ops-watcher           | 30405 |                              |
 |      |          |                                        |                                      |       |                              |
-| 57   | 业务服务 | 01. 商品秒杀服务                       | alinesno-infra-bus-limit             | 30500 |                              |
-| 58   |          | 02. 实时推荐服务                       | alinesno-infra-bus-recommend         | 30501 |                              |
+| 58   | 业务服务  | 02. 实时推荐服务                       | alinesno-infra-bus-recommend         | 30501 |                              |
 | 59   |          | 03. 实时画像服务                       | alinesno-infra-bus-profiling         | 30502 |                              |
-| 60   |          | 04. 无代码开发服务                     | alinesno-infra-bus-nocode            | 30503 |                              |
 |      |          |                                        |                                      |       |                              |
 | 50   | 运营服务 | 01. 基设平台服务                       | alinesno-infra-plat-console             | 30600 | 添加架构排版服务             |
 | 51   |          | 02. 安全感触服务                       | alinesno-infra-plat-security         | 30601 |                              |
-| 52   |          | 03. 智能运营大脑服务                   | alinesno-infra-plat-brain            | 30602 |                              |
 | 54   |          | 05. 移动终端服务                       | alinesno-infra-plat-app              | 30604 |                              |
 |      |          |                                        |                                      |       |                              |
 

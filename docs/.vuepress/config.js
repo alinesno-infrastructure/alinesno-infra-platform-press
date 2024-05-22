@@ -323,10 +323,7 @@ function genDocumentSidebar(menus) {
             '/document/02_基础服务/13_分布式ID服务.md',
             '/document/02_基础服务/14_敏感词过滤服务.md',
             '/document/02_基础服务/15_支付服务.md',
-            '/document/02_基础服务/16_会员服务.md',
             '/document/02_基础服务/17_内容服务.md',
-            '/document/02_基础服务/18_商城服务.md',
-            '/document/02_基础服务/19_流程中心服务.md',
             '/document/02_基础服务/20_文档查看服务.md',
             '/document/02_基础服务/21_基设平台管理服务.md',
         ]
@@ -341,10 +338,8 @@ function genDocumentSidebar(menus) {
             '/document/03_数据服务/04_数据开发服务.md',
             '/document/03_数据服务/05_实时计算服务.md',
             '/document/03_数据服务/06_数据安全服务.md',
-            '/document/03_数据服务/07_数据质量服务.md',
             '/document/03_数据服务/08_数据总线服务.md',
             '/document/03_数据服务/09_数据资产服务.md',
-            '/document/03_数据服务/10_数据算法服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -375,10 +370,8 @@ function genDocumentSidebar(menus) {
         })
     } else if (menus == 7) {
         const mapArr = [
-            '/document/06_业务服务/01_商品秒杀服务.md',
             '/document/06_业务服务/02_实时推荐服务.md',
             '/document/06_业务服务/03_实时画像服务.md',
-            '/document/06_业务服务/04_无代码开发服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -387,8 +380,6 @@ function genDocumentSidebar(menus) {
         const mapArr = [
             '/document/07_运营服务/01_基设平台服务.md',
             '/document/07_运营服务/02_安全感触服务.md',
-            '/document/07_运营服务/03_智能运营大脑服务.md',
-            '/document/07_运营服务/04_AI模型管理服务.md',
             '/document/07_运营服务/05_移动终端服务.md',
         ]
         return mapArr.map(i => {
@@ -845,10 +836,7 @@ function genProductSidebar(menus) {
             '/product/02_基础服务/13_分布式ID服务.md',
             '/product/02_基础服务/14_敏感词过滤服务.md',
             '/product/02_基础服务/15_支付服务.md',
-            '/product/02_基础服务/16_会员服务.md',
             '/product/02_基础服务/17_内容服务.md',
-            '/product/02_基础服务/18_商城服务.md',
-            '/product/02_基础服务/19_流程中心服务.md',
             '/product/02_基础服务/20_文档查看服务.md',
             '/product/02_基础服务/21_基设平台管理服务.md',
         ]
@@ -863,10 +851,8 @@ function genProductSidebar(menus) {
             '/product/03_数据服务/04_数据开发服务.md',
             '/product/03_数据服务/05_实时计算服务.md',
             '/product/03_数据服务/06_数据安全服务.md',
-            '/product/03_数据服务/07_数据质量服务.md',
             '/product/03_数据服务/08_数据总线服务.md',
             '/product/03_数据服务/09_数据资产服务.md',
-            '/product/03_数据服务/10_数据算法服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -897,10 +883,8 @@ function genProductSidebar(menus) {
         })
     } else if (menus == 7) {
         const mapArr = [
-            '/product/06_业务服务/01_商品秒杀服务.md',
             '/product/06_业务服务/02_实时推荐服务.md',
             '/product/06_业务服务/03_实时画像服务.md',
-            '/product/06_业务服务/04_无代码开发服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -909,7 +893,6 @@ function genProductSidebar(menus) {
         const mapArr = [
             '/product/07_运营服务/01_基设平台服务.md',
             '/product/07_运营服务/02_安全感触服务.md',
-            '/product/07_运营服务/03_智能运营大脑服务.md',
             '/product/07_运营服务/05_移动终端服务.md',
         ]
         return mapArr.map(i => {
