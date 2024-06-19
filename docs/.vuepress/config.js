@@ -47,28 +47,41 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '产品体系',
+                text: '产品',
                 link: '/product/'
             },
             {
                 text: '解决方案',
                 link: '/solution/'
             },
+            // {
+            //     text: '基设架构',
+            //     link: '/architecture/'
+            // },
+            // {
+            //     text: '部署建设',
+            //     link: '/operation/'
+            // },
+            // {
+            //     text: '使用手册',
+            //     link: '/document/'
+            // },
             {
-                text: '基设架构',
-                link: '/architecture/'
+                text: '文档',
+                // link: '/technical/'
+                items: [
+                    { text: '架构设计', link: '/architecture/' },
+                    { text: '技术文档', link: '/technical/' },
+                    { text: '部署手册', link: '/operation/' }
+                ]
             },
             {
-                text: '部署建设',
-                link: '/operation/'
+                text: '支持与服务',
+                link: '/business/'
             },
             {
-                text: '产品手册',
-                link: '/document/'
-            },
-            {
-                text: '技术文档',
-                link: '/technical/'
+                text: '关于我们',
+                link: '/about/'
             },
             {
                 text: '平台体验',
@@ -79,12 +92,19 @@ module.exports = {
             }
         ],
         sidebar: {
+            '/about': [
+                {
+                    title: '关于我们',
+                    collapsible: true,
+                    children: genAboutSidebar(0)
+                }
+            ],
             '/business': [
                 {
                     title: '产品服务',
                     collapsible: true,
                     children: genBusinessSidebar(0)
-                },
+                }
             ],
             '/technical': [
                 {
@@ -271,6 +291,22 @@ module.exports = {
         }
     },
 }
+
+/**
+* 关于我们
+ * @param {序号} menus
+ */
+function genAboutSidebar(menus) {
+    const mapArr = [
+        '/about/',
+        '/about/02_合作伙伴.md',
+    ]
+    return mapArr.map(i => {
+        return i
+    })
+
+}
+
 
 /**
 * 产品服务

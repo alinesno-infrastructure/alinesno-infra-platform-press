@@ -11,7 +11,14 @@
       </div>
       <div class="hero-actions">
         <div class="action-link">免费开始使用</div>
-        <div class="action-saler">与技术专家联系</div>
+        <div class="action-saler">
+          <a 
+            href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q" 
+            style="color: #fff;text-decoration: none;"
+            target="_blank">
+            与技术专家咨询
+          </a>
+        </div>
       </div>
     </div>
     <div class="panel-right">
