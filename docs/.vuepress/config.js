@@ -298,8 +298,8 @@ module.exports = {
  */
 function genAboutSidebar(menus) {
     const mapArr = [
-        '/about/',
-        '/about/02_合作伙伴.md',
+        '/about/'
+        // '/about/02_合作伙伴.md',
     ]
     return mapArr.map(i => {
         return i
