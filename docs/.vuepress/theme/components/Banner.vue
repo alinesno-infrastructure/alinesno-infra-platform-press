@@ -10,13 +10,15 @@
         <div class="hero-sub-title">升级为智能体平台，推动业务的智能化自动化转型，提升业务的智能化和更高质量</div>
       </div>
       <div class="hero-actions">
-        <div class="action-link">免费开始使用</div>
+        <div class="action-link">
+            <i class="fa-solid fa-feather"></i> 免费开始使用
+        </div>
         <div class="action-saler">
-          <a 
-            href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q" 
+          <a
+            href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q"
             style="color: #fff;text-decoration: none;"
             target="_blank">
-            与技术专家咨询
+            <i class="fa-solid fa-user-astronaut"></i> 与技术专家咨询
           </a>
         </div>
       </div>

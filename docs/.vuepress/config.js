@@ -6,7 +6,7 @@ module.exports = {
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
         ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['link', { rel: 'stylesheet', href: '/font-awesome-5.11.2/css/all.min.css' }]
+        ['link', { rel: 'stylesheet', href: '/fontawesome-free-6.5.2-web/css/all.min.css' }]
     ],
     plugins: [
         ['@vuepress/active-header-links'],
@@ -252,11 +252,11 @@ module.exports = {
                     collapsible: true,
                     children: genProductSidebar(1)
                 },
-                {
-                    title: '核心框架',
-                    collapsible: true,
-                    children: genProductSidebar(2)
-                },
+                // {
+                    // title: '核心框架',
+                    // collapsible: true,
+                    // children: genProductSidebar(2)
+                // },
                 {
                     title: '基础服务',
                     collapsible: true,
@@ -843,6 +843,7 @@ function genProductSidebar(menus) {
     const mapArr = [
         '/product/',
         '/product/ProductDesign.md',
+        '/product/ProductIntro.md',
         '/product/plan.md'
     ]
 
