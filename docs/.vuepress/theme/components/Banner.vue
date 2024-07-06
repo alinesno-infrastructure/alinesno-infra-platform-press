@@ -11,13 +11,12 @@
       </div>
       <div class="hero-actions">
         <div class="action-link">
+          <a href="http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com" style="color: #fff;text-decoration: none;" target="_blank">
             <i class="fa-solid fa-feather"></i> 免费开始使用
+          </a>
         </div>
         <div class="action-saler">
-          <a
-            href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q"
-            style="color: #fff;text-decoration: none;"
-            target="_blank">
+          <a href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q" style="color: #fff;text-decoration: none;" target="_blank">
             <i class="fa-solid fa-user-astronaut"></i> 与技术专家咨询
           </a>
         </div>
