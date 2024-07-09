@@ -34,38 +34,30 @@
 | 1    | 基础服务    | 01. 权限配置服务       | alinesno-infra-base-authority        | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-authority]        | 编写中 |                     |
 | 2    |             | 02. 代码生成器         | alinesno-infra-base-starter          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-starter]          | 编写中 |                     |
 | 3    |             | 03. 分布式配置服务     | alinesno-infra-base-config           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-config]           | 编写中 |                     |
-| 4    |             | 20. 文档查看服务       | alinesno-infra-base-fileshow         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-fileshow ]        | 编写中 |                     |
-| 5    |             | 04. 事务消息服务       | alinesno-infra-base-message          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-message]          | 编写中 |                     |
-| 6    |             | 05. 通知管理服务       | alinesno-infra-base-notices          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-notices]          | 编写中 |                     |
-| 7    |             | 06. 存储管理服务       | alinesno-infra-base-storage          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-storage]          | 编写中 |                     |
-| 8    |             | 07. 单点登陆服务       | alinesno-infra-base-identity         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-identity]         | 编写中 |                     |
-| 9    |             | 08. 网关配置服务       | alinesno-infra-base-gateway          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-gateway]          | 编写中 |                     |
-| 10   |             | 09. 安全验证码服务     | alinesno-infra-base-validate         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-validate]         | 编写中 |                     |
-| 11   |             | 12. 文档搜索服务       | alinesno-infra-base-document         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-document]         | 编写中 |                     |
-| 12   |             | 13. 分布式ID服务       | alinesno-infra-base-id               | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-id]               | 编写中 |                     |
-| 13   |             | 14. 敏感词过滤服务     | alinesno-infra-base-sensitive        | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-sensitive]        | 编写中 |                     |
-| 14   |             | 15. 支付服务           | alinesno-infra-base-pay              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-pay]              | 编写中 |                     |
-| 15   |             | 17. 内容服务           | alinesno-infra-base-cms              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-cms]              | 编写中 |                     |
+| 4    |             | 04. 事务消息服务       | alinesno-infra-base-message          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-message]          | 编写中 |                     |
+| 5    |             | 06. 存储管理服务       | alinesno-infra-base-storage          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-storage]          | 编写中 |                     |
+| 6    |             | 07. 单点登陆服务       | alinesno-infra-base-identity         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-identity]         | 编写中 |                     |
+| 7    |             | 08. 网关配置服务       | alinesno-infra-base-gateway          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-gateway]          | 编写中 |                     |
+| 8    |             | 12. 文档搜索服务       | alinesno-infra-base-document         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-document]         | 编写中 |                     |
+| 9    |             | 14. 敏感词过滤服务     | alinesno-infra-base-sensitive        | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-sensitive]        | 编写中 |                     |
+| 10   |             | 15. 支付服务           | alinesno-infra-base-pay              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-pay]              | 编写中 |                     |
+| 11   |             | 17. 内容服务           | alinesno-infra-base-cms              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-cms]              | 编写中 |                     |
 |      |             |                        |                                      |                                                                                             |        |                     |
 | 1    |             | 01. 主数据服务         | alinesno-infra-data-mdm              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-mdm]              | 编写中 |                     |
 | 2    |             | 02. 数据上报服务       | alinesno-infra-data-report           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-report]           | 编写中 |                     |
 | 3    |             | 03. 数据集成服务       | alinesno-infra-data-pipeline         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-pipeline]         | 编写中 |                     |
 | 4    |             | 04. 数据开发服务       | alinesno-infra-data-dolphinscheduler | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-dolphinscheduler] | 编写中 |                     |
 | 5    |             | 05. 实时计算服务       | alinesno-infra-data-stream           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-stream]           | 编写中 |                     |
-| 5    |             | 06. 数据安全服务       | alinesno-infra-data-security         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-security]         | 编写中 |                     |
-| 6    |             | 08. 数据总线服务       | alinesno-infra-data-bus              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-bus]              | 编写中 |                     |
 | 7    |             | 09. 数据资产服务       | alinesno-infra-data-assets           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-data-assets]           | 编写中 |                     |
 |      |             |                        |                                      |                                                                                             |        |                     |
 | 1    | 智能服务    | 01. OCR视觉识别服务    | alinesno-infra-smart-ocr             | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-ocr]             | 编写中 |                     |
 | 2    |             | 02. 自然语言识别服务   | alinesno-infra-smart-nlp             | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-nlp]             | 编写中 |                     |
 | 3    |             | 03. GPT推理服务        | alinesno-infra-smart-brain           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-brain]           | 编写中 |                     |
-| 4    |             | 04. 流媒体识别服务     | alinesno-infra-smart-media           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-media]           | 编写中 |                     |
 | 5    |             | 05. 智能助手服务       | alinesno-infra-smart-assistant       | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-assistant]       | 编写中 |                     |
 | 6    |             | 06. 目标检测识别服务   | alinesno-infra-smart-detection       | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-smart-detection]       | 编写中 |                     |
 |      |             |                        |                                      |                                                                                             |        |                     |
 | 1    | 运维服务    | 01. 自动化任务服务     | alinesno-infra-ops-scheduler         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-ops-scheduler]         | 编写中 |                     |
 | 2    |             | 02. 分布式日志服务     | alinesno-infra-ops-logback           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-ops-logback]           | 编写中 |                     |
-| 3    |             | 03. 分布式链路跟踪服务 | alinesno-infra-ops-telemetry         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-ops-telemetry]         | 编写中 |                     |
 | 4    |             | 05. 容器管理服务       | alinesno-infra-ops-container         | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-ops-container]         | 编写中 |                     |
 | 5    |             | 06. 监控预警服务       | alinesno-infra-ops-watcher           | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-ops-watcher]           | 编写中 |                     |
 |      |             |                        |                                      |                                                                                             |        |                     |
