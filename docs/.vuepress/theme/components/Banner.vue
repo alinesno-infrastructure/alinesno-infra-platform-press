@@ -24,9 +24,11 @@
     </div>
     <div class="panel-right">
       <div class="banner-img">
-        <img src="/assets/portal/hero_bg.png" alt="" />
+        <img src="/assets/portal/book-cover.png" alt="" />
         <div class="img-text">
-          了解企业如何使用AIP从内部推进改变
+            <a href="https://alinesno-agent.linesno.com/book/" target="_blank">
+               超级个体:多Agent协作与自动化产品实践
+            </a>
         </div>
       </div>
     </div>
