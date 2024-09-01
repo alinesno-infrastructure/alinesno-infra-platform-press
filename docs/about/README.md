@@ -53,7 +53,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
       <tr>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="https://avatars.githubusercontent.com/u/9816972?v=4" width="100px;" style="border-radius:10px" alt="Anto" />
+               <img src="https://avatars.githubusercontent.com/u/9816972?v=4" width="80px;" style="border-radius:10px;max-width:none !important" alt="Anto" />
             </a>
             <br />
             <sub>
@@ -64,11 +64,11 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/2.jpg" width="100px;" style="border-radius:10px" alt="WenDy" />
+               <img src="/assets/avatars/team-2.png" width="80px;" style="border-radius:10px;max-width:none !important" alt="WenDy" />
             </a>
             <br />
             <sub>
-               <b>WenDy</b>
+               <b>(李秀)WenDy</b>
             </sub>
             <br />
             <sub>UI设计</sub>
@@ -77,7 +77,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
       <tr style="background-color:#fff">
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/3.jpg" width="100px;" style="border-radius:10px" alt="James" />
+               <img src="/assets/avatars/team-3.png" width="80px;" style="border-radius:10px;max-width:none !important" alt="James" />
             </a>
             <br />
             <sub>
@@ -88,7 +88,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/4.jpg" width="100px;" style="border-radius:10px" alt="Allen" />
+               <img src="/assets/avatars/team-4.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="Allen" />
             </a>
             <br />
             <sub>
@@ -99,7 +99,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/5.jpg" width="100px;" style="border-radius:10px" alt="zgm4z" />
+               <img src="/assets/avatars/team-5.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="zgm4z" />
             </a>
             <br />
             <sub>
@@ -110,7 +110,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/6.jpg" width="100px;" style="border-radius:10px" alt="List" />
+               <img src="/assets/avatars/team-6.png" width="80px;" style="border-radius:10px;max-width:none !important" alt="List" />
             </a>
             <br />
             <sub>
@@ -121,7 +121,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td> 
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/7.jpg" width="100px;" style="border-radius:10px" alt="李娜(Allen)" />
+               <img src="/assets/avatars/team-17.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="李娜(Allen)" />
             </a>
             <br />
             <sub>
@@ -132,7 +132,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/8.jpg" width="100px;" style="border-radius:10px" alt="王磊(Levi)" />
+               <img src="/assets/avatars/team-8.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="王磊(Levi)" />
             </a>
             <br />
             <sub>
@@ -143,7 +143,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/9.jpg" width="100px;" style="border-radius:10px" alt="张婷(Tina)" />
+               <img src="/assets/avatars/team-10.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="张婷(Tina)" />
             </a>
             <br />
             <sub>
@@ -154,7 +154,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/10.jpg" width="100px;" style="border-radius:10px" alt="梁明树(Nina)" />
+               <img src="/assets/avatars/team-9.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="梁明树(Nina)" />
             </a>
             <br />
             <sub>
@@ -167,7 +167,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
       <tr style="background-color:#fff">
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/11.jpg" width="100px;" style="border-radius:10px" alt="赵阳(Yang)" />
+               <img src="/assets/avatars/team-11.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="赵阳(Yang)" />
             </a>
             <br />
             <sub>
@@ -178,7 +178,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/12.jpg" width="100px;" style="border-radius:10px" alt="林晓(Lily)" />
+               <img src="/assets/avatars/team-12.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="林晓(Lily)" />
             </a>
             <br />
             <sub>
@@ -189,7 +189,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/13.jpg" width="100px;" style="border-radius:10px" alt="陈伟(Victor)" />
+               <img src="/assets/avatars/team-13.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="陈伟(Victor)" />
             </a>
             <br />
             <sub>
@@ -200,7 +200,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td> 
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/25.webp" width="100px;" style="border-radius:10px" alt="黄涛(Leo)" />
+               <img src="/assets/avatars/team-14.png" width="80px;" style="border-radius:10px;max-width:none !important" alt="黄涛(Leo)" />
             </a>
             <br />
             <sub>
@@ -211,7 +211,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/26.webp" width="100px;" style="border-radius:10px" alt="周健(James)" />
+               <img src="/assets/avatars/team-18.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="周健(James)" />
             </a>
             <br />
             <sub>
@@ -222,7 +222,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/27.webp" width="100px;" style="border-radius:10px" alt="李伟(Michael)" />
+               <img src="/assets/avatars/team-19.jpeg" width="80px;" style="border-radius:10px;max-width:none !important" alt="李伟(Michael)" />
             </a>
             <br />
             <sub>
@@ -233,7 +233,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
-               <img src="http://data.linesno.com/icons/header/1.jpg" width="100px;" style="border-radius:10px" alt="王明(AllenQin)" />
+               <img src="/assets/avatars/team-20.png" width="80px;" style="border-radius:10px;max-width:none !important" alt="王明(AllenQin)" />
             </a>
             <br />
             <sub>
