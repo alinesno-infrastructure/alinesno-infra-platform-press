@@ -46,24 +46,25 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
 ## 运营成员
 
 当前AIP的社区的核心团队成员，我们致力于打造一款数字化产品，为中小企业提供服务， 产品过程支持为原创团队支持，我们是热爱于技术层面研究的团队。
+ 
 
 <table class="contributor-table">
    <tbody>
       <tr>
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/9816972?v=4" width="100px;" alt="Anto" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="https://avatars.githubusercontent.com/u/9816972?v=4" width="100px;" style="border-radius:10px" alt="Anto" />
             </a>
             <br />
             <sub>
-               <b>Anto</b>
+               <b>罗小东(Anto)</b>
             </sub>
             <br />
             <sub>产品(PM)</sub>
          </td>
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/101002463?v=4" width="100px;" alt="WenDy" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/2.jpg" width="100px;" style="border-radius:10px" alt="WenDy" />
             </a>
             <br />
             <sub>
@@ -74,9 +75,9 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
          </td>
       </tr>
       <tr style="background-color:#fff">
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/105762826?v=4" width="100px;" alt="James" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/3.jpg" width="100px;" style="border-radius:10px" alt="James" />
             </a>
             <br />
             <sub>
@@ -85,9 +86,9 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             <br />
             <sub>DevOps规划</sub>
          </td>
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/99624544?v=4" width="100px;" alt="Allen" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/4.jpg" width="100px;" style="border-radius:10px" alt="Allen" />
             </a>
             <br />
             <sub>
@@ -96,9 +97,9 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             <br />
             <sub>工程师(Dev)</sub>
          </td>
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/8686411?v=4" width="100px;" alt="zgm4z" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/5.jpg" width="100px;" style="border-radius:10px" alt="zgm4z" />
             </a>
             <br />
             <sub>
@@ -107,9 +108,9 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             <br />
             <sub>工程师(Dev)</sub>
          </td>
-         <td align="left">
-            <a href="https://github.com/alinesno-cloud">
-               <img src="https://avatars.githubusercontent.com/u/99377133?v=4" width="100px;" alt="List" />
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/6.jpg" width="100px;" style="border-radius:10px" alt="List" />
             </a>
             <br />
             <sub>
@@ -117,6 +118,129 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             </sub>
             <br />
             <sub>工程师(Dev)</sub>
+         </td> 
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/7.jpg" width="100px;" style="border-radius:10px" alt="李娜(Allen)" />
+            </a>
+            <br />
+            <sub>
+               <b>李娜(Allen)</b>
+            </sub>
+            <br />
+            <sub>后端开发工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/8.jpg" width="100px;" style="border-radius:10px" alt="王磊(Levi)" />
+            </a>
+            <br />
+            <sub>
+               <b>王磊(Levi)</b>
+            </sub>
+            <br />
+            <sub>数据开发工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/9.jpg" width="100px;" style="border-radius:10px" alt="张婷(Tina)" />
+            </a>
+            <br />
+            <sub>
+               <b>张婷(Tina)</b>
+            </sub>
+            <br />
+            <sub>智能服务工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/10.jpg" width="100px;" style="border-radius:10px" alt="梁明树(Nina)" />
+            </a>
+            <br />
+            <sub>
+               <b>梁明树(Nina)</b>
+            </sub>
+            <br />
+            <sub>前端开发工程师</sub>
+         </td>
+      </tr>
+      <tr style="background-color:#fff">
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/11.jpg" width="100px;" style="border-radius:10px" alt="赵阳(Yang)" />
+            </a>
+            <br />
+            <sub>
+               <b>赵阳(Yang)</b>
+            </sub>
+            <br />
+            <sub>运维工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/12.jpg" width="100px;" style="border-radius:10px" alt="林晓(Lily)" />
+            </a>
+            <br />
+            <sub>
+               <b>林晓(Lily)</b>
+            </sub>
+            <br />
+            <sub>UI/UX设计师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/13.jpg" width="100px;" style="border-radius:10px" alt="陈伟(Victor)" />
+            </a>
+            <br />
+            <sub>
+               <b>陈伟(Victor)</b>
+            </sub>
+            <br />
+            <sub>全栈开发工程师</sub>
+         </td> 
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/25.webp" width="100px;" style="border-radius:10px" alt="黄涛(Leo)" />
+            </a>
+            <br />
+            <sub>
+               <b>黄涛(Leo)</b>
+            </sub>
+            <br />
+            <sub>安全工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/26.webp" width="100px;" style="border-radius:10px" alt="周健(James)" />
+            </a>
+            <br />
+            <sub>
+               <b>周健(James)</b>
+            </sub>
+            <br />
+            <sub>测试工程师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/27.webp" width="100px;" style="border-radius:10px" alt="李伟(Michael)" />
+            </a>
+            <br />
+            <sub>
+               <b>李伟(Michael)</b>
+            </sub>
+            <br />
+            <sub>系统架构师</sub>
+         </td>
+         <td align="center">
+            <a href="https://github.com/alinesno-infrastructure">
+               <img src="http://data.linesno.com/icons/header/1.jpg" width="100px;" style="border-radius:10px" alt="王明(AllenQin)" />
+            </a>
+            <br />
+            <sub>
+               <b>王明(AllenQin)</b>
+            </sub>
+            <br />
+            <sub>技术架构师</sub>
          </td>
       </tr>
    </tbody>
