@@ -6,7 +6,7 @@ module.exports = {
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
         ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['link', { rel: 'stylesheet', href: '/fontawesome-free-6.5.2-web/css/all.min.css' }]
+        ['link', { rel: 'stylesheet', href: '/fontawesome-free-6.5.2-web/css/all.min.css' }],
     ],
     plugins: [
         ['@vuepress/active-header-links'],
