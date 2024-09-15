@@ -78,7 +78,7 @@
             iframe.style.bottom = '120px';
             iframe.style.right = '10px';
             iframe.style.width = '80%';
-            iframe.style.maxWidth = '660px';
+            iframe.style.maxWidth = '560px';
             iframe.style.height = '75vh';
             iframe.style.border = 'none';
             iframe.style.boxShadow = '0px 0px 12px rgba(0, 0, 0, .12)';
