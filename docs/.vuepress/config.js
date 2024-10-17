@@ -85,6 +85,10 @@ module.exports = {
             },
             {
                 text: '平台体验',
+                link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com' 
+            },
+            {
+                text: '底座体验',
                 link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com' 
             }
         ],
