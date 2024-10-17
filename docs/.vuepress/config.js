@@ -134,6 +134,11 @@ module.exports = {
                     children: genTechnicalSidebar(3)
                 },
                 {
+                    title: '智能体开发',
+                    collapsible: true,
+                    children: genTechnicalSidebar(8)
+                },
+                {
                     title: '安全过滤',
                     collapsible: true,
                     children: genTechnicalSidebar(4)
@@ -711,6 +716,17 @@ function genTechnicalSidebar(menus) {
         const mapArr = [
             '/technical/quality/01_工程安全检测.md',
             '/technical/quality/02_单元测试报告.md',
+        ];
+        return mapArr.map(i => {
+            return i
+        })
+    } else if (menus === 8) { // 智能体开发
+        const mapArr = [
+            '/technical/brain/01_自定义智能体开发流程.md',
+            '/technical/brain/02_角色知识库处理.md',
+            '/technical/brain/03_数据自动化采集.md',
+            '/technical/brain/04_角色自动化.md',
+            '/technical/brain/05_角色反思和优化.md'
         ];
         return mapArr.map(i => {
             return i
