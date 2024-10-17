@@ -11,8 +11,8 @@
       </div>
       <div class="hero-actions">
         <div class="action-link">
-          <a href="http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-feather"></i> 免费开始使用
+          <a href="http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-feather"></i> 智能体平台体验
           </a>
         </div>
         <div class="action-saler">
