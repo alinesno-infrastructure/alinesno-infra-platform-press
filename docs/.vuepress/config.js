@@ -34,9 +34,9 @@ module.exports = {
         logo: '/logo.png', // 注意图片放在 public 文件夹下
         lastUpdated: 'Last Updated',
         sidebarDepth: 2,
-        repo: 'https://github.com/alinesno-infrastructure/alinesno-infrastructure-platform-press',
+        repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press',
         docsDir: 'docs',
-        repoLabel: 'Github',
+        repoLabel: 'Gitee',
         docsBranch: 'main',
         editLinks: true,
         editLinkText: '帮助我们改善此页面',
@@ -85,11 +85,11 @@ module.exports = {
             },
             {
                 text: '平台体验',
-                link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com' 
+                link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com'
             },
             {
                 text: '底座体验',
-                link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com' 
+                link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com'
             }
         ],
         sidebar: {
