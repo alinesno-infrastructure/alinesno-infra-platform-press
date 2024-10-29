@@ -23,8 +23,7 @@
       </nav>
     </div>
     </div>
-
-    <script src="/assets/script/aip_role_chat_v1.0.js?id=1808349647059738625"></script>
+ 
 
   </div>
 </template>
