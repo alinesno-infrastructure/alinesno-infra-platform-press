@@ -36,7 +36,7 @@ import FooterPanel from './Footer.vue'
 
 export default {
   components: {
-    BannerPanel, 
+    BannerPanel,
     SolutionPanel ,
     ProductPanel,
     ArchitecturePanel,
