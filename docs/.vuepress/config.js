@@ -88,6 +88,10 @@ module.exports = {
                 link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com'
             },
             {
+                text: '内容运营',
+                link: 'http://alinesno-infra-portal.beta.base.infra.linesno.com'
+            },
+            {
                 text: '底座体验',
                 link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com'
             }
