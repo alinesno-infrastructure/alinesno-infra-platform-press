@@ -26,7 +26,7 @@
       <div class="banner-img">
         <img src="/assets/portal/book-cover.png" alt="" />
         <div class="img-text">
-            <a href="https://alinesno-agent.linesno.com/book/" target="_blank">
+            <a href="http://alinesno-agent.linesno.com/book/" target="_blank">
                超级个体:多Agent协作与自动化产品实践
             </a>
         </div>
