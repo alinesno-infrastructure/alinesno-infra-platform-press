@@ -25,7 +25,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
 ">
 
-- 《中小团队数字中台产品建设实践》[打开](https://alinesno-book.linesno.com/book/)
+- 《中小团队数字中台产品建设实践》[打开](http://alinesno-book.linesno.com/book/)
 
 关于数字化转型的实战指南，旨在帮助中小微企业团队打造中台产品，提升企业的竞争力。书籍从19年设计alinesno-cloud开源项目的第一版本建设开始进行记录编写，
 整个产品输出过程大概是建设初版本到产品化运营差不多3年。
@@ -38,7 +38,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
 ">
 
-- 《超级个体：多Agent协作与自动化产品实践》[打开](https://alinesno-agent.linesno.com/book/)
+- 《超级个体：多Agent协作与自动化产品实践》[打开](http://alinesno-agent.linesno.com/book/)
 
 聚焦于AI应用层的书籍，旨在探索多Agent智能体协作以及自动化技术在产品实践中的前沿应用。该书不仅深入讨论了如何利用多Agent系统的集成和协作创造高效、智能的产品，
 还深入研究了超自动化模式下的产品设计、智能体以及超级个体工作方法的最佳实践。
