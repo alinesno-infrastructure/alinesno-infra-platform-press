@@ -93,7 +93,7 @@ module.exports = {
             },
             {
                 text: '底座体验',
-                link: 'http://alinesno-infra-plat-console-ui.beta.plat.infra.linesno.com'
+                link: 'http://alinesno-infra-plat-console-ui.beta.base.infra.linesno.com'
             }
         ],
         sidebar: {
