@@ -10,9 +10,9 @@
         <div class="hero-sub-title">升级为智能体平台，推动业务的智能化自动化转型，提升业务的智能化和更高质量</div>
       </div>
       <div class="hero-actions">
-        <div class="action-link">
-          <a href="http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-feather"></i> 智能体平台体验
+        <div class="action-link" style="background:#d33232">
+          <a href="https://kdocs.cn/l/coh4PKJHYm7j" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-file-pdf"></i> 智能体业务场景结合
           </a>
         </div>
         <div class="action-saler">
