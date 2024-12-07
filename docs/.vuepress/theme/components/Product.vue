@@ -3,9 +3,9 @@
     <div class="header-box">
       <div class="header-title">产品特征</div>
       <div class="header-sub-title">
-        软件智能体平台，全称Alinesno-Infrastructure-Platform（简称AIP)，通过建设软件智能体平台，
-        推动业务自动化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率，
-        对现代软件开发和运行需求而建设的智能体平台系统。 
+        软件智能体平台，全称Alinesno-Infrastructure-Platform（简称AIP)，
+        通过智能体协作实现业务自动化，解放团队人力，优化日常工作和业务流程，支持定制化解决方案，
+        自适应环境变化、智能学习与进化、以及高度自治操作，使团队能够专注于更高价值的任务。
       </div>
     </div>
 
