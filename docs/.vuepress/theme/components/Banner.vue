@@ -6,8 +6,8 @@
         <span class="link-icon">进度</span>
       </div>
       <div class="hero-header">
-        <div class="hero-title">利用AIP智能体平台 赋能业务超级自动化 促进高质量发展</div>
-        <div class="hero-sub-title">升级为智能体平台，推动业务的智能化自动化转型，提升业务的智能化和更高质量</div>
+        <div class="hero-title">Multi-Agent平台 赋能团队自动化优化流程提升团队能力</div>
+        <div class="hero-sub-title">利用强大的多智能体优化行业，基于大型语言模型（LLM）构建并部署自动化工作流</div>
       </div>
       <div class="hero-actions">
         <div class="action-link" style="background:#d33232">
@@ -26,7 +26,7 @@
       <div class="banner-img">
         <img src="/assets/portal/book-cover.png" alt="" />
         <div class="img-text">
-            <a href="http://alinesno-agent.linesno.com/book/" target="_blank">
+            <a href="http://alinesno-agent.linesno.com/book/" style="color: #fff;font-size: 15px;" target="_blank">
                超级个体:多Agent协作与自动化产品实践
             </a>
         </div>
@@ -35,7 +35,9 @@
     <div class="panel-list-features">
       <ul>
         <li class="feature" v-for="item in services" :key="item.id">
-          <div class="header-title">{{ item.title }}</div>
+          <div class="header-title">
+            <i :class="item.icon" style="font-size: 30px;color: #d33233;"></i>
+            {{ item.title }}</div>
           <div class="header-sub-label">{{ item.sub }}</div>
         </li>
       </ul>
@@ -52,23 +54,27 @@ export default {
       services: [
           {
             "id":1 ,
-            "title": "自动化转型高质量发展",
-            "sub": "建设软件智能体平台，推动企业超级自动化转型和创新发展"
+            "icon":"fa-solid fa-truck-fast",
+            "title": "多组织智能协作",
+            "sub": "通过多智能体间的高效协作，为企业提供定制化的解决方案，优化业务流程"
           },
           {
             "id":2 ,
-            "title": "提高竞争力和降低成本",
-            "sub": "建设高效、可靠、安全的环境，提高竞争力，降低运营和管理成本"
+            "icon":"fa-solid fa-user-secret",
+            "title": "智能体市场与生态",
+            "sub": "构建一个智能体市场，允许分享智能体服务，促进技术创新和快速部署"
           },
           {
             "id":3 ,
-            "title": "支持创新和业务拓展",
-            "sub": "提供创新和业务拓展的平台，促进新产品、新服务的开发和推广"
+            "icon":"fa-solid fa-signature" , 
+            "title": "跨场景融合应用",
+            "sub": "支持多智能体在不同业务场景下的无缝集成，如综合业务、市场营销等"
           },
           {
             "id":4 ,
-            "title": "加强团队协作效率",
-            "sub": "提供工具和平台，促进团队之间的协作，提高工作效率和团队能力"
+            "icon":"fa-solid fa-rocket",
+            "title": "自定义与个性化智能体",
+            "sub": "提供强大的工具，使团队能够根据自身需求创建和结合场景自定义智能体"
           }
         ]
     }
