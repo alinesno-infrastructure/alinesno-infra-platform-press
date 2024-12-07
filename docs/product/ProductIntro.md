@@ -6,7 +6,7 @@
 
 ## 产品全景图
 
-以下为AIP智能体平台全景图，包括所有当前的产品列表，总体产品介绍下载<i class="fa-solid fa-file-pdf"></i>[AIP智能体平台产品手册_V1.0][alinesno-infra-platform]进行总体了解，也可以下载下面单个章节了解。
+以下为AIP Multi-Agent平台全景图，包括所有当前的产品列表，总体产品介绍下载<i class="fa-solid fa-file-pdf"></i>[AIP Multi-Agent平台产品手册_V1.0][alinesno-infra-platform]进行总体了解，也可以下载下面单个章节了解。
 
 <img src="/product/aip_all_product_01.jpg" style="width:100%;margin-left:-20px">
 
@@ -29,7 +29,7 @@
 
 | 序号 | 模块        | 服务                   | 模块名称                             | 文档                                                                                        | 状态   | 备注                |
 |:----:|-------------|------------------------|--------------------------------------|---------------------------------------------------------------------------------------------|:------:|---------------------|
-| 1    | AIP产品介绍 | AIP智能体平台_产品介绍 | alinesno-infra-platform              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-platform]              | 编写中 | 相关PPT权限请做申请 |
+| 1    | AIP产品介绍 | AIP Multi-Agent平台_产品介绍 | alinesno-infra-platform              | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-platform]              | 编写中 | 相关PPT权限请做申请 |
 |      |             |                        |                                      |                                                                                             |        |                     |
 | 1    | 基础服务    | 01. 权限配置服务       | alinesno-infra-base-authority        | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-authority]        | 编写中 |                     |
 | 2    |             | 02. 代码生成器         | alinesno-infra-base-starter          | <i class="fa-solid fa-file-pdf"></i>[查看产品PPT介绍][alinesno-infra-base-starter]          | 编写中 |                     |
