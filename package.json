@@ -1,7 +1,7 @@
 {
     "name": "alinesno-infrastructure-plat-press",
     "version": "1.0.0-SNAPSHOT",
-    "description": "AIP智能体平台产品总体设计稿",
+    "description": "AIP Multi-Agent平台产品总体设计稿",
     "main": "index.js",
     "author": "LuoXiaoDong",
     "license": "Apache-2.0",
