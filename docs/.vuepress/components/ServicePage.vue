@@ -10,7 +10,7 @@ export default {
   name: "ServicePage",
   data() {
     return {
-      title: '全新一代软件智能体平台',
+      title: '全新一代智能体平台',
       saasTitle: 'AIP Multi-Agent平台',
     }
   },
