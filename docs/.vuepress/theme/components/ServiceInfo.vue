@@ -11,7 +11,7 @@
           <div class="suppoert-pannel suppoert-pannel-module" tms="suppoert-pannel/0.0.3">
             <div class="module-wrap J_tb_lazyload" style="background-color: #373d41">
               <div class="title" style="color: #fff; font-size: 24px">
-                企业技术支持服务
+                技术支持服务
               </div>
               <div class="des" style="color: #fff; width:100%; text-align:center;">
                 提供全周期的技术支持服务，涵盖多智能体平台的部署、业务集成和二次开发指导，确保企业顺利实施。同步包括：
