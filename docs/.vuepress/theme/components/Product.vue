@@ -3,7 +3,7 @@
     <div class="header-box">
       <div class="header-title">产品特征</div>
       <div class="header-sub-title">
-        软件智能体平台，全称Alinesno-Infrastructure-Platform（简称AIP)，
+        智能体平台，全称Alinesno-Infrastructure-Platform（简称AIP)，
         通过智能体协作实现业务自动化，解放团队人力，优化日常工作和业务流程，支持定制化解决方案，
         自适应环境变化、智能学习与进化、以及高度自治操作，使团队能够专注于更高价值的任务。
       </div>
@@ -14,7 +14,8 @@
         <ul>
           <li class="product-item" v-for="item in productList" :key="item.title">
             <div class="product-icon">
-              <img :src="item.img" :alt="item.title" style="width: 61px;">
+              <!-- <img :src="item.img" :alt="item.title" style="width: 61px;"> -->
+               <i :class="item.icon" style="font-size: 50px;font-weight: bold;color: #d33233;" />
             </div>
             <div class="prouct-title">
               {{ item.title }}
@@ -36,43 +37,43 @@ export default {
   data() {
     return {
       productList: [
-          {
-            "icon":"fas fa-laptop-code",
-            "img":"/assets/portal/icons/outlook_48x1.svg",
-            "title": "支持创新和业务拓展",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-          {
-            "icon":"fas fa-tags",
-            "img":"/assets/portal/icons/powerpoint_48x1.svg",
-            "title": "超级自动化转型推动",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-          {
-            "icon":"fas fa-file-word",
-            "img":"/assets/portal/icons/teams_48x1.svg",
-            "title": "提高竞争力和降低成本",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-          {
-            "icon":"fas fa-file-csv",
-            "img":"/assets/portal/icons/onenote_48x1.svg",
-            "title": "数字经济发展支持",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-          {
-            "icon":"fab fa-google-drive",
-            "img":"/assets/portal/icons/excel_48x1.svg",
-            "title": "全面的产品覆盖",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-          {
-            "icon":"fas fa-feather",
-            "img":"/assets/portal/icons/sharepoint_48x1.svg",
-            "title": "加强团队协作效率",
-            "sub": "可视化友好的管理平台，提供多团队管理的平台，适配为多部门，多外包等体系，形成多方合作。"
-          },
-        ]
+    {
+        "icon": "fa-solid fa-signature",
+        "img": "/assets/portal/icons/single_agent.svg",
+        "title": "高效任务执行",
+        "sub": "通过优化单一智能体的任务处理能力，确保快速响应和高效率的任务完成，提升整体业务流程的顺畅度"
+    },
+    {
+        "icon": "fa-solid fa-users-gear",
+        "img": "/assets/portal/icons/multi_agents.svg",
+        "title": "团队协作优化",
+        "sub": "创建安全高效的协作环境，支持多个智能体在一频道内的互动与合作，显著提高团队协作的效果和灵活性"
+    },
+    {
+        "icon": "fas fa-file-signature",
+        "img": "/assets/portal/icons/scenario_platform.svg",
+        "title": "灵活场景适配",
+        "sub": "根据不同业务场景的需求，提供定制化的智能体协作方案，适应各种复杂的工作流程，实现精准匹配和高效运作"
+    },
+    {
+        "icon": "fas fa-laptop-code",
+        "img": "/assets/portal/icons/resource_exchange.svg",
+        "title": "资源共享平台",
+        "sub": "建立开放平台，促进智能体资源的共享与交换，推动不同组织之间的技术交流与合作，增强创新能力和竞争力"
+    },
+    {
+        "icon": "fas fa-swatchbook",
+        "img": "/assets/portal/icons/data_governance.svg",
+        "title": "数据治理强化",
+        "sub": "利用先进的数据分析工具和技术，确保智能体收集的数据的安全性和隐私性，维护企业信息资产的安全与合规"
+    },
+    {
+        "icon": "fa-solid fa-building-columns",
+        "img": "/assets/portal/icons/cross_industry_team.svg",
+        "title": "跨行业协同",
+        "sub": "跨越传统行业界限，组建由不同背景的智能体组成的团队，实现前所未有的协作可能性，共同解决复杂问题并创造新价值"
+    }
+]
     }
   },
   computed: {
