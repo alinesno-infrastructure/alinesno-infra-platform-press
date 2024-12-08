@@ -1,9 +1,10 @@
 <template>
   <div class="solution-container">
     <div class="solution-header-box">
-      <div class="solution-header-title">行业解决方案</div>
+      <div class="solution-header-title">全面的产品体系</div>
       <div class="solution-header-sub-title">
-        利用我们的 行业解决方案解决您的业务问题，从改进零售 商品发现解决方案到检测 银行欺诈，我们的行业解决方案可以应对您面临的最大挑战。
+        在提升工作效率、促进团队合作、加速业务自动化、简化系统集成、保障信息安全以及推动技<br/>
+        术交流等方面的具体价值，为用户提供了一个全面了解智能体协作技术和应用的窗口。
       </div>
     </div>
     <div class="solution-box">
@@ -15,13 +16,13 @@
           :class="{ active: activeId === industry.id }"
           class="industry-item"
         >
-          {{ industry.name }}
+        <i :class="industry.icon" style="font-size: 20px;margin-right:5px;color: rgb(211, 50, 51);"></i>
+         {{ industry.name }}
         </div>
       </div>
       <div class="content-area">
         <div v-for="industry in industries" :key="industry.id">
           <div v-if="industry.id === activeId">
-            <!-- <div v-html="htmlContents[industry.id]"></div> -->
 
             <div class="tabpanel">
               <div class="solution-case-img">
@@ -35,7 +36,6 @@
 
                 <span class="info-img">
                   <picture class="D0Blhe">
-                    <!-- <img  src="https://lh3.googleusercontent.com/xGJQ-HwIDNIESh2O3xnU6BLgHPPTShWkZIPT5KLnZcMeVeyswbbw_1-u3vQnGHvgF8G_PGBT0LOB" style="width: 40%;"> -->
                   </picture> 
                   <span class="D0aEmf" style="line-height: 1.7rem;font-size: 15px;">
                     <div>
@@ -46,7 +46,6 @@
               </div>
 
               <div class="info-solution-text-link" >
-                <!-- 探索供应链与物流解决方案 -->
               </div>
 
             </div>
@@ -63,46 +62,27 @@ export default {
     return {
       activeId: '1',
       industries: [
-        { id: '1', name: '零售' },
-        { id: '2', name: '快速消费品' },
-        { id: '3', name: '金融服务' },
-        { id: '4', name: '医疗保健与生命科学' },
-        { id: '5', name: '媒体和娱乐' },
-        { id: '6', name: '游戏' },
-        { id: '7', name: '制造业' },
-        { id: '8', name: '供应链与物流' },
-        { id: '9', name: '教育' },
+          { id: '1', name: '单智能体模式沟通', icon: 'fa-solid fa-signature' },
+          { id: '2', name: '频道内多智能体协作', icon: 'fa-solid fa-users-gear' },
+          { id: '8', name: '自定义多场景协作平台', icon: 'fa-solid fa-layer-group' },
+          { id: '5', name: '自由智能体共享和交换', icon: 'fa-solid fa-share-nodes' },
+          { id: '6', name: '智能体感知数据治理', icon: 'fa-solid fa-database' },
+          { id: '7', name: '跨行业智能体团队', icon: 'fa-solid fa-building-columns' },
+          { id: '3', name: '自定义智能体工具', icon: 'fa-solid fa-wrench' },
+          { id: '4', name: '灵活的业务对接编码', icon: 'fa-solid fa-code' },
+          { id: '9', name: '其它', icon: 'fa-solid fa-ellipsis' }
       ],
-      htmlContents: 
-      [
-        {id:'1' , name:'诸多大型政府机构选择和对依赖有加 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_01.jpg' 
-        },
-        {id:'2' , name:'诸多生物技术和制药公司对 AIP基设服务 信赖有加' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_02.jpg' 
-        },
-        {id:'3' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_03.jpg' 
-        },
-        {id:'4' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_04.jpg' 
-        },
-        {id:'5' , name:'诸多大型政府机构选择和对依赖有加  AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_05.jpg' 
-        },
-        {id:'6' , name:'诸多生物技术和制药公司对 AIP基设服务 信赖有加' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_02.jpg' 
-        },
-        {id:'7' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_03.jpg' 
-        },
-        {id:'8' , name:'诸多大型政府机构选择和对依赖有加  AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_04.jpg' 
-        },
-        {id:'9' , name:'诸多大型供应链与物流公司选择 AIP基设服务' ,  label:'探索供应链与物流解决方案' , desc:'J.B. Hunt 通过数据云产品提高了货运效率并围绕可用容量做出明智的决策。 探索我们的供应链与物流解决方案能带来怎样的改变。' , 
-            img:'/solution/solution_05.jpg' 
-        },
-      ],
+      htmlContents: [
+          { id: '1', name: '单智能体协作提升工作效率', label: '单智能体协作', desc: '专注于优化单一智能体的任务处理能力，帮助企业更高效地完成任务并提升整体业务流程效率。', img: '/product/1.png' },
+          { id: '2', name: '频道内多智能体协作增强团队合作', label: '频道内多智能体协作', desc: '通过创建安全高效的协作环境，支持多个智能体在同一频道内的互动与合作，提高团队协作效果。', img: '/product/1.png' },
+          { id: '3', name: '自定义智能体工具加速业务自动化', label: '自定义智能体工具', desc: '开发符合特定业务需求的智能体工具，实现业务流程的自动化，从而提高工作效率和准确性。', img: '/product/2.png' },
+          { id: '4', name: '灵活对接编码简化系统集成', label: '灵活的业务对接编码', desc: '提供灵活的编码标准，简化智能体与其他系统的集成，加快部署速度，降低集成复杂度。', img: '/product/3.png' },
+          { id: '5', name: '自由共享交换平台促进资源利用', label: '自由智能体共享和交换', desc: '建立开放平台，促进智能体资源的共享与交换，推动不同组织之间的技术交流与合作。', img: '/product/4.png' },
+          { id: '6', name: '智能体感知数据治理保障信息安全', label: '智能体感知数据治理', desc: '利用先进的数据分析工具和技术，确保智能体收集的数据的安全性和隐私性，维护企业信息安全。', img: '/product/5.png' },
+          { id: '7', name: '跨行业智能体团队实现无缝协作', label: '跨行业智能体团队', desc: '跨越传统行业界限，组建由不同背景的智能体组成的团队，实现前所未有的协作可能性。', img: '/product/6.png' },
+          { id: '8', name: '多场景协作平台满足多样化需求', label: '自定义多场景协作平台', desc: '根据不同业务场景的需求，提供定制化的智能体协作方案，适应各种复杂的工作流程。', img: '/product/7.png' },
+          { id: '9', name: '探索智能体协作的新领域', label: '其它', desc: '除了上述领域，我们还在不断探索智能体协作的新应用场景，致力于为客户提供更多创新解决方案。', img: '/product/8.png' }
+      ]
     };
   },
 };
@@ -199,11 +179,11 @@ export default {
   cursor: pointer;
   font-size: 15px;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .industry-item:hover {
-  background-color: #f5fafe;
+  background-color: #fafafa;
 }
 
 .industry-item.active {
