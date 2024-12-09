@@ -89,10 +89,6 @@ module.exports = {
                 link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com'
             },
             {
-                text: '内容运营',
-                link: 'http://alinesno-infra-portal.beta.base.infra.linesno.com'
-            },
-            {
                 text: '底座体验',
                 link: 'http://alinesno-infra-plat-console-ui.beta.base.infra.linesno.com'
             }
@@ -220,17 +216,22 @@ module.exports = {
                     children: genSolutionSidebar(1)
                 },
                 {
-                    title: '业务中台',
+                    title: '文案编写',
                     collapsible: true,
                     children: genSolutionSidebar(2)
                 },
                 {
-                    title: ' 数据治理',
+                    title: '团队管理',
                     collapsible: true,
                     children: genSolutionSidebar(3)
                 },
                 {
-                    title: ' 运维方案',
+                    title: '产品营销',
+                    collapsible: true,
+                    children: genSolutionSidebar(4)
+                },
+                {
+                    title: '运维管理',
                     collapsible: true,
                     children: genSolutionSidebar(4)
                 },
@@ -359,19 +360,12 @@ function genDocumentSidebar(menus) {
             '/document/02_基础服务/02_代码生成器.md',
             '/document/02_基础服务/03_分布式配置服务.md',
             '/document/02_基础服务/04_事务消息服务.md',
-            '/document/02_基础服务/05_通知管理服务.md',
             '/document/02_基础服务/06_存储管理服务.md',
-            '/document/02_基础服务/07_单点登陆服务.md',
             '/document/02_基础服务/08_网关配置服务.md',
-            '/document/02_基础服务/09_安全验证码服务.md',
-            '/document/02_基础服务/10_IM消息服务.md',
-            '/document/02_基础服务/11_邮箱管理服务.md',
             '/document/02_基础服务/12_文档搜索服务.md',
-            '/document/02_基础服务/13_分布式ID服务.md',
             '/document/02_基础服务/14_敏感词过滤服务.md',
             '/document/02_基础服务/15_支付服务.md',
             '/document/02_基础服务/17_内容服务.md',
-            '/document/02_基础服务/20_文档查看服务.md',
             '/document/02_基础服务/21_基设平台管理服务.md',
         ]
         return mapArr.map(i => {
@@ -384,8 +378,6 @@ function genDocumentSidebar(menus) {
             '/document/03_数据服务/03_数据集成服务.md',
             '/document/03_数据服务/04_数据开发服务.md',
             '/document/03_数据服务/05_实时计算服务.md',
-            '/document/03_数据服务/06_数据安全服务.md',
-            '/document/03_数据服务/08_数据总线服务.md',
             '/document/03_数据服务/09_数据资产服务.md',
         ]
         return mapArr.map(i => {
@@ -396,8 +388,6 @@ function genDocumentSidebar(menus) {
             '/document/04_智能服务/01_OCR视觉识别服务.md',
             '/document/04_智能服务/02_自然语言识别服务.md',
             '/document/04_智能服务/03_GPT推理服务.md',
-            '/document/04_智能服务/04_流媒体识别服务.md',
-            '/document/04_智能服务/05_语音助手服务.md',
             '/document/04_智能服务/06_目标检测识别服务.md',
         ]
         return mapArr.map(i => {
@@ -427,7 +417,6 @@ function genDocumentSidebar(menus) {
         const mapArr = [
             '/document/07_运营服务/01_基设平台服务.md',
             '/document/07_运营服务/02_安全感触服务.md',
-            '/document/07_运营服务/05_移动终端服务.md',
         ]
         return mapArr.map(i => {
             return i
