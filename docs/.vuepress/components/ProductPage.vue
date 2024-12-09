@@ -30,9 +30,40 @@ export default {
         return {
             productList: [
                     {
+                        "id": 38,
+                        "model": "智能推理",
+                        "desc": "智能服务模块包括智能推荐服务、智能搜索服务、智能语音服务、智能图像服务、智能视频服务和智能机器人服务。",
+                        "services": [
+                            {
+                                "id": 45,
+                                "name": "大模型推理服务",
+                                "desc": "用于GPT推理的服务，实现基于预训练模型的自然语言生成和推理",
+                                "code": "alinesno-infra-smart-brain"
+                            },
+                            {
+                                "id": 43,
+                                "name": "OCR视觉识别服务",
+                                "desc": "用于OCR视觉识别的服务，实现文字和图像的识别和提取",
+                                "code": "alinesno-infra-smart-ocr"
+                            },
+                            {
+                                "id": 44,
+                                "name": "自然语言识别服务",
+                                "desc": "用于自然语言识别的服务，实现文本的语义理解和分析",
+                                "code": "alinesno-infra-smart-nlp"
+                            },
+                            {
+                                "id": 48,
+                                "name": "目标检测识别服务",
+                                "desc": "通过提供通用的API接口，帮助开发人员和应用管理者实现流媒体的物体识别检测功能",
+                                "code": "alinesno-infra-smart-detection	"
+                            }
+                        ]
+                    },
+                    {
                         "id": 5,
                         "model": "基础服务",
-                        "desc": "基础服务模块包括权限配置服务、代码生成器、分布式配置服务、事务消息服务、通知管理服务、存储管理服务、单点登录服务、网关配置服务、安全验证码服务、IM消息服务、邮箱管理服务、文档搜索服务、分布式ID服务、敏感词过滤服务、支付服务、内容服务和文档查看服务。",
+                        "desc": "基础服务模块包括权限配置服务、代码生成器、分布式配置服务、事务消息服务、存储管理服务、网关配置服务、文档搜索服务、支付服务、内容服务和文档查看服务。",
                         "services": [
                             {
                                 "id": 5,
@@ -59,22 +90,10 @@ export default {
                                 "code": "alinesno-infra-base-message"
                             },
                             {
-                                "id": 9,
-                                "name": "通知管理服务",
-                                "desc": "用于管理通知的服务，发送和管理系统通知和消息",
-                                "code": "alinesno-infra-base-notices"
-                            },
-                            {
                                 "id": 10,
                                 "name": "存储管理服务",
                                 "desc": "用于管理存储的服务，提供文件和对象的存储管理功能",
                                 "code": "alinesno-infra-base-storage"
-                            },
-                            {
-                                "id": 11,
-                                "name": "单点登录服务",
-                                "desc": "用于实现单点登录的服务，提供统一的身份认证和授权功能",
-                                "code": "alinesno-infra-base-identity"
                             },
                             {
                                 "id": 12,
@@ -83,35 +102,10 @@ export default {
                                 "code": "alinesno-infra-base-gateway"
                             },
                             {
-                                "id": 13,
-                                "name": "安全验证码服务",
-                                "desc": "用于生成安全验证码的服务，防止恶意攻击和机器人行为",
-                                "code": "alinesno-infra-base-validate"
-                            },
-                            {
-                                "id": 14,
-                                "name": "IM消息服务",
-                                "desc": "用于处理即时消息的服务，实现实时通讯和消息推送功能",
-                                "code": "alinesno-infra-base-im"
-                            },
-                            {
-                                "id": 15,
-                                "name": "邮箱管理服务",
-                                "desc": "用于管理邮箱的服务，提供邮箱账号和邮件的管理功能",
-                                "code": "alinesno-infra-base-email"
-                            },
-
-                            {
                                 "id": 16,
                                 "name": "文档搜索服务",
                                 "desc": "用于搜索文档的服务，提供全文搜索和文档检索功能",
                                 "code": "alinesno-infra-base-document"
-                            },
-                            {
-                                "id": 17,
-                                "name": "分布式ID服务",
-                                "desc": "用于生成分布式ID的服务，保证ID的唯一性和分布式生成",
-                                "code": "alinesno-infra-base-id"
                             },
                             {
                                 "id": 18,
@@ -130,20 +124,7 @@ export default {
                                 "name": "内容服务",
                                 "desc": "用于管理内容的服务，包括内容发布、内容审核和内容管理",
                                 "code": "alinesno-infra-base-cms"
-                            },
-                            {
-                                "id": 24,
-                                "name": "文档查看服务",
-                                "desc": "用于查看文档的服务，支持多种文档格式的在线预览",
-                                "code": "alinesno-infra-base-fileshow"
-                            },
-                            {
-                                "id": 25,
-                                "name": "基设平台管理服务",
-                                "desc": "用于管理基设平台的服务，提供基设平台的配置和管理功能",
-                                "code": "alinesno-infra-base-platform"
                             }
-
                         ]
                     },
                     {
@@ -182,65 +163,10 @@ export default {
                                 "code": "alinesno-infra-data-stream"
                             },
                             {
-                                "id": 32,
-                                "name": "数据安全服务",
-                                "desc": "用于数据安全的服务，保护数据的机密性和完整性",
-                                "code": "alinesno-infra-data-security"
-                            },
-                            {
-                                "id": 34,
-                                "name": "数据总线服务",
-                                "desc": "用于数据总线的服务，实现数据的发布、订阅和传输",
-                                "code": "alinesno-infra-data-bus"
-                            },
-                            {
                                 "id": 35,
                                 "name": "数据资产服务",
                                 "desc": "用于数据资产管理的服务，记录和管理组织的数据资产",
                                 "code": "alinesno-infra-data-assets"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 38,
-                        "model": "智能服务",
-                        "desc": "智能服务模块包括智能推荐服务、智能搜索服务、智能语音服务、智能图像服务、智能视频服务和智能机器人服务。",
-                        "services": [
-                            {
-                                "id": 43,
-                                "name": "OCR视觉识别服务",
-                                "desc": "用于OCR视觉识别的服务，实现文字和图像的识别和提取",
-                                "code": "alinesno-infra-smart-ocr"
-                            },
-                            {
-                                "id": 44,
-                                "name": "自然语言识别服务",
-                                "desc": "用于自然语言识别的服务，实现文本的语义理解和分析",
-                                "code": "alinesno-infra-smart-nlp"
-                            },
-                            {
-                                "id": 45,
-                                "name": "GPT推理服务",
-                                "desc": "用于GPT推理的服务，实现基于预训练模型的自然语言生成和推理",
-                                "code": "alinesno-infra-smart-brain"
-                            },
-                            {
-                                "id": 46,
-                                "name": "流媒体识别服务",
-                                "desc": "用于流媒体识别的服务，实现对音视频流的实时识别和分析",
-                                "code": "alinesno-infra-smart-media"
-                            },
-                            {
-                                "id": 47,
-                                "name": "语音助手服务",
-                                "desc": "提供基础平台运营情况分析，获取运营结果通报，同时形成交互形式",
-                                "code": "alinesno-infra-smart-assistant"
-                            },
-                            {
-                                "id": 48,
-                                "name": "目标检测识别服务",
-                                "desc": "通过提供通用的API接口，帮助开发人员和应用管理者实现流媒体的物体识别检测功能",
-                                "code": "alinesno-infra-smart-detection	"
                             }
                         ]
                     },
@@ -260,18 +186,6 @@ export default {
                                 "name": "分布式日志服务",
                                 "desc": "用于分布式日志管理的服务，集中收集、存储和分析日志数据",
                                 "code": "alinesno-infra-ops-logback"
-                            },
-                            {
-                                "id": 3,
-                                "name": "分布式链路跟踪服务",
-                                "desc": "用于分布式链路跟踪的服务，追踪和监控分布式系统中的请求链路",
-                                "code": "alinesno-infra-ops-telemetry"
-                            },
-                            {
-                                "id": 4,
-                                "name": "持续集成服务",
-                                "desc": "用于持续集成的服务，自动化构建、测试和部署软件",
-                                "code": "alinesno-infra-ops-pipeline"
                             },
                             {
                                 "id": 5,
@@ -322,12 +236,6 @@ export default {
                                 "name": "安全感知服务",
                                 "desc": "用于安全感知的服务，实时监测和分析系统安全状态",
                                 "code": "alinesno-infra-plat-security"
-                            },
-                            {
-                                "id": 5,
-                                "name": "移动终端服务",
-                                "desc": "用于移动终端的服务，提供移动应用开发和管理功能",
-                                "code": "alinesno-infra-plat-app"
                             }
                         ]
                     }
