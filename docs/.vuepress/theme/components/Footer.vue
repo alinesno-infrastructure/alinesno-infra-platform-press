@@ -8,7 +8,9 @@
         </div>
         <ul class="footer-itembox">
           <li class="footer-item" v-for="i in item.item" :key="i.id">
-            {{ i.title }}
+            <a style="color:#333" :href="i.link">
+                {{ i.title }}
+            </a>
           </li>
         </ul>
       </div>
@@ -53,17 +55,12 @@ export default {
             },
             {
               "id": "open",
-              "title": "开放的云",
+              "title": "技术自动化",
               "link": ""
-            },
-            {
-              "id": "multi",
-              "title": "多云",
-              "link": ""
-            },
+            }, 
             {
               "id": "global-infrastructure",
-              "title": "全球基础架构",
+              "title": "AIP基础架构",
               "link": ""
             },
             {
@@ -78,29 +75,29 @@ export default {
             },
             {
               "id": "whitepapers",
-              "title": "白皮书",
+              "title": "产品白皮书",
               "link": ""
             },
             {
               "id": "blogs",
               "title": "博客",
-              "link": ""
+              "link": "http://switch.linesno.com"
             }
           ]
         },
         {
           "id": "product-and-pricing",
-          "title": "产品和价格",
+          "title": "产品和服务",
           "link": "",
           "item": [
             {
               "id": "AIP-pricing",
-              "title": "AIP  价格",
+              "title": "企业服务",
               "link": ""
             },
             {
               "id": "AIP-workspace-pricing",
-              "title": "AIP Workspace 价格",
+              "title": "AIP平台搭建",
               "link": ""
             },
             {
@@ -122,47 +119,47 @@ export default {
             },
             {
               "id": "databases",
-              "title": "数据库",
+              "title": "文档编辑",
               "link": ""
             },
             {
               "id": "modernize-applications",
-              "title": "应用现代化改造",
+              "title": "项目团队管理",
               "link": ""
             },
             {
               "id": "smart-analytics",
-              "title": "智能分析",
+              "title": "市场营销",
               "link": ""
             },
             {
               "id": "artificial-intelligence",
-              "title": "人工智能",
+              "title": "运维分析管理",
               "link": ""
             },
             {
               "id": "security",
-              "title": "安全",
+              "title": "产品研发",
               "link": ""
             },
             {
               "id": "productivity-and-work-transformation",
-              "title": "Productivity & work transformation",
+              "title": "产品销售自动化",
               "link": ""
             },
             {
               "id": "industry-solutions",
-              "title": "Industry solutions",
+              "title": "技术解决方案编写",
               "link": ""
             },
             {
               "id": "devops-solutions",
-              "title": "DevOps solutions",
+              "title": "数据挖掘分析",
               "link": ""
             },
             {
               "id": "small-business-solutions",
-              "title": "Small business solutions",
+              "title": "客服团队",
               "link": ""
             },
             {
@@ -189,12 +186,7 @@ export default {
             },
             {
               "id": "AIP-marketplace",
-              "title": "AIP  Marketplace",
-              "link": ""
-            },
-            {
-              "id": "learn-about-computing",
-              "title": "了解云计算",
+              "title": "智能体人才市场",
               "link": ""
             },
             {
@@ -209,7 +201,7 @@ export default {
             },
             {
               "id": "-architecture-center",
-              "title": "云架构中心",
+              "title": "DataOps体系",
               "link": ""
             },
             {
@@ -218,23 +210,13 @@ export default {
               "link": ""
             },
             {
-              "id": "certification",
-              "title": "认证",
-              "link": ""
-            },
-            {
               "id": "AIP-for-developers",
-              "title": "AIP for Developers",
-              "link": ""
-            },
-            {
-              "id": "AIP-startup-program",
-              "title": "AIP  创业公司计划",
+              "title": "AIP for 开发者",
               "link": ""
             },
             {
               "id": "system-status",
-              "title": "系统状态",
+              "title": "系统演示",
               "link": ""
             },
             {
@@ -251,12 +233,7 @@ export default {
           "item": [
             {
               "id": "contact-sales",
-              "title": "与销售人员联系",
-              "link": ""
-            },
-            {
-              "id": "find-partners",
-              "title": "查找合作伙伴",
+              "title": "与团队人员联系",
               "link": ""
             },
             {
@@ -271,18 +248,18 @@ export default {
             },
             {
               "id": "podcasts",
-              "title": "播客",
+              "title": "视频介绍",
               "link": ""
             },
             {
               "id": "developer-center",
-              "title": "开发者中心",
+              "title": "开发者平台",
               "link": ""
             },
             {
               "id": "media-newsroom",
-              "title": "媒体资讯角",
-              "link": ""
+              "title": "内容运营",
+              "link": "http://alinesno-infra-portal.beta.base.infra.linesno.com"
             }
           ]
         }
