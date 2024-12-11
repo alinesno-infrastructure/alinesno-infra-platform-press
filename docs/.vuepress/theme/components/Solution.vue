@@ -123,10 +123,11 @@ export default {
 }
 
 .tabpanel{
-  border: 1px solid #dadce0;
+      border: 1px solid #dadce0;
     border-radius: 12px;
     padding: 10px ; 
     transition: border .28s,box-shadow .28s;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.12) ;
 }
 
 .industry-list {
