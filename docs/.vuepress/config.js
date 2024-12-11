@@ -55,21 +55,8 @@ module.exports = {
                 text: '解决方案',
                 link: '/solution/'
             },
-            // {
-            //     text: '基设架构',
-            //     link: '/architecture/'
-            // },
-            // {
-            //     text: '部署建设',
-            //     link: '/operation/'
-            // },
-            // {
-            //     text: '使用手册',
-            //     link: '/document/'
-            // },
             {
                 text: '文档',
-                // link: '/technical/'
                 items: [
                     { text: '架构设计', link: '/architecture/' },
                     { text: '技术文档', link: '/technical/' },
@@ -264,11 +251,11 @@ module.exports = {
                     collapsible: true,
                     children: genProductSidebar(1)
                 },
-                // {
-                    // title: '核心框架',
-                    // collapsible: true,
-                    // children: genProductSidebar(2)
-                // },
+                {
+                    title: '智能服务',
+                    collapsible: true,
+                    children: genProductSidebar(5)
+                },
                 {
                     title: '基础服务',
                     collapsible: true,
@@ -278,11 +265,6 @@ module.exports = {
                     title: '数据服务',
                     collapsible: true,
                     children: genProductSidebar(4)
-                },
-                {
-                    title: '智能服务',
-                    collapsible: true,
-                    children: genProductSidebar(5)
                 },
                 {
                     title: '运维服务',
@@ -385,10 +367,10 @@ function genDocumentSidebar(menus) {
         })
     } else if (menus == 5) {
         const mapArr = [
-            '/document/04_智能服务/01_OCR视觉识别服务.md',
-            '/document/04_智能服务/02_自然语言识别服务.md',
             '/document/04_智能服务/03_GPT推理服务.md',
             '/document/04_智能服务/06_目标检测识别服务.md',
+            '/document/04_智能服务/01_OCR视觉识别服务.md',
+            '/document/04_智能服务/02_自然语言识别服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -873,20 +855,12 @@ function genProductSidebar(menus) {
             '/product/02_基础服务/02_代码生成器.md',
             '/product/02_基础服务/03_分布式配置服务.md',
             '/product/02_基础服务/04_事务消息服务.md',
-            '/product/02_基础服务/05_通知管理服务.md',
             '/product/02_基础服务/06_存储管理服务.md',
-            '/product/02_基础服务/07_单点登陆服务.md',
             '/product/02_基础服务/08_网关配置服务.md',
-            '/product/02_基础服务/09_安全验证码服务.md',
-            '/product/02_基础服务/10_IM消息服务.md',
-            '/product/02_基础服务/11_邮箱管理服务.md',
             '/product/02_基础服务/12_文档搜索服务.md',
-            '/product/02_基础服务/13_分布式ID服务.md',
             '/product/02_基础服务/14_敏感词过滤服务.md',
             '/product/02_基础服务/15_支付服务.md',
             '/product/02_基础服务/17_内容服务.md',
-            '/product/02_基础服务/20_文档查看服务.md',
-            '/product/02_基础服务/21_基设平台管理服务.md',
         ]
         return mapArr.map(i => {
             return i
@@ -911,7 +885,6 @@ function genProductSidebar(menus) {
             '/product/04_智能服务/02_自然语言识别服务.md',
             '/product/04_智能服务/03_GPT推理服务.md',
             '/product/04_智能服务/04_流媒体识别服务.md',
-            '/product/04_智能服务/05_语音助手服务.md',
             '/product/04_智能服务/06_目标检测识别服务.md',
         ]
         return mapArr.map(i => {
@@ -921,7 +894,6 @@ function genProductSidebar(menus) {
         const mapArr = [
             '/product/05_运维服务/01_自动化任务服务.md',
             '/product/05_运维服务/02_分布式日志服务.md',
-            '/product/05_运维服务/03_分布式链路跟踪服务.md',
             '/product/05_运维服务/04_持续集成服务.md',
             '/product/05_运维服务/05_容器管理服务.md',
             '/product/05_运维服务/06_监控预警服务.md',
@@ -941,7 +913,6 @@ function genProductSidebar(menus) {
         const mapArr = [
             '/product/07_运营服务/01_基设平台服务.md',
             '/product/07_运营服务/02_安全感触服务.md',
-            '/product/07_运营服务/05_移动终端服务.md',
         ]
         return mapArr.map(i => {
             return i
