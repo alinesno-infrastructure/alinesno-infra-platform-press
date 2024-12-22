@@ -50,9 +50,13 @@ AIP是针对于项目和团队业务建设的基础设施平台，为了更好�
 
 这里的预览指的是类似于原型的设计，展示整体设计和内容，当前放在github pages上面。
 
-- 研发进度：[http://portal.infra.linesno.com/product/plan.html](http://portal.infra.linesno.com/product/plan.html) <br/>
-- 官网地址：[http://portal.infra.linesno.com](http://portal.infra.linesno.com) <br/>
-- 产品预览：[http://console.infra.linesno.com/index](http://alinesno-infra-plat-console-admin.beta.plat.infra.linesno.com)
+<a href="https://www.kdocs.cn/l/coh4PKJHYm7j" target="_blank">AIP智能体平台架构设计及与业务场景结合(原南宁GDG技术分享稿)</a>
+
+体验地址:
+
+- [研发进度](http://alinesno-infra-portal.beta.base.infra.linesno.com/square)
+- [官网地址](http://portal.infra.linesno.com)
+- [平台体验](http://console.infra.linesno.com/index)
 
 ## 产品架构设计
 
@@ -66,49 +70,61 @@ AIP Multi-Agent平台是一种综合性的能力，旨在将各种业务流程�
 
 ## 产品设计预览
 
-> 当前整体产品设计参考Aliyun/Aws等云平台
+> 当前整体产品设计参考Aliyun/Aws/Coze等云平台
+
+视频介绍:
+
+<iframe height="400" width="600" src="//player.bilibili.com/player.html?isOutside=true&aid=113699092174355&bvid=BV1PwCuY1Eu5&cid=27481869143&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 这个是当前集成的UI设计和原型设计，同时也是后期的设计和实现内容及方向等。
 
 <table>
   <tr>
     <td>
-      <img src="images/product_01.png" />
+      <img src="images/product_20.png" />
     </td>
     <td>
-      <img src="images/product_02.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/product_03.png" />
-    </td>
-    <td>
-      <img src="images/fireshot_00.png" />
+      <img src="images/product_21.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="images/fireshot_01.png" />
+      <img src="images/product_22.png" />
     </td>
     <td>
-      <img src="images/fireshot_03.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/fireshot_04.png" />
-    </td>
-    <td>
-      <img src="images/product_04.png" />
+      <img src="images/product_23.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="images/fireshot_05.png" />
+      <img src="images/product_31.png" />
     </td>
     <td>
-      <img src="images/fireshot_02.png" />
+      <img src="images/product_25.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/product_26.png" />
+    </td>
+    <td>
+      <img src="images/product_27.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/product_28.png" />
+    </td>
+    <td>
+      <img src="images/product_29.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/product_30.png" />
+    </td>
+    <td>
+      <img src="images/product_24.png" />
     </td>
   </tr>
 </table>
@@ -117,16 +133,16 @@ AIP Multi-Agent平台是一种综合性的能力，旨在将各种业务流程�
 
 传统软件平台是指传统的软件开发和运行环境，相对于AIP新智能体平台规划，以下是传统软件平台和AIP新智能体平台规划在关键方面的对比：
 
-| 序号 | 方面         | 传统软件技术设施       | 新智能体平台                       |
+| 序号 | 方面         | 传统软件技术设施       | 新智能体平台                         |
 |:----:|--------------|------------------------|--------------------------------------|
 | 1    | 架构设计     | 单体架构               | 微服务架构                           |
-| 2    | 平台技术支持 | 有限或缺乏中台技术支持 | 引入中台技术支持，提供通用服务和能力 |
+| 2    | 平台技术支持 | 有限或缺乏平台技术支持 | 引入平台技术支持，提供通用服务和能力 |
 | 3    | 数据治理     | 有限                   | 强调数据治理                         |
 | 4    | 故障容忍性   | 有限                   | 提供更好的故障容忍性                 |
 | 5    | 容器化支持   | 缺乏明确的容器化支持   | 广泛采用容器化技术                   |
 | 6    | 自动化支持   | 缺乏明确的自动化支持   | 强调自动化支持                       |
-| 7    | 业务平台     | 缺乏综合的业务中台支持 | 强调业务中台的建设                   |
-| 8    | 数据平台     | 缺乏综合的数据中台支持 | 强调数据中台的建设                   |
+| 7    | 业务平台     | 缺乏综合的业务平台支持 | 强调业务平台的建设                   |
+| 8    | 数据平台     | 缺乏综合的数据平台支持 | 强调数据平台的建设                   |
 | 9    | 开发效率     | 相对较低               | 提供更高的开发效率                   |
 | 10   | 可扩展性     | 有限                   | 更好的可扩展性                       |
 | 11   | 安全性       | 基本安全               | 强调安全性                           |
@@ -152,15 +168,7 @@ AIP Multi-Agent平台是一种综合性的能力，旨在将各种业务流程�
 ## 发展历程
 
 清晰地展示了产品从研发阶段到运营阶段的发展历程，当前建设只为业余时间建设，且为社区团队而非商业团队，并非全职，如下所示：
-相关建设过程经验和参考材料[从零建设数字平台产品与运营实践](http://alinesno-book.linesno.com/book/)
-
-| 序号 | 年份          | 发展阶段                                 | 产品                                                                                      | 产品状态       |
-|:----:|---------------|------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
-| 1    | 2018年-2019年 | 研发k8S+SpringCloud技术平台建设          | [alinesno-cloud-service](https://gitee.com/landonniao/linesno-cloud-service)              | 以开源状态研究 |
-| 2    | 2019年-2021年 | 集成数据治理和数字平台概念               | [alinesno-cloud-platform](https://gitee.com/alinesno-cloud/alinesno-cloud-platform-press) | 产品研究建设   |
-| 3    | 2021年-2022年 | 整体形成SaaS产品化，形成数字平台产品状态 | [alinesno-cloud-platform](https://gitee.com/alinesno-cloud/alinesno-cloud-platform-press) | 产品停止运营   |
-| 4    | 2023年-至今   | 升级架构形成超自动化和AI能力，重新架构   | [alinesno-infrastructure-platform](https://gitee.com/alinesno-infrastructure)             | 产品研发运营中 |
-|      |               |                                          |                                                                                           |                |
+相关建设过程经验和参考材料[超级个体:多Agent协作与自动化结合实践](http://alinesno-agent.linesno.com/book/)
 
 升级是根据市场不断的调整和升级架构和内容，会基于前期的经验不断的升级调整，包括行业和市场发展而调整。
 
