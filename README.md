@@ -60,7 +60,11 @@ AIP是针对于项目和团队业务建设的基础设施平台，为了更好�
 
 ## 平台架构设计
 
-> 平台全景图未设计，临时使用的Agent图
+AIP智能体平台全景图
+
+<img src="images/studio_products.png" style="width:80%;margin-left:-20px">
+
+Agent业务流程,临时使用的Agent图
 
 <img src="images/aip_product_agent2.png" />
 
