@@ -8,7 +8,7 @@
         </div>
         <ul class="footer-itembox">
           <li class="footer-item" v-for="i in item.item" :key="i.id">
-            <a style="color:#333" :href="i.link">
+            <a style="color:#fff" :href="i.link">
                 {{ i.title }}
             </a>
           </li>
