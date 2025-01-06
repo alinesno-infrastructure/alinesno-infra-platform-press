@@ -74,7 +74,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             <sub>UI设计</sub>
          </td>
       </tr>
-      <tr style="background-color:#fff">
+      <tr>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
                <img src="/assets/avatars/team-3.png" width="100px;" style="border-radius:5px;max-width:none !important" alt="James" />
@@ -164,7 +164,7 @@ ACP团队历经多年发展，从技术探索到产品实践，我们的产品�
             <sub>前端开发工程师</sub>
          </td>
       </tr>
-      <tr style="background-color:#fff">
+      <tr>
          <td align="center">
             <a href="https://github.com/alinesno-infrastructure">
                <img src="/assets/avatars/team-11.jpeg" width="100px;" style="border-radius:5px;max-width:none !important" alt="赵阳(Yang)" />
