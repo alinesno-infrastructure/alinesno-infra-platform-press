@@ -168,7 +168,7 @@ export default {
   background: #eaeaea;
   border-radius: 8px;
   grid-column-end: span 12;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   display: block;
