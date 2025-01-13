@@ -73,7 +73,7 @@ module.exports = {
             },
             {
                 text: '平台体验',
-                link: 'http://alinesno-infra-smart-im-ui.beta.smart.infra.linesno.com'
+                link: 'http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com'
             },
             {
                 text: 'AIP工作区体验',
