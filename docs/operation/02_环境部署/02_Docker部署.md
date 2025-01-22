@@ -4,6 +4,8 @@
 
 下面安装假设你的服务器IP是47.98.249.9(请调整成你自己的安装应用的IP)
 
+安装视频教程[打开](https://www.bilibili.com/video/BV1ZNfeYCEAh)
+
 ## 服务器要求
 
 - 内存: 建议 >= 32G
