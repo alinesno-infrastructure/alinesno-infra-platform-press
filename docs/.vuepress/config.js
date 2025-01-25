@@ -52,7 +52,7 @@ module.exports = {
                 link: '/product/'
             },
             {
-                text: '解决方案',
+                text: '应用场景',
                 link: '/solution/'
             },
             {
@@ -713,29 +713,21 @@ function genSolutionSidebar(menus) {
 
     if (menus == 2) {
         const mapArr = [
-            '/solution/01_业务中台/01_企业业务中台解决方案.md',
-            '/solution/01_业务中台/02_传统企业转变业务中台解决方案.md',
-            '/solution/01_业务中台/03_企业超级自动化解决方案.md',
-            '/solution/01_业务中台/04_新旧结合业务微服务解决方案.md',
+            '/solution/01_长文本内容生成服务.md',
         ]
         return mapArr.map(i => {
             return i
         })
     } else if (menus == 3) {
         const mapArr = [
-            '/solution/02_数据治理/01_数据中台建设解决方案.md',
-            '/solution/02_数据治理/02_数据报表分析解决方案.md',
-            '/solution/02_数据治理/03_运维应用画像解决方案.md',
-            '/solution/02_数据治理/04_用户画像解决方案.md',
+            '/solution/06_周日报编写和统计.md',
         ]
         return mapArr.map(i => {
             return i
         })
     } else if (menus == 4) {
         const mapArr = [
-            '/solution/03_运维方案/01_自动化运维解决方案.md',
-            '/solution/03_运维方案/02_分布式日志分析解决方案.md',
-            '/solution/03_运维方案/03_AI智能运维解决方案.md',
+            '/solution/10_品牌故事文案发布.md',
         ]
         return mapArr.map(i => {
             return i
