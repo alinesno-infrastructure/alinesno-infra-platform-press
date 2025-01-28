@@ -11,15 +11,15 @@
       </div>
       <div class="hero-actions">
         <div class="action-link" style="background:#d33232">
-          <a href="https://kdocs.cn/l/coh4PKJHYm7j" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-file-pdf" style="font-size:25px;"></i> 智能体业务场景结合
+          <a href="https://kdocs.cn/l/cnKqyJwnd6au" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-file-pdf" style="font-size:25px;"></i> AIP智能体平台介绍
           </a>
-        </div>
+        </div> 
         <div class="action-saler">
-          <a href="https://y1p5adez7kg.feishu.cn/share/base/form/shrcnaH2YTFEzGYZBS7WFZGSY9Q" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-user-astronaut" style="font-size:25px;"></i> 与技术专家咨询
+          <a href="https://www.bilibili.com/video/BV1PwCuY1Eu5" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-user-astronaut" style="font-size:25px;"></i> 演示视频合集
           </a>
-        </div>
+        </div> 
       </div>
     </div>
     <div class="panel-right">
