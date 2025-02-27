@@ -25,7 +25,7 @@
       </nav>
     </div>
     </div>
- 
+
 
   </div>
 </template>
@@ -57,7 +57,7 @@ export default {
               "id": "open",
               "title": "技术自动化",
               "link": ""
-            }, 
+            },
             {
               "id": "global-infrastructure",
               "title": "AIP基础架构",
@@ -176,23 +176,23 @@ export default {
           "item": [
             {
               "id": "AIP-documentation",
-              "title": "AIP  文档",
-              "link": ""
+              "title": "AIP 架构设计",
+              "link": "/architecture"
             },
             {
               "id": "AIP-quickstart",
-              "title": "AIP  快速入门",
-              "link": ""
+              "title": "AIP技术文档",
+              "link": "/technical"
             },
             {
               "id": "AIP-marketplace",
-              "title": "智能体人才市场",
-              "link": ""
+              "title": "AIP部署手册",
+              "link": "/operation"
             },
             {
               "id": "support",
               "title": "支持",
-              "link": ""
+              "link": "/business"
             },
             {
               "id": "code-examples",
@@ -249,7 +249,7 @@ export default {
             {
               "id": "podcasts",
               "title": "视频介绍",
-              "link": ""
+              "link": "https://www.bilibili.com/video/BV1PwCuY1Eu5/"
             },
             {
               "id": "developer-center",
