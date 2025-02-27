@@ -55,16 +55,16 @@ module.exports = {
                 text: '应用场景',
                 link: '/solution/'
             },
+            // {
+                // text: '文档',
+                // items: [
+                    // { text: '架构设计', link: '/architecture/' },
+                    // { text: '技术文档', link: '/technical/' },
+                    // { text: '部署手册', link: '/operation/' }
+                // ]
+            // },
             {
-                text: '文档',
-                items: [
-                    { text: '架构设计', link: '/architecture/' },
-                    { text: '技术文档', link: '/technical/' },
-                    { text: '部署手册', link: '/operation/' }
-                ]
-            },
-            {
-                text: '支持与服务',
+                text: '服务',
                 link: '/business/'
             },
             {
@@ -76,9 +76,13 @@ module.exports = {
                 link: 'http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com'
             },
             {
-                text: 'AIP工作区体验',
-                link: 'http://alinesno-infra-plat-console-ui.beta.base.infra.linesno.com'
+                text: '动态',
+                link: 'http://alinesno-infra-portal.beta.base.infra.linesno.com/dynamic'
             }
+            // {
+                // text: 'AIP工作区体验',
+                // link: 'http://alinesno-infra-plat-console-ui.beta.base.infra.linesno.com'
+            // }
         ],
         sidebar: {
             '/about': [
@@ -423,7 +427,7 @@ function genOperationSidebar(menus) {
         const mapArr = [
             '/operation/02_环境部署/01_服务器.md',
             '/operation/02_环境部署/02_Docker部署.md',
-            '/operation/02_环境部署/03_Kuberantes部署.md', 
+            '/operation/02_环境部署/03_Kuberantes部署.md',
             '/operation/02_环境部署/16_Hadoop部署.md',
             '/operation/02_环境部署/17_Prometheus部署.md',
             '/operation/02_环境部署/18_Clickhouse部署.md',
