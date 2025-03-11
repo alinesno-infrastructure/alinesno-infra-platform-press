@@ -1,7 +1,7 @@
 <template>
   <div class="product-container">
     <div class="header-box">
-      <div class="header-title">产品特征</div>
+      <div class="header-title">多智能体协作</div>
       <div class="header-sub-title">
         智能体平台，全称Alinesno-Infrastructure-Platform（简称AIP)，
         通过智能体协作实现业务自动化，解放团队人力，优化日常工作和业务流程，支持定制化解决方案，
@@ -9,12 +9,12 @@
       </div>
     </div>
 
+    <!--
     <div class="product-list-panel">
       <div class="product-left-panel">
         <ul>
           <li class="product-item" v-for="item in productList" :key="item.title">
             <div class="product-icon">
-              <!-- <img :src="item.img" :alt="item.title" style="width: 61px;"> -->
                <i :class="item.icon" style="font-size: 50px;font-weight: bold;color: #d33233;" />
             </div>
             <div class="prouct-title">
@@ -27,6 +27,7 @@
         </ul>
       </div>
     </div>
+    -->
 
   </div>
 </template>
