@@ -8,7 +8,7 @@ AIP团队以技术创新和产品卓越为驱动力，专注于为中小企业�
 
 以下为在建设过程中的经验，形成电子文档格式输出。
 
-<img src="/book/book-cover.png" style="
+<!-- <img src="/book/book-cover.png" style="
     width: 200px;
     border-radius: 5px;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
@@ -19,7 +19,7 @@ AIP团队以技术创新和产品卓越为驱动力，专注于为中小企业�
 关于数字化转型的实战指南，旨在帮助中小微企业团队打造中台产品，提升企业的竞争力。书籍从19年设计alinesno-cloud开源项目的第一版本建设开始进行记录编写，
 整个产品输出过程大概是建设初版本到产品化运营差不多3年。
 
----
+--- -->
 
 <img src="/book/book-cover_2.png" style="
     width: 200px;
