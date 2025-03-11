@@ -6,14 +6,37 @@
             <div class="crs-page-sub-title">利用基于 AI 技术并以行业需求为着眼点的产品和服务组合，解决您最棘手的业务难题。与销售人员</div>
         </div> -->
 
+        <div class="sulution-page-product-container" style="margin-bottom: 70px;margin-top:0px;">
+            <div style="font-size: 30px;font-weight: bold;padding: 10px 0px;text-align: center;margin-bottom: 30px;">
+                智能体产品全景图 </div>
+            <div style="border-radius: 8px;text-align: center;padding: 20px 0px;">
+                <img src="/product/aip_arch_product_01.jpg" style="border-radius: 5px;" class="medium-zoom-image">
+            </div>
+        </div>
+
         <div class="crs-page-panel">
+
+            <div style="margin-bottom: 40px;width: 100%;">
+                <span style="font-size: 25px;font-weight: bold;margin-right: 20px;">全链路智能体平台</span>
+                <span>推动企业集成各行业场景数据、技术、工艺、开发融合人工智能</span>
+            </div>
+
             <div class="crs-page-items-panel" v-for="item in productList" :key="item.id">
-                <div class="crs-page-box">{{ item.model }}</div>
+                <div class="crs-page-box">
+                    <div
+                        style="display: flex;gap: 10px;align-items: center;width: 100%;margin: auto;justify-content: center;">
+                        <i :class="item.icon" style="font-size: 50px; color: rgb(211, 50, 51);" />
+                        {{ item.model }}
+                    </div>
+                </div>
                 <div class="crs-page-box-desc">{{ item.desc }}</div>
                 <div class="item-list-box">
                     <ul>
                         <li class="crs-page-item" v-for="i in item.services" :key="i.id">
-                            <div class="item-title">{{ i.name }}</div>
+                            <div class="item-title">
+                                <i :class="i.icon" style="font-size: 30px; color: rgb(211, 50, 51);"></i>
+                                {{ i.name }}
+                            </div>
                             <div class="item-desc">{{ i.desc }} </div>
                         </li>
                     </ul>
@@ -28,218 +51,132 @@
 export default {
     data() {
         return {
+
             productList: [
-                    {
-                        "id": 38,
-                        "model": "智能推理",
-                        "desc": "智能服务模块包括智能推荐服务、智能搜索服务、智能语音服务、智能图像服务、智能视频服务和智能机器人服务。",
-                        "services": [
-                            {
-                                "id": 45,
-                                "name": "大模型推理服务",
-                                "desc": "用于GPT推理的服务，实现基于预训练模型的自然语言生成和推理",
-                                "code": "alinesno-infra-smart-brain"
-                            },
-                            {
-                                "id": 43,
-                                "name": "OCR视觉识别服务",
-                                "desc": "用于OCR视觉识别的服务，实现文字和图像的识别和提取",
-                                "code": "alinesno-infra-smart-ocr"
-                            },
-                            {
-                                "id": 44,
-                                "name": "自然语言识别服务",
-                                "desc": "用于自然语言识别的服务，实现文本的语义理解和分析",
-                                "code": "alinesno-infra-smart-nlp"
-                            },
-                            {
-                                "id": 48,
-                                "name": "目标检测识别服务",
-                                "desc": "通过提供通用的API接口，帮助开发人员和应用管理者实现流媒体的物体识别检测功能",
-                                "code": "alinesno-infra-smart-detection	"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "model": "基础服务",
-                        "desc": "基础服务模块包括权限配置服务、代码生成器、分布式配置服务、事务消息服务、存储管理服务、网关配置服务、文档搜索服务、支付服务、内容服务和文档查看服务。",
-                        "services": [
-                            {
-                                "id": 5,
-                                "name": "权限配置服务",
-                                "desc": "用于配置权限的服务，管理用户权限和角色权限",
-                                "code": "alinesno-infra-base-authority"
-                            },
-                            {
-                                "id": 6,
-                                "name": "代码生成器",
-                                "desc": "用于生成代码的工具，快速生成项目代码和模块",
-                                "code": "alinesno-infra-base-starter"
-                            },
-                            {
-                                "id": 7,
-                                "name": "分布式配置服务",
-                                "desc": "用于分布式配置的服务，集中管理分布式系统的配置信息",
-                                "code": "alinesno-infra-base-config"
-                            },
-                            {
-                                "id": 8,
-                                "name": "事务消息服务",
-                                "desc": "用于处理事务消息的服务，保证消息的可靠性和一致性",
-                                "code": "alinesno-infra-base-message"
-                            },
-                            {
-                                "id": 10,
-                                "name": "存储管理服务",
-                                "desc": "用于管理存储的服务，提供文件和对象的存储管理功能",
-                                "code": "alinesno-infra-base-storage"
-                            },
-                            {
-                                "id": 12,
-                                "name": "网关配置服务",
-                                "desc": "用于配置网关的服务，管理网关的路由和过滤规则",
-                                "code": "alinesno-infra-base-gateway"
-                            },
-                            {
-                                "id": 16,
-                                "name": "文档搜索服务",
-                                "desc": "用于搜索文档的服务，提供全文搜索和文档检索功能",
-                                "code": "alinesno-infra-base-document"
-                            },
-                            {
-                                "id": 18,
-                                "name": "敏感词过滤服务",
-                                "desc": "用于过滤敏感词的服务，检测和过滤文本中的敏感词汇",
-                                "code": "alinesno-infra-base-sensitive"
-                            },
-                            {
-                                "id": 19,
-                                "name": "支付服务",
-                                "desc": "用于处理支付的服务，提供支付接口和支付流程管理",
-                                "code": "alinesno-infra-base-pay"
-                            },
-                            {
-                                "id": 21,
-                                "name": "内容服务",
-                                "desc": "用于管理内容的服务，包括内容发布、内容审核和内容管理",
-                                "code": "alinesno-infra-base-cms"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 27,
-                        "model": "数据服务",
-                        "desc": "数据服务模块包括主数据服务、数据上报服务、数据集成服务、数据开发服务、实时计算服务、数据安全服务、数据总线服务、数据资产服务和数据算法服务。",
-                        "services": [
-                            {
-                                "id": 27,
-                                "name": "主数据服务",
-                                "desc": "用于主数据管理的服务，集中管理和维护组织的核心数据",
-                                "code": "alinesno-infra-data-mdm"
-                            },
-                            {
-                                "id": 28,
-                                "name": "数据上报服务",
-                                "desc": "用于数据上报的服务，支持数据的采集、上传和存储",
-                                "code": "alinesno-infra-data-report"
-                            },
-                            {
-                                "id": 29,
-                                "name": "数据集成服务",
-                                "desc": "用于数据集成的服务，实现不同系统间的数据交换和整合",
-                                "code": "alinesno-infra-data-pipeline"
-                            },
-                            {
-                                "id": 30,
-                                "name": "数据开发服务",
-                                "desc": "用于数据开发的服务，提供数据处理和ETL流程的开发和调度",
-                                "code": "alinesno-infra-data-dolphinscheduler"
-                            },
-                            {
-                                "id": 31,
-                                "name": "实时计算服务",
-                                "desc": "用于实时计算的服务，支持流式数据的实时处理和计算",
-                                "code": "alinesno-infra-data-stream"
-                            },
-                            {
-                                "id": 35,
-                                "name": "数据资产服务",
-                                "desc": "用于数据资产管理的服务，记录和管理组织的数据资产",
-                                "code": "alinesno-infra-data-assets"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 43,
-                        "model": "运维服务",
-                        "desc": "运维服务模块包括自动化任务服务、分布式日志服务、分布式链路跟踪服务、持续集成服务、容器管理服务和监控预警服务。",
-                        "services": [
-                            {
-                                "id": 1,
-                                "name": "自动化任务服务",
-                                "desc": "用于自动化运维任务的服务，实现自动化执行和调度任务",
-                                "code": "alinesno-infra-ops-scheduler"
-                            },
-                            {
-                                "id": 2,
-                                "name": "分布式日志服务",
-                                "desc": "用于分布式日志管理的服务，集中收集、存储和分析日志数据",
-                                "code": "alinesno-infra-ops-logback"
-                            },
-                            {
-                                "id": 5,
-                                "name": "容器管理服务",
-                                "desc": "用于容器管理的服务，管理和编排容器化应用程序",
-                                "code": "alinesno-infra-ops-container"
-                            },
-                            {
-                                "id": 6,
-                                "name": "监控预警服务",
-                                "desc": "用于监控和预警的服务，实时监测系统状态并发送预警通知",
-                                "code": "alinesno-infra-ops-watcher"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 57,
-                        "model": "业务服务",
-                        "desc": "业务服务模块包括实时推荐服务、实时画像服务和无代码开发服务。",
-                        "services": [
-                            {
-                                "id": 2,
-                                "name": "实时推荐服务",
-                                "desc": "用于实时推荐的服务，提供实时个性化推荐功能，输出通用接口能力",
-                                "code": "alinesno-infra-bus-recommend"
-                            },
-                            {
-                                "id": 3,
-                                "name": "实时画像服务",
-                                "desc": "用于实时画像的服务，实时分析用户行为和特征，生成用户画像",
-                                "code": "alinesno-infra-bus-profiling"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 50,
-                        "model": "运营服务",
-                        "desc": "运维服务模块包括自动化任务服务、分布式日志服务、分布式链路跟踪服务、持续集成服务、容器管理服务和监控预警服务。",
-                        "services": [
-                            {
-                                "id": 1,
-                                "name": "基设平台服务",
-                                "desc": "提供架构排版服务，支持快速搭建和调整系统架构",
-                                "code": "alinesno-infra-plat-console"
-                            },
-                            {
-                                "id": 2,
-                                "name": "安全感知服务",
-                                "desc": "用于安全感知的服务，实时监测和分析系统安全状态",
-                                "code": "alinesno-infra-plat-security"
-                            }
-                        ]
-                    }
-                ]
+                {
+                    "id": 38,
+                    "model": "智能体中枢推理",
+                    "desc": "基于大模型的智能决策系统，集成自然语言处理、计算机视觉等AI能力，支撑智能体自主推理与策略生成。",
+                    "icon": "fa-solid fa-brain",
+                    "services": [
+                        {
+                            "id": 45,
+                            "name": "智能体管理平台",
+                            "desc": "提供高性能LLM推理引擎，支持多模态交互与复杂逻辑推理，实现智能体认知决策。",
+                            "icon": "fa-solid fa-cogs",
+                            "code": "alinesno-infra-smart-brain"
+                        },
+                        {
+                            "id": 43,
+                            "name": "OCR视觉识别服务",
+                            "desc": "高精度图文识别引擎，支持多场景文档解析与结构化数据提取，强化智能体视觉感知。",
+                            "icon": "fa-solid fa-images",
+                            "code": "alinesno-infra-smart-ocr"
+                        },
+                        {
+                            "id": 44,
+                            "name": "自然语言识别服务",
+                            "desc": "NLP语义理解引擎，实现文本情感分析、意图识别与知识抽取，赋能智能体语言交互。",
+                            "icon": "fa-solid fa-comment",
+                            "code": "alinesno-infra-smart-nlp"
+                        },
+                        {
+                            "id": 48,
+                            "name": "目标检测识别服务",
+                            "desc": "基于深度学习的物体检测框架，支持视频流实时分析与异常行为识别。",
+                            "icon": "fa-solid fa-magnifying-glass",
+                            "code": "alinesno-infra-smart-detection"
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "model": "智能体感知能力",
+                    "desc": "构建智能体的环境感知系统，提供多源数据采集、清洗、集成与实时计算能力，支撑智能体对物理世界的全面感知。",
+                    "icon": "fa-solid fa-sensor",
+                    "services": [
+                        {
+                            "id": 27,
+                            "name": "主数据服务",
+                            "desc": "建立企业核心数据资产库，实现数据标准化管理与跨系统共享，保障智能体数据一致性。",
+                            "icon": "fa-solid fa-database",
+                            "code": "alinesno-infra-data-mdm"
+                        },
+                        {
+                            "id": 29,
+                            "name": "数据集成服务",
+                            "desc": "提供ETL可视化编排工具，实现不同系统间数据的高效交换与价值融合。",
+                            "icon": "fa-solid fa-exchange-alt",
+                            "code": "alinesno-infra-data-pipeline"
+                        },
+                        {
+                            "id": 30,
+                            "name": "数据编排服务",
+                            "desc": "基于自研的数据编排的工作流引擎，支持复杂数据处理逻辑的快速开发与调度。",
+                            "icon": "fa-solid fa-code",
+                            "code": "alinesno-infra-data-dolphinscheduler"
+                        },
+                        {
+                            "id": 31,
+                            "name": "实时计算服务",
+                            "desc": "流式数据处理框架，支持毫秒级延迟的实时分析与决策，赋能智能体动态响应。",
+                            "icon": "fa-solid fa-tachometer-fast",
+                            "code": "alinesno-infra-data-stream"
+                        },
+                        {
+                            "id": 35,
+                            "name": "数据资产服务",
+                            "desc": "建立数据资产目录与血缘分析体系，实现数据全生命周期管理与价值挖掘。",
+                            "icon": "fa-solid fa-file-invoice",
+                            "code": "alinesno-infra-data-assets"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "model": "智能体业务执行",
+                    "desc": "构建智能体行动支撑体系，提供低代码开发工具与业务系统集成能力，实现决策结果的高效落地。",
+                    "icon": "fa-solid fa-gears",
+                    "services": [
+                        {
+                            "id": 5,
+                            "name": "权限配置服务",
+                            "desc": "RBAC权限管理系统，支持细粒度的智能体行为控制与安全策略配置。",
+                            "icon": "fa-solid fa-lock",
+                            "code": "alinesno-infra-base-authority"
+                        },
+                        {
+                            "id": 6,
+                            "name": "项目生成器",
+                            "desc": "可视化代码生成工具，支持智能体功能模块的快速构建与个性化工具和技能的定制。",
+                            "icon": "fa-solid fa-code-branch",
+                            "code": "alinesno-infra-base-starter"
+                        },
+                        {
+                            "id": 7,
+                            "name": "分布式配置服务",
+                            "desc": "集中式配置管理平台，支持智能体参数动态更新与多环境统一管控。",
+                            "icon": "fa-solid fa-server",
+                            "code": "alinesno-infra-base-config"
+                        },
+                        {
+                            "id": 12,
+                            "name": "网关配置服务",
+                            "desc": "API网关管理系统，提供智能体服务路由、流量控制与安全防护能力。",
+                            "icon": "fa-solid fa-cloud",
+                            "code": "alinesno-infra-base-gateway"
+                        },
+                        {
+                            "id": 18,
+                            "name": "敏感词过滤服务",
+                            "desc": "AI驱动的内容安全引擎，实时检测并过滤违规信息，保障智能体交互合规。",
+                            "icon": "fa-solid fa-filter",
+                            "code": "alinesno-infra-base-sensitive"
+                        }
+                    ]
+                }
+            ]
+
         }
     },
     computed: {
@@ -305,6 +242,7 @@ export default {
                     padding: 24px;
                     box-shadow: 0 0 0 0 transparent;
                     border: 1px solid #dadce0;
+                    height: 100px;
                     border-radius: 8px;
                     margin-right: 20px;
                     margin-bottom: 20px;
@@ -313,10 +251,10 @@ export default {
                         color: #202124;
                         margin: 0;
                         word-wrap: normal;
-                        font-size: 20px;
-                        font-weight: 500;
+                        font-size: 23px;
+                        font-weight: bold;
                         letter-spacing: normal;
-                        line-height: 28px;
+                        line-height: 30px;
                         margin-bottom: 10px;
                     }
 
@@ -326,7 +264,7 @@ export default {
                         font-size: 16px;
                         font-weight: 400;
                         letter-spacing: .1px;
-                        line-height: 24px;
+                        line-height: 30px;
                     }
                 }
             }
