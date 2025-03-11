@@ -53,7 +53,7 @@ module.exports = {
                 link: '/product/'
             },
             {
-                text: '应用场景',
+                text: '解决方案',
                 link: '/solution/'
             },
             // {
@@ -262,7 +262,7 @@ module.exports = {
                     children: genProductSidebar(5)
                 },
                 {
-                    title: '基础服务',
+                    title: '业务服务',
                     collapsible: true,
                     children: genProductSidebar(3)
                 },
@@ -271,21 +271,21 @@ module.exports = {
                     collapsible: true,
                     children: genProductSidebar(4)
                 },
-                {
-                    title: '运维服务',
-                    collapsible: true,
-                    children: genProductSidebar(6)
-                },
-                {
-                    title: '业务服务',
-                    collapsible: true,
-                    children: genProductSidebar(7)
-                },
-                {
-                    title: '运营服务',
-                    collapsible: true,
-                    children: genProductSidebar(8)
-                },
+                // {
+                //     title: '运维服务',
+                //     collapsible: true,
+                //     children: genProductSidebar(6)
+                // },
+                // {
+                //     title: '业务服务',
+                //     collapsible: true,
+                //     children: genProductSidebar(7)
+                // },
+                // {
+                //     title: '运营服务',
+                //     collapsible: true,
+                //     children: genProductSidebar(8)
+                // },
             ]
         }
     },
@@ -820,9 +820,9 @@ function genProductSidebar(menus) {
 
     const mapArr = [
         '/product/',
-        '/product/ProductDesign.md',
-        '/product/ProductIntro.md',
-        '/product/plan.md'
+        // '/product/ProductDesign.md',
+        // '/product/ProductIntro.md',
+        // '/product/plan.md'
     ]
 
     if (menus == 2) {
