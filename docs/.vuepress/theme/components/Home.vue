@@ -1,5 +1,10 @@
 <template>
   <div class="home-container">
+
+     <!--
+     <iframe class="baniframe" sandbox="allow-scripts allow-same-origin" id="mh" src="https://www.jq22.com/js/a11.html"></iframe>
+     -->
+
       <!-- 头部导航 -->
       <BannerPanel />
 
@@ -69,3 +74,14 @@ export default {
 }
 
 </script>
+
+<style lang="stylus">
+.baniframe {
+    width: 100%;
+    border-width: 0px;
+    height: 620px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+</style>
