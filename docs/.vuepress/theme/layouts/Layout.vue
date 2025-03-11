@@ -1,7 +1,5 @@
 <template>
   <ParentLayout>
-
-
   </ParentLayout>
 </template>
 
