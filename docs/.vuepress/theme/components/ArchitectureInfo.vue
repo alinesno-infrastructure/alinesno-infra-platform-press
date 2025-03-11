@@ -1,9 +1,11 @@
 <template>
   <div class="arch-container">
+    <!-- 
     <div class="header-box">
       <div class="header-title">多智能体协作</div>
       <div class="header-sub-title">为业务发展提供 基础的超级自动化架构 ，业务规范化和标准化，更好的沉淀企业业务资产和数据资产</div>
-    </div>
+    </div> 
+    -->
 
     <div class="arch-list-panel">
       <div class="arch-left-panel">
@@ -61,7 +63,7 @@ export default {
       archList: [
         {
           "icon": "fas fa-network-wired",
-          "title": "多智能体协作网络",
+          "title": "多智能体交互协作",
           "sub": "通过智能体间的自动协作，优化业务流程，解放团队人力，使员工能够专注于更高价值的任务。"
         },
         {
@@ -71,7 +73,7 @@ export default {
         },
         {
           "icon": "fas fa-users-cog",
-          "title": "多团队智能协作平台",
+          "title": "多团队智能管理平台",
           "sub": "提供一个可视化友好的管理平台，适配多部门和外包体系，促进多方合作，确保无缝沟通与协作。"
         }
       ]
