@@ -1,210 +1,127 @@
-# Hadoop集群安装文档
+# 智能体平台本地环境
 
 ## 概述
-本文提供了在CentOS 7上安装和配置Hadoop集群的指南。其中包括安装Java JDK、下载和解压Hadoop、配置Hadoop集群、启动集群以及验证集群的步骤。建议进行更详细的配置和安全性设置，并使用适当的集群规模和复制因子来确保高可用性和数据冗余。
 
-## 你将获得
-- 安装Java JDK
-- 下载和解压Hadoop
-- 配置Hadoop集群
-- 启动Hadoop集群
-- 验证Hadoop集群
-
-## 步骤1：准备工作
-
-在开始安装之前，请确保满足以下先决条件：
-
-- CentOS 7操作系统
-- Java JDK 8或更高版本
-- 具有sudo权限的用户
-
-1. 确保服务器满足以下要求：
-    - 内存：建议每个Hadoop节点至少具有8GB的内存。
-    - 存储：根据预期的数据存储需求，为Hadoop节点提供足够的磁盘空间。
-    - CPU：建议每个Hadoop节点具有多个CPU核心以处理并行计算任务。
-    - 网络：确保服务器具有足够的网络带宽和稳定的网络连接。
-
-2. 将用户`alinesno`添加到sudoers文件中，以便具有root权限。
-
-## 步骤2：安装Java JDK
-
-Hadoop需要Java JDK来运行。按照以下步骤安装Java JDK：
-
-1. 打开终端并执行以下命令以安装Java JDK：
-
-   ```
-   sudo yum install java-8-openjdk-devel
-   ```
-
-2. 安装完成后，验证Java JDK是否正确安装：
-
-   ```
-   java -version
-   ```
-
-   应该显示Java版本信息。
-
-## 步骤3：下载和解压Hadoop
-
-1. 打开终端并执行以下命令以下载Hadoop：
-
-   ```
-   wget https://downloads.apache.org/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz
-   ```
-
-2. 解压下载的文件：
-
-   ```
-   tar -xzf hadoop-3.3.1.tar.gz
-   ```
-
-3. 将解压后的Hadoop文件夹移动到适当的位置：
-
-   ```
-   sudo mv hadoop-3.3.1 /usr/local/hadoop
-   ```
-
-4. 配置Hadoop环境变量：
-
-   打开`~/.bashrc`文件并添加以下行：
-
-   ```
-   export HADOOP_HOME=/usr/local/hadoop
-   export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
-   ```
-
-   保存并关闭文件。
-
-5. 执行以下命令使环境变量生效：
-
-   ```
-   source ~/.bashrc
-   ```
-
-## 步骤4：配置Hadoop集群
-
-1. 进入Hadoop配置目录：
-
-   ```
-   cd /usr/local/hadoop/etc/hadoop
-   ```
-
-2. 配置`hadoop-env.sh`文件：
-
-   打开`hadoop-env.sh`文件并找到以下行：
-
-   ```
-   # export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
-   ```
-
-   将其修改为：
-
-   ```
-   export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
-   ```
-
-   保存并关闭文件。
-
-3. 配置`core-site.xml`文件：
-
-   打开`core-site.xml`文件并添加以下内容：
-
-   ```xml
-   <configuration>
-     <property>
-       <name>fs.defaultFS</name>
-       <value>hdfs://localhost:9000</value>
-     </property>
-   </configuration>
-   ```
-
-   保存并关闭文件。
-
-4. 配置`hdfs-site.xml`文件：
-
-   打开`hdfs-site.xml`文件并添加以下内容：
-
-   ```xml
-   <configuration>
-     <property>
-       <name>dfs.replication</name>
-       <value>3</value>
-     </property>
-   </configuration>
-   ```
-
-   保存并关闭文件。
-
-5. 配置`mapred-site.xml`文件：
-
-   复制模板文件：
-
-   ```
-   cp mapred-site.xml.template mapred-site.xml
-   ```
-
-   打开`mapred-site.xml`文件并添加以下内容：
-
-   ```xml
-   <configuration>
-     <property>
-       <name>mapreduce.framework.name</name>
-       <value>yarn</value>
-     </property>
-   </configuration>
-   ```
-
-   保存并关闭文件。
-
-6. 配置`yarn-site.xml`文件：
-
-   打开`yarn-site.xml`文件并添加以下内容：
-
-   ```xml
-   <configuration>
-     <property>
-       <name>yarn.nodemanager.aux-services</name>
-       <value>mapreduce_shuffle</value>
-     </property>
-     <property>
-       <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
-       <value>org.apache.hadoop.mapred.ShuffleHandler</value>
-     </property>
-     <property>
-       <name>yarn.resourcemanager.hostname</name>
-       <value>localhost</value>
-     </property>
-   </configuration>
-   ```
-
-   保存并关闭文件。
-
-## 步骤5：启动Hadoop集群
-
-1. 格式化Hadoop文件系统：
-
-   ```
-   hdfs namenode -format
-   ```
-
-2. 启动Hadoop集群：
-
-   ```
-   start-dfs.sh
-   start-yarn.sh
-   ```
-
-3. 验证Hadoop集群是否正常运行：
-
-   打开浏览器并访问以下URL：
-
-   - HDFS管理界面：http://localhost:9870
-   - YARN管理界面：http://localhost:8088
-
-   应该能够看到Hadoop集群的状态和信息。
-
-## 结论
-
-恭喜！您已成功安装和配置了Hadoop集群。现在您可以开始使用Hadoop进行大数据处理和分析。
-
-请注意，这只是一个简单的安装文档示例，实际安装和配置过程可能因环境和需求而有所不同。建议参考Hadoop官方文档和其他资源以获取更详细的指南和最佳实践。
+智能体平台为AIP中的一部分，负责AI大模型和智能体的配置管理，主要包含两部分：
+
+- 后端管理： 用于智能体的配置管理端
+- 客户端：用于客户使用，多智能体场景
+
+## 开发工具
+
+开发工具尽量按最简化的方式进行，以下为开发环境
+
+- [必须] mysql8
+- [必须] redis5+
+- [必须] jdk17+
+- [BaseSearch] postgresql(开启pgvector) 
+- [BaseStorage] minio/qiniu: 当前使用七牛
+
+## 涉及到的工程
+
+- common: 公共包[打开](https://gitee.com/alinesno-infrastructure/alinesno-infra-common)
+- model-adapter: 多模型适配包[打开](https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-model-adapater.git),基于AgentFlex二次开发.
+- base-authority sso认证服务[打开](https://gitee.com/alinesno-infrastructure/alinesno-infra-base-authority)
+- smart-brain: 智能体平台[打开](https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-brain)
+
+这里只说明部署smart-brain智能体平台，common和authority参考文章[打开](http://portal.infra.linesno.com/operation/02_环境部署/01_服务器.html)的权限服务部分。
+
+## 本地部署
+
+1. 先安装common包到本地，install即可,缺少actable包,[查看](https://gitee.com/alinesno-infrastructure/alinesno-infra-common/issues/IBEK4W)
+2. 安装model-adapter包到本地, install即可.
+
+3. 然后克隆smart-brain工程到idea包,分别启动:
+	- 服务端: alinesno-infra-smart-expert-boot
+	- 服务端前端: alinesno-infra-smart-expert-ui
+	- 客户端: alinesno-infra-smart-im-ui
+
+   默认情况下,启动之后会连接开发环境的权限系统和sso认证系统,直接登陆即可,如需要修改成base-authority服务,以下为配置说明.
+
+4. 配置说明:
+
+以下为主要配置:
+
+```yaml
+server:
+  port: 30304
+
+# spring 配置
+spring:
+  application:
+    name: alinesno-infra-smart-expert-boot
+    id: 1848341995578118144
+  datasource.dynamic:
+    primary: mysql
+    datasource:
+      mysql:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/dev_alinesno_infra_smart_assistant_v100?characterEncoding=UTF-8&serverTimezone=GMT%2B8&allowMultiQueries=true
+        username: root
+        password: adminer
+      postgresql:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://192.168.101.18:5432/postgres
+        username: postgres
+        password: 123456
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: aip@local
+  mvc:
+    async:
+      request-timeout: 3600000
+  devtools:
+    restart:
+      enabled: true
+
+actable:
+  table:
+    auto: update
+
+forest:
+  max-connections: 1000        # 连接池最大连接数
+  connect-timeout: 60000        # 连接超时时间，单位为毫秒
+  read-timeout: 120000           # 数据读取超时时间，单位为毫秒
+
+# sa-token配置
+sa-token:
+  token-name: Authorization
+  host-path: http://alinesno-infra-base-identity-auth-application.beta.base.infra.linesno.com
+  
+alinesno:
+  security:
+    # 排除路径
+    excludes:
+      - /sso/**
+      - /logout
+      - /v1/api/infra/base/im/roleChat/**
+      - /v1/api/infra/base/im/sse/**
+      - /v1/api/infra/base/im/chat/**
+      - /api/infra/base/im/channel/**
+      - /api/infra/smart/assistant/template/testTemplate
+      - /api/infra/smart/assistant/screenChapter/**
+      - /api/infra/smart/assistant/screen/**
+      - /api/infra/smart/assistant/screenLongtext/**
+  xss:
+    # TODO 待处理XSS的问题
+    enabled: false
+  infra:
+    gateway:
+      host: http://alinesno-infra-base-authority-boot.beta.base.infra.linesno.com 
+    smart: 
+      brain: 
+        qianwen:
+          key:  sk-xxxxxxxxx
+```
+
+配置说明:
+- sa-token.host-path: 默认连接线上开发环境,如已部署base-authority,可修改成本地base-authority的地址 http://127.0.0.1:27001
+- alinesno.infra.gateway.host: 默认连接线上开发环境,如已部署base-authority,可修改成本地base-authority的地址 http://127.0.0.1:30100 [注意,这两个端口不一样]
+- alinesno.infra.smart.brain.qianwen.key: 阿里百炼的api-key,目前集成百炼较为深度(通用版本调整中)
+
+## 角色测试
+
+以下为测试角色脚本,以请假角色为示例:
+  
