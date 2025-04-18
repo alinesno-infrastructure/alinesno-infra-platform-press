@@ -47,12 +47,12 @@ module.exports = {
         logo: '/logo.png', // 注意图片放在 public 文件夹下
         lastUpdated: 'Last Updated',
         sidebarDepth: 2,
-        repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press',
+        // repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press',
         // repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-brain' ,
         docsDir: 'docs',
-        repoLabel: 'Gitee',
-        docsBranch: 'main',
-        editLinks: true,
+        // repoLabel: 'Gitee',
+        // docsBranch: 'main',
+        editLinks:  false,
         editLinkText: '帮助我们改善此页面',
         smoothScroll: true,
         nav: [
