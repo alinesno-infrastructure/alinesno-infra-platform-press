@@ -13,15 +13,15 @@
       </div>
       <div class="hero-actions">
         <div class="action-link" style="background:#d33232">
-          <a href="https://kdocs.cn/l/cnKqyJwnd6au" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-file-pdf" style="font-size:25px;"></i> AIP智能体平台介绍
+          <a href="http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com/index" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-book-journal-whills" style="font-size:25px;"></i> AIP智能体平台体验
           </a>
-        </div> 
+        </div>
         <div class="action-saler">
-          <a href="http://alinesno-agent.linesno.com/book/" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-book-journal-whills" style="font-size:25px;"></i> 多Agent协作与自动化电子书
+          <a href="https://kdocs.cn/l/cnKqyJwnd6au" style="color: #fff;text-decoration: none;" target="_blank">
+            <i class="fa-solid fa-file-pdf" style="font-size:25px;"></i> 多智能体协作设计方案
           </a>
-        </div> 
+        </div>
       </div>
     </div>
     <div class="panel-right">
@@ -68,7 +68,7 @@ export default {
           },
           {
             "id":3 ,
-            "icon":"fa-solid fa-signature" , 
+            "icon":"fa-solid fa-signature" ,
             "title": "跨场景融合应用",
             "sub": "支持多智能体在不同业务场景下的无缝集成，如综合业务、市场营销等"
           },
