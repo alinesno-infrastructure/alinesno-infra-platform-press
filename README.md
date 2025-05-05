@@ -1,12 +1,39 @@
-# AIP Multi-Agent平台
+# AIP多智能体平台
 
 > 本基线主要为了学习交流学习使用，部分图片为网上获取，如有侵权，请说明
 
 智能体平台（以下简称新基设)，全称alinesno-infrastructure-platform（简称AIP)，通过建设智能体平台，推动业务自动化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率
 
+## 工程列表
+
+体验地址: http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com (微信扫码即可)
+
+AIP由多个工程组成，主要工程列表如下:
+
+| 工程分类       | 具体工程         | 链接                                                                                                      | 状态       |
+|----------------|------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| 智能体平台服务 | 平台官网         | https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press                                   | 运营中     |
+|                | 智能体平台后端   | https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-brain                                      | 试运营中   |
+|                | 多模型适配框架   | https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-model-adapater                             | 运营中     |
+|                | PC客户端         | https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-brain/tree/main/alinesno-infra-smart-im-ui | 试运营中   |
+|                |                  |                                                                                                           |            |
+| 数据治理套件   | 数据采集服务     | https://gitee.com/alinesno-infrastructure/alinesno-infra-data-pipeline                                    | 开发内测中 |
+|                | 数据编排服务     | https://gitee.com/alinesno-infrastructure/alinesno-infra-data-scheduler                                   | 开发内测中 |
+|                | 数据资产服务     | https://gitee.com/alinesno-infrastructure/alinesno-infra-data-assets                                      | 开发内测中 |
+|                |                  |                                                                                                           |            |
+| AI算法模型     | 计算机视觉服务   | https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-ocr                                        | 开发中     |
+|                | 目标检测识别服务 | https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-detection                                  | 开发中     |
+|                |                  |                                                                                                           |            |
+| 技术服务       | 基础公共包       | https://gitee.com/alinesno-infrastructure/alinesno-infra-common                                           | 运营中     |
+|                | 单点登陆系统     | https://gitee.com/alinesno-infrastructure/alinesno-infra-base-authority                                   | 运营中     |
+|                | 运营管理服务     | https://gitee.com/alinesno-infrastructure/alinesno-infra-plat-console                                     | 运营中     |
+|                |                  |                                                                                                           |            |
+
+私服化部署方式，具体请查看每个工程下面的`.github/workflow/`目录，github action的打包及发布参考
+
 ## AIP智能体平台是什么
 
-> 可以理解成开源版本的Coze或者说开源版本的CrewAi平台
+> 可以理解成开源版本的Coze或者说开源版本的CrewAi平台或者说Manus、扣子空间等
 
 智能体平台是指针对现代软件开发和运行需求而建设的智能体平台系统，包括开发工具、测试环境、运行平台和协作工具等。
 它以技术创新和信息网络为基础，旨在支持软件行业的数字转型、智能升级和融合创新。智能体平台的建设涉及多个领域，包括云计算、基设架构、容器化、持续集成和部署、大数据处理、人工智能等。
