@@ -3,12 +3,12 @@
 
     <div class="footer-panel">
       <div class="footer-list" v-for="item in infoItem" :key="item.id">
-        <div class="footer-item-title">
+        <div style="color: #fafafa" class="footer-item-title">
           {{ item.title }}
         </div>
         <ul class="footer-itembox">
           <li class="footer-item" v-for="i in item.item" :key="i.id">
-            <a style="color:#fff" :href="i.link">
+            <a style="color: #fafafa" :href="i.link">
                 {{ i.title }}
             </a>
           </li>
