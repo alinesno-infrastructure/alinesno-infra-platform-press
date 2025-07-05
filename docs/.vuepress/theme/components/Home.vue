@@ -20,6 +20,9 @@
       <!-- 服务支持 -->
       <ServicePanel />
 
+      <!-- 项目文档 -->
+      <DocumentPanel />
+
       <!-- 案例列表-->
       <CasePanel />
 
@@ -36,6 +39,7 @@ import SolutionPanel from './Solution.vue'
 import ProductPanel from './Product.vue'
 import ArchitecturePanel from './ArchitectureInfo.vue'
 import CasePanel from './Case.vue'
+import DocumentPanel from './Document.vue'
 import ServicePanel from './ServiceInfo.vue'
 import FooterPanel from './Footer.vue'
 
@@ -46,6 +50,7 @@ export default {
     ProductPanel,
     ArchitecturePanel,
     CasePanel,
+    DocumentPanel,
     ServicePanel,
     FooterPanel,
   },
