@@ -2,19 +2,19 @@
   <div class="banner-container">
     <div class="panel-left">
       <div class="notice-link-info">
-        <span class="link-text">新一代智能体平台服务</span>
+        <span class="link-text">新一代智能体平台服务（开源社区版）</span>
       </div>
       <div class="hero-header">
         <div class="hero-title">Multi-Agent平台 赋能团队自动化优化流程提升团队能力</div>
         <div class="hero-sub-title">
-            <img src="http://staticok.oss-cn-hangzhou.aliyuncs.com/avatar-share/thumbnail-6046836d-7766-4bfd-a93d-85fd52d2b0e4.webp" style="width: 60px;border-radius: 50%;">
+            <img src="/assets/agent/yinwu.jpg" style="width: 60px;border-radius: 50%;">
             利用强大的多智能体优化传统业务流程，处理复杂任务，将不同的智能分配处理不同的任务，形成协作性。
         </div>
       </div>
       <div class="hero-actions">
         <div class="action-link" style="background:#d33232">
           <a href="http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com/index" style="color: #fff;text-decoration: none;" target="_blank">
-            <i class="fa-solid fa-book-journal-whills" style="font-size:25px;"></i> AIP智能体平台体验
+            <i class="fa-solid fa-book-journal-whills" style="font-size:25px;"></i> AIP智能体体验
           </a>
         </div>
         <div class="action-saler">
@@ -26,7 +26,7 @@
     </div>
     <div class="panel-right">
       <div class="banner-img">
-        <img src="/assets/agent/agents.jpg" alt="" />
+        <img src="/assets/agent/agents.png" alt="" />
         <div class="img-text">
             <a href="http://alinesno-agent.linesno.com/book/" style="color: #fff;font-size: 15px;" target="_blank">
                超级个体:多Agent协作与自动化产品实践
