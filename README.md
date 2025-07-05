@@ -5,11 +5,12 @@
 智能体平台（以下简称新基设)，全称alinesno-infrastructure-platform（简称AIP)，通过建设智能体平台，推动业务自动化转型和创新的发展，提高竞争力、降低成本、支持创新和业务拓展，以及提升团队协作效率
 
 ## 🚀 社区交流
+
 AIP智能体平台微信交流群（开发者 & 个人用户 & 企业用户）
 
 **添加客服微信**（备注 `AIP` 加群）：
 
-![客服微信](images/aip-dev.jpg)
+<img src="images/aip-dev.jpg" width="180px" alt="客服微信">
 
 > 💡 如果遇到问题，请 [提交 Issue](https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press/issues)。
 
