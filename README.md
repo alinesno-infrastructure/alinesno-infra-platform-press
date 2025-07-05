@@ -31,7 +31,7 @@ AIP由多个工程组成，主要工程列表如下:
 
 私服化部署方式，具体请查看每个工程下面的`.github/workflow/`目录，github action的打包及发布参考
 
-## AIP智能体平台是什么
+## AIP智能体是什么
 
 > 可以理解成开源版本的Coze或者说开源版本的CrewAi平台或者说Manus、扣子空间等
 
@@ -77,7 +77,7 @@ AIP是针对于项目和团队业务建设的基础设施平台，为了更好�
 
 这里的预览指的是类似于原型的设计，展示整体设计和内容，当前放在github pages上面。
 
-<a href="https://www.kdocs.cn/l/coh4PKJHYm7j" target="_blank">AIP智能体平台架构设计及与业务场景结合(原南宁GDG技术分享稿)</a>
+<a href="https://www.kdocs.cn/l/coh4PKJHYm7j" target="_blank">AIP智能体架构设计及与业务场景结合(原南宁GDG技术分享稿)</a>
 
 体验地址:
 
@@ -87,7 +87,7 @@ AIP是针对于项目和团队业务建设的基础设施平台，为了更好�
 
 ## 平台架构设计
 
-AIP智能体平台全景图
+AIP智能体全景图
 
 <img src="images/studio_products.png" style="width:80%;margin-left:-20px">
 
@@ -103,7 +103,7 @@ AIP Multi-Agent平台是一种综合性的能力，旨在将各种业务流程�
 
 > 当前整体平台设计参考Aliyun/Aws/Coze等云平台
 
-视频介绍<a href="//player.bilibili.com/player.html?isOutside=true&aid=113699092174355&bvid=BV1PwCuY1Eu5&cid=27481869143&p=1" target="_blank">AIP智能体平台项目介绍及体验方式</a>
+视频介绍<a href="//player.bilibili.com/player.html?isOutside=true&aid=113699092174355&bvid=BV1PwCuY1Eu5&cid=27481869143&p=1" target="_blank">AIP智能体项目介绍及体验方式</a>
 
 这个是当前集成的UI设计和原型设计，同时也是后期的设计和实现内容及方向等。
 
