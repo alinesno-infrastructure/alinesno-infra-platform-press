@@ -1,7 +1,7 @@
 <template>
   <div class="case-container">
     <div class="header-box">
-      <div class="header-title">在 Alinesno Infrastructure Platform上实现客户创新</div>
+      <div class="header-title">在AIP上实现客户创新</div>
     </div>
 
     <div class="case-list-panel">
