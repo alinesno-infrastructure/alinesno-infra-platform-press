@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: 'AIP智能体平台',
+    title: 'AIP智能体',
     description: '能够灵活满足企业超级自动化建设中各种场景的需要，更高效、专注的沉淀业务和数据能力，进而形成企业的业务和数据基设。通过能力的灵活组合，快速的应对当前快节奏的市场需求，助力企业超级自动化转型的成功。',
     base: '/',
     head: [
@@ -9,15 +9,15 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: 'http://static.cloud.linesno.com/fontawesome-6.4.2/css/all.min.css' }],
         [
             'script', {
-                 'type': 'text/javascript',
-                 'src': 'http://data.linesno.com/aip-channel/aip-iframe.js',
-                 'id': 'chatbot-iframe',
-                 'data-bot-src': 'http://alinesno-infra-smart-expert-ui.beta.base.infra.linesno.com/chat/publish?shareId=aip-Z45XcUIC39RxVouUzcbLZOaYe8GO&showHistory=false',
-                 'data-default-open': 'true',
-                 'data-drag':'true',
-                 'data-open-icon':'data:image/svg+xml;base64,PHN2ZyB0PSIxNjkwNTMyNzg1NjY0IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjQxMzIiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTEyIDMyQzI0Ny4wNCAzMiAzMiAyMjQgMzIgNDY0QTQxMC4yNCA0MTAuMjQgMCAwIDAgMTcyLjQ4IDc2OEwxNjAgOTY1LjEyYTI1LjI4IDI1LjI4IDAgMCAwIDM5LjA0IDIyLjRsMTY4LTExMkE1MjguNjQgNTI4LjY0IDAgMCAwIDUxMiA4OTZjMjY0Ljk2IDAgNDgwLTE5MiA0ODAtNDMyUzc3Ni45NiAzMiA1MTIgMzJ6IG0yNDQuOCA0MTZsLTM2MS42IDMwMS43NmExMi40OCAxMi40OCAwIDAgMS0xOS44NC0xMi40OGw1OS4yLTIzMy45MmgtMTYwYTEyLjQ4IDEyLjQ4IDAgMCAxLTcuMzYtMjMuMzZsMzYxLjYtMzAxLjc2YTEyLjQ4IDEyLjQ4IDAgMCAxIDE5Ljg0IDEyLjQ4bC01OS4yIDIzMy45MmgxNjBhMTIuNDggMTIuNDggMCAwIDEgOCAyMi4wOHoiIGZpbGw9IiM0ZTgzZmQiIHAtaWQ9IjQxMzMiPjwvcGF0aD48L3N2Zz4=',
-                 'data-close-icon':'data:image/svg+xml;base64,PHN2ZyB0PSIxNjkwNTM1NDQxNTI2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjYzNjciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTEyIDEwMjRBNTEyIDUxMiAwIDEgMSA1MTIgMGE1MTIgNTEyIDAgMCAxIDAgMTAyNHpNMzA1Ljk1NjU3MSAzNzAuMzk1NDI5TDQ0Ny40ODggNTEyIDMwNS45NTY1NzEgNjUzLjYwNDU3MWE0NS41NjggNDUuNTY4IDAgMSAwIDY0LjQzODg1OCA2NC40Mzg4NThMNTEyIDU3Ni41MTJsMTQxLjYwNDU3MSAxNDEuNTMxNDI5YTQ1LjU2OCA0NS41NjggMCAwIDAgNjQuNDM4ODU4LTY0LjQzODg1OEw1NzYuNTEyIDUxMmwxNDEuNTMxNDI5LTE0MS42MDQ1NzFhNDUuNTY4IDQ1LjU2OCAwIDEgMC02NC40Mzg4NTgtNjQuNDM4ODU4TDUxMiA0NDcuNDg4IDM3MC4zOTU0MjkgMzA1Ljk1NjU3MWE0NS41NjggNDUuNTY4IDAgMCAwLTY0LjQzODg1OCA2NC40Mzg4NTh6IiBmaWxsPSIjNGU4M2ZkIiBwLWlkPSI2MzY4Ij48L3BhdGg+PC9zdmc+',
-                 'defer':''
+                'type': 'text/javascript',
+                'src': 'http://data.linesno.com/aip-channel/aip-iframe.js',
+                'id': 'chatbot-iframe',
+                'data-bot-src': 'http://alinesno-infra-smart-expert-ui.beta.base.infra.linesno.com/chat/publish?shareId=aip-Z45XcUIC39RxVouUzcbLZOaYe8GO&showHistory=false',
+                'data-default-open': 'true',
+                'data-drag': 'true',
+                'data-open-icon': 'data:image/svg+xml;base64,PHN2ZyB0PSIxNjkwNTMyNzg1NjY0IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjQxMzIiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTEyIDMyQzI0Ny4wNCAzMiAzMiAyMjQgMzIgNDY0QTQxMC4yNCA0MTAuMjQgMCAwIDAgMTcyLjQ4IDc2OEwxNjAgOTY1LjEyYTI1LjI4IDI1LjI4IDAgMCAwIDM5LjA0IDIyLjRsMTY4LTExMkE1MjguNjQgNTI4LjY0IDAgMCAwIDUxMiA4OTZjMjY0Ljk2IDAgNDgwLTE5MiA0ODAtNDMyUzc3Ni45NiAzMiA1MTIgMzJ6IG0yNDQuOCA0MTZsLTM2MS42IDMwMS43NmExMi40OCAxMi40OCAwIDAgMS0xOS44NC0xMi40OGw1OS4yLTIzMy45MmgtMTYwYTEyLjQ4IDEyLjQ4IDAgMCAxLTcuMzYtMjMuMzZsMzYxLjYtMzAxLjc2YTEyLjQ4IDEyLjQ4IDAgMCAxIDE5Ljg0IDEyLjQ4bC01OS4yIDIzMy45MmgxNjBhMTIuNDggMTIuNDggMCAwIDEgOCAyMi4wOHoiIGZpbGw9IiM0ZTgzZmQiIHAtaWQ9IjQxMzMiPjwvcGF0aD48L3N2Zz4=',
+                'data-close-icon': 'data:image/svg+xml;base64,PHN2ZyB0PSIxNjkwNTM1NDQxNTI2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjYzNjciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTEyIDEwMjRBNTEyIDUxMiAwIDEgMSA1MTIgMGE1MTIgNTEyIDAgMCAxIDAgMTAyNHpNMzA1Ljk1NjU3MSAzNzAuMzk1NDI5TDQ0Ny40ODggNTEyIDMwNS45NTY1NzEgNjUzLjYwNDU3MWE0NS41NjggNDUuNTY4IDAgMSAwIDY0LjQzODg1OCA2NC40Mzg4NThMNTEyIDU3Ni41MTJsMTQxLjYwNDU3MSAxNDEuNTMxNDI5YTQ1LjU2OCA0NS41NjggMCAwIDAgNjQuNDM4ODU4LTY0LjQzODg1OEw1NzYuNTEyIDUxMmwxNDEuNTMxNDI5LTE0MS42MDQ1NzFhNDUuNTY4IDQ1LjU2OCAwIDEgMC02NC40Mzg4NTgtNjQuNDM4ODU4TDUxMiA0NDcuNDg4IDM3MC4zOTU0MjkgMzA1Ljk1NjU3MWE0NS41NjggNDUuNTY4IDAgMCAwLTY0LjQzODg1OCA2NC40Mzg4NTh6IiBmaWxsPSIjNGU4M2ZkIiBwLWlkPSI2MzY4Ij48L3BhdGg+PC9zdmc+',
+                'defer': ''
             }
         ]
     ],
@@ -47,12 +47,11 @@ module.exports = {
         logo: '/logo.png', // 注意图片放在 public 文件夹下
         lastUpdated: 'Last Updated',
         sidebarDepth: 2,
-        // repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press',
-        // repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-smart-brain' ,
-        // docsDir: 'docs',
-        // repoLabel: 'Gitee',
-        // docsBranch: 'main',
-        editLinks:  false,
+        repo: 'https://gitee.com/alinesno-infrastructure/alinesno-infra-platform-press',
+        docsDir: 'docs',
+        repoLabel: 'Gitee',
+        docsBranch: 'main',
+        editLinks: false,
         editLinkText: '帮助我们改善此页面',
         smoothScroll: true,
         nav: [
@@ -61,41 +60,25 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '产品',
-                link: '/product/'
+                text: '架构',
+                link: '/architecture/'
             },
             {
-                text: '解决方案',
-                link: '/solution/'
+                text: '部署',
+                link: '/operation/'
             },
-            // {
-                // text: '文档',
-                // items: [
-                    // { text: '架构设计', link: '/architecture/' },
-                    // { text: '技术文档', link: '/technical/' },
-                    // { text: '部署手册', link: '/operation/' }
-                // ]
-            // },
             {
-                text: '服务',
+                text: '手册',
+                link: '/document/'
+            },
+            {
+                text: '支持与服务',
                 link: '/business/'
             },
             {
-                text: '关于我们',
+                text: '关于',
                 link: '/about/'
-            },
-            {
-                text: '平台体验',
-                link: 'http://alinesno-infra-smart-im-ui.beta.base.infra.linesno.com'
-            },
-            {
-                text: '动态',
-                link: 'http://alinesno-infra-portal.beta.base.infra.linesno.com/dynamic'
             }
-            // {
-                // text: 'AIP工作区体验',
-                // link: 'http://alinesno-infra-plat-console-ui.beta.base.infra.linesno.com'
-            // }
         ],
         sidebar: {
             '/about': [
